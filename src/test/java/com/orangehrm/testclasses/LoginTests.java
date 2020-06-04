@@ -25,10 +25,10 @@ public class LoginTests extends BaseTest {
     @Test
     public void testLogin() {
         nav = login.signInWith(Constants.DEFAULT_USERNAME, Constants.DEFAULT_PASSWORD);
-//        boolean headerResult = nav.verifyHeader();
-//        CheckPoint.mark("test-01", headerResult, "header verification");
-//        boolean result = nav.isUserLoggedIn();
- //       CheckPoint.markFinal("test-01", result, "login verification");
+        boolean headerResult = nav.verifyHeader();
+        CheckPoint.mark("test-01", headerResult, "header verification");
+        boolean result = nav.isUserLoggedIn();
+        CheckPoint.markFinal("test-01", result, "login verification");
     }
 
     @Test(enabled = false)

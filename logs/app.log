@@ -170,3 +170,92 @@
 10:09:34.473 ERROR base.CustomDriver -Element not appeared on the web page
 10:09:34.485 ERROR base.CustomDriver -Cannot click on :: Logout Link
 10:09:34.592 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+10:45:07.397 INFO  utilities.Util -Current Date and Time :: 06_04_2020 10_45_07
+10:45:07.401 INFO  utilities.ExtentManager -*********** Report Path ***********
+10:45:07.401 INFO  utilities.ExtentManager -/Users/anupamadhir/workspace/orangehrm/reports/AutomationReport_06_04_2020 10_45_07.html
+10:45:07.402 INFO  utilities.ExtentManager -*********** Report Path ***********
+10:45:07.589 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+10:45:07.589 INFO  base.TestListeners -These methods will be executed in this <test> tag
+10:45:07.589 INFO  base.TestListeners -testLogin
+10:45:07.607 INFO  base.WebDriverFactory -OS Name from system property :: mac
+10:45:07.607 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+10:45:12.571 INFO  base.CheckPoint -Clearing Results Hash Map
+10:45:12.694 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: Admin
+10:45:12.775 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: admin123
+10:45:17.913 INFO  base.CustomDriver -Clicked On :: Login Button
+10:45:17.936 INFO  utilities.Util -Actual Text From Web Application UI   --> : Leave
+10:45:17.936 INFO  utilities.Util -Expected Text From Web Application UI --> : Leave
+10:45:17.936 INFO  utilities.Util -### Verification Contains !!!
+10:45:17.937 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
+10:45:17.959 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
+10:45:17.959 INFO  utilities.Util -Size of list :: 1
+10:45:17.959 INFO  utilities.Util -List is not empty
+10:45:18.019 INFO  base.CustomDriver -Clicked On :: User Account Icon
+10:45:18.022 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
+10:45:28.350 ERROR base.CustomDriver -Element not appeared on the web page
+10:45:28.362 ERROR base.CustomDriver -Cannot click on :: Logout Link
+10:45:28.465 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+10:48:43.071 INFO  utilities.Util -Current Date and Time :: 06_04_2020 10_48_43
+10:48:43.077 INFO  utilities.ExtentManager -*********** Report Path ***********
+10:48:43.077 INFO  utilities.ExtentManager -/Users/anupamadhir/workspace/orangehrm/reports/AutomationReport_06_04_2020 10_48_43.html
+10:48:43.077 INFO  utilities.ExtentManager -*********** Report Path ***********
+10:48:43.314 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+10:48:43.314 INFO  base.TestListeners -These methods will be executed in this <test> tag
+10:48:43.314 INFO  base.TestListeners -testLogin
+10:48:43.336 INFO  base.WebDriverFactory -OS Name from system property :: mac
+10:48:43.336 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+10:48:48.225 INFO  base.CheckPoint -Clearing Results Hash Map
+10:48:48.353 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: Admin
+10:48:48.434 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: admin123
+10:48:53.475 INFO  base.CustomDriver -Clicked On :: Login Button
+10:48:53.498 INFO  utilities.Util -Actual Text From Web Application UI   --> : Leave
+10:48:53.498 INFO  utilities.Util -Expected Text From Web Application UI --> : Leave
+10:48:53.498 INFO  utilities.Util -### Verification Contains !!!
+10:48:53.498 INFO  base.CheckPoint -test-01.header verification :-> PASS
+10:48:53.512 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
+10:48:53.513 INFO  utilities.Util -Size of list :: 1
+10:48:53.513 INFO  utilities.Util -List is not empty
+10:48:53.513 INFO  base.CheckPoint -test-01.login verification :-> PASS
+10:48:53.513 INFO  base.CheckPoint -Test Method Successful
+10:48:53.514 INFO  base.CheckPoint -Test Method Successful
+10:48:53.515 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
+10:48:53.529 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
+10:48:53.529 INFO  utilities.Util -Size of list :: 1
+10:48:53.529 INFO  utilities.Util -List is not empty
+10:48:53.584 INFO  base.CustomDriver -Clicked On :: User Account Icon
+10:48:53.589 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
+10:49:03.917 ERROR base.CustomDriver -Element not appeared on the web page
+10:49:03.930 ERROR base.CustomDriver -Cannot click on :: Logout Link
+10:49:04.041 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+10:49:33.409 INFO  utilities.Util -Current Date and Time :: 06_04_2020 10_49_33
+10:49:33.413 INFO  utilities.ExtentManager -*********** Report Path ***********
+10:49:33.413 INFO  utilities.ExtentManager -/Users/anupamadhir/workspace/orangehrm/reports/AutomationReport_06_04_2020 10_49_33.html
+10:49:33.413 INFO  utilities.ExtentManager -*********** Report Path ***********
+10:49:33.696 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+10:49:33.696 INFO  base.TestListeners -These methods will be executed in this <test> tag
+10:49:33.696 INFO  base.TestListeners -testLogin
+10:49:33.722 INFO  base.WebDriverFactory -OS Name from system property :: mac
+10:49:33.722 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+10:49:38.506 INFO  base.CheckPoint -Clearing Results Hash Map
+10:49:38.631 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: Admin
+10:49:38.714 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: admin123
+10:49:42.795 INFO  base.CustomDriver -Clicked On :: Login Button
+10:49:42.822 INFO  utilities.Util -Actual Text From Web Application UI   --> : Leave
+10:49:42.822 INFO  utilities.Util -Expected Text From Web Application UI --> : Leave
+10:49:42.822 INFO  utilities.Util -### Verification Contains !!!
+10:49:42.822 INFO  base.CheckPoint -test-01.header verification :-> PASS
+10:49:42.837 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
+10:49:42.837 INFO  utilities.Util -Size of list :: 1
+10:49:42.837 INFO  utilities.Util -List is not empty
+10:49:42.837 INFO  base.CheckPoint -test-01.login verification :-> PASS
+10:49:42.837 INFO  base.CheckPoint -Test Method Successful
+10:49:42.838 INFO  base.CheckPoint -Test Method Successful
+10:49:42.839 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
+10:49:44.127 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
+10:49:44.128 INFO  utilities.Util -Size of list :: 1
+10:49:44.128 INFO  utilities.Util -List is not empty
+10:49:44.229 INFO  base.CustomDriver -Clicked On :: User Account Icon
+10:49:44.233 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
+10:49:54.564 ERROR base.CustomDriver -Element not appeared on the web page
+10:49:54.576 ERROR base.CustomDriver -Cannot click on :: Logout Link
+10:49:54.689 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
