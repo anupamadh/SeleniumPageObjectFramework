@@ -1,5 +1,6 @@
 package com.orangehrm.base;
 
+import com.orangehrm.pageclasses.AddLeavePage;
 import com.orangehrm.pageclasses.LoginPage;
 import com.orangehrm.pageclasses.NavigationPage;
 import com.orangehrm.utilities.Constants;
@@ -14,6 +15,7 @@ public class BaseTest {
     protected String baseURL;
     protected LoginPage login;
     protected NavigationPage nav;
+    protected AddLeavePage addLv;
  /*   protected SearchBarPage search;
     protected ResultsPage result;
     protected CategoryFilterPage category;*/

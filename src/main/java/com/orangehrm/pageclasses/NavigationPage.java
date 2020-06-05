@@ -5,6 +5,7 @@ import com.orangehrm.utilities.Util;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 
 import java.util.List;
 
@@ -21,6 +22,8 @@ public class NavigationPage extends BasePage {
     private String WELCOME_ICON = "xpath=>//a[contains(text(), 'Welcome')]";
     private String LOGOUT_LINK = "xpath=>//a[@href='/logout']";
     private String LEAVE_LINK = "id=>menu_leave_viewLeaveModule";
+    private String ENTITLEMENTS_LINK = "xpath=>//a[@id='menu_leave_Entitlements']";
+    private String ADD_ENITLEMENTS_LINK = "xpath=>//a[contains(text(),'Add Entitlements')]";
 
     public boolean isUserLoggedIn() {
         try {
@@ -41,5 +44,15 @@ public class NavigationPage extends BasePage {
         WebElement link = getElement(LEAVE_LINK, "Leave Link");
         return Util.verifyTextContains(link.getText(), "Leave");
     }
+
+    public AddLeavePage getAddEntitlements() {
+        WebElement link = getElement(LEAVE_LINK, "Leave Link");
+        elementClick(link, "Leave Link");
+        mouseHover(ENTITLEMENTS_LINK, "Entitlements Link");
+        WebElement addEntitlements = getElement(ADD_ENITLEMENTS_LINK, "Add Entitlements Link");
+        elementClick(addEntitlements, "Add Entitlements Link");
+        return new AddLeavePage(driver);
+    }
+
 
 }

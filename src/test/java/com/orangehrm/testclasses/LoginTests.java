@@ -22,13 +22,19 @@ public class LoginTests extends BaseTest {
         }
     }
 
-    @Test
+    @Test(priority = 1)
     public void testLogin() {
         nav = login.signInWith(Constants.DEFAULT_USERNAME, Constants.DEFAULT_PASSWORD);
         boolean headerResult = nav.verifyHeader();
         CheckPoint.mark("test-01", headerResult, "header verification");
         boolean result = nav.isUserLoggedIn();
         CheckPoint.markFinal("test-01", result, "login verification");
+    }
+
+    @Test(priority = 2)
+    public void testAddLeave(){
+        addLv = nav.getAddEntitlements();
+        addLv.AddEntitlement();
     }
 
     @Test(enabled = false)
