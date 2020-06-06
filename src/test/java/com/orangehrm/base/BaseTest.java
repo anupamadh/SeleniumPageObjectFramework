@@ -3,6 +3,7 @@ package com.orangehrm.base;
 import com.orangehrm.pageclasses.AddLeavePage;
 import com.orangehrm.pageclasses.LoginPage;
 import com.orangehrm.pageclasses.NavigationPage;
+import com.orangehrm.pageclasses.ViewLeavePage;
 import com.orangehrm.utilities.Constants;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
@@ -16,6 +17,7 @@ public class BaseTest {
     protected LoginPage login;
     protected NavigationPage nav;
     protected AddLeavePage addLv;
+    protected ViewLeavePage viewLv;
  /*   protected SearchBarPage search;
     protected ResultsPage result;
     protected CategoryFilterPage category;*/

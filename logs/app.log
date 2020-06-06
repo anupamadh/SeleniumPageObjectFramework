@@ -1,789 +1,866 @@
-08:26:41.748 INFO  utilities.Util -Current Date and Time :: 06_05_2020 08_26_41
-08:26:41.757 INFO  utilities.ExtentManager -*********** Report Path ***********
-08:26:41.757 INFO  utilities.ExtentManager -/Users/anupamadhir/workspace/orangehrm/reports/AutomationReport_06_05_2020 08_26_41.html
-08:26:41.757 INFO  utilities.ExtentManager -*********** Report Path ***********
-08:26:41.968 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
-08:26:41.968 INFO  base.TestListeners -These methods will be executed in this <test> tag
-08:26:41.969 INFO  base.TestListeners -testAddLeave
-08:26:41.969 INFO  base.TestListeners -testLogin
-08:26:41.990 INFO  base.WebDriverFactory -OS Name from system property :: mac
-08:26:41.990 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
-08:26:47.641 INFO  base.CheckPoint -Clearing Results Hash Map
-08:26:47.788 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: Admin
-08:26:47.874 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: admin123
-08:26:53.604 INFO  base.CustomDriver -Clicked On :: Login Button
-08:26:53.632 INFO  utilities.Util -Actual Text From Web Application UI   --> : Leave
-08:26:53.632 INFO  utilities.Util -Expected Text From Web Application UI --> : Leave
-08:26:53.632 INFO  utilities.Util -### Verification Contains !!!
-08:26:53.632 INFO  base.CheckPoint -test-01.header verification :-> PASS
-08:26:53.651 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
-08:26:53.651 INFO  utilities.Util -Size of list :: 1
-08:26:53.651 INFO  utilities.Util -List is not empty
-08:26:53.651 INFO  base.CheckPoint -test-01.login verification :-> PASS
-08:26:53.651 INFO  base.CheckPoint -Test Method Successful
-08:26:53.653 INFO  base.CheckPoint -Test Method Successful
-08:26:53.653 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
-08:26:53.670 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
-08:26:53.670 INFO  utilities.Util -Size of list :: 1
-08:26:53.670 INFO  utilities.Util -List is not empty
-08:26:53.738 INFO  base.CustomDriver -Clicked On :: User Account Icon
-08:26:53.742 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
-08:27:04.080 ERROR base.CustomDriver -Element not appeared on the web page
-08:27:04.101 ERROR base.CustomDriver -Cannot click on :: Logout Link
-08:27:04.103 INFO  base.CheckPoint -Clearing Results Hash Map
-08:27:06.366 INFO  base.CustomDriver -Clicked On :: Leave Link
-08:27:07.330 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
-08:27:07.331 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
-08:27:07.351 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
-08:27:07.351 INFO  utilities.Util -Size of list :: 1
-08:27:07.351 INFO  utilities.Util -List is not empty
-08:27:07.408 INFO  base.CustomDriver -Clicked On :: User Account Icon
-08:27:07.411 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
-08:27:17.689 ERROR base.CustomDriver -Element not appeared on the web page
-08:27:17.702 ERROR base.CustomDriver -Cannot click on :: Logout Link
-08:27:17.804 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
-09:10:18.152 INFO  utilities.Util -Current Date and Time :: 06_05_2020 09_10_18
-09:10:18.158 INFO  utilities.ExtentManager -*********** Report Path ***********
-09:10:18.158 INFO  utilities.ExtentManager -/Users/anupamadhir/workspace/orangehrm/reports/AutomationReport_06_05_2020 09_10_18.html
-09:10:18.158 INFO  utilities.ExtentManager -*********** Report Path ***********
-09:10:18.457 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
-09:10:18.458 INFO  base.TestListeners -These methods will be executed in this <test> tag
-09:10:18.458 INFO  base.TestListeners -testAddLeave
-09:10:18.458 INFO  base.TestListeners -testLogin
-09:10:18.479 INFO  base.WebDriverFactory -OS Name from system property :: mac
-09:10:18.479 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
-09:10:23.145 INFO  base.CheckPoint -Clearing Results Hash Map
-09:10:23.286 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: Admin
-09:10:23.371 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: admin123
-09:10:27.381 INFO  base.CustomDriver -Clicked On :: Login Button
-09:10:27.412 INFO  utilities.Util -Actual Text From Web Application UI   --> : Leave
-09:10:27.412 INFO  utilities.Util -Expected Text From Web Application UI --> : Leave
-09:10:27.412 INFO  utilities.Util -### Verification Contains !!!
-09:10:27.412 INFO  base.CheckPoint -test-01.header verification :-> PASS
-09:10:27.429 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
-09:10:27.429 INFO  utilities.Util -Size of list :: 1
-09:10:27.429 INFO  utilities.Util -List is not empty
-09:10:27.429 INFO  base.CheckPoint -test-01.login verification :-> PASS
-09:10:27.429 INFO  base.CheckPoint -Test Method Successful
-09:10:27.431 INFO  base.CheckPoint -Test Method Successful
-09:10:27.431 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
-09:10:28.651 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
-09:10:28.651 INFO  utilities.Util -Size of list :: 1
-09:10:28.651 INFO  utilities.Util -List is not empty
-09:10:28.721 INFO  base.CustomDriver -Clicked On :: User Account Icon
-09:10:28.725 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
-09:10:39.070 ERROR base.CustomDriver -Element not appeared on the web page
-09:10:39.082 ERROR base.CustomDriver -Cannot click on :: Logout Link
-09:10:39.084 INFO  base.CheckPoint -Clearing Results Hash Map
-09:10:40.957 INFO  base.CustomDriver -Clicked On :: Leave Link
-09:10:41.956 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
-09:10:41.957 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
-09:10:41.973 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
-09:10:41.973 INFO  utilities.Util -Size of list :: 1
-09:10:41.973 INFO  utilities.Util -List is not empty
-09:10:42.029 INFO  base.CustomDriver -Clicked On :: User Account Icon
-09:10:42.032 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
-09:10:52.335 ERROR base.CustomDriver -Element not appeared on the web page
-09:10:52.346 ERROR base.CustomDriver -Cannot click on :: Logout Link
-09:10:52.440 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
-09:19:11.431 INFO  utilities.Util -Current Date and Time :: 06_05_2020 09_19_11
-09:19:11.436 INFO  utilities.ExtentManager -*********** Report Path ***********
-09:19:11.436 INFO  utilities.ExtentManager -/Users/anupamadhir/workspace/orangehrm/reports/AutomationReport_06_05_2020 09_19_11.html
-09:19:11.436 INFO  utilities.ExtentManager -*********** Report Path ***********
-09:19:11.724 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
-09:19:11.724 INFO  base.TestListeners -These methods will be executed in this <test> tag
-09:19:11.724 INFO  base.TestListeners -testAddLeave
-09:19:11.725 INFO  base.TestListeners -testLogin
-09:19:11.744 INFO  base.WebDriverFactory -OS Name from system property :: mac
-09:19:11.744 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
-09:19:16.409 INFO  base.CheckPoint -Clearing Results Hash Map
-09:19:16.530 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: Admin
-09:19:16.614 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: admin123
-09:19:21.651 INFO  base.CustomDriver -Clicked On :: Login Button
-09:19:21.674 INFO  utilities.Util -Actual Text From Web Application UI   --> : Leave
-09:19:21.674 INFO  utilities.Util -Expected Text From Web Application UI --> : Leave
-09:19:21.674 INFO  utilities.Util -### Verification Contains !!!
-09:19:21.674 INFO  base.CheckPoint -test-01.header verification :-> PASS
-09:19:21.690 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
-09:19:21.690 INFO  utilities.Util -Size of list :: 1
-09:19:21.690 INFO  utilities.Util -List is not empty
-09:19:21.690 INFO  base.CheckPoint -test-01.login verification :-> PASS
-09:19:21.691 INFO  base.CheckPoint -Test Method Successful
-09:19:21.692 INFO  base.CheckPoint -Test Method Successful
-09:19:21.692 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
-09:19:21.707 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
-09:19:21.707 INFO  utilities.Util -Size of list :: 1
-09:19:21.707 INFO  utilities.Util -List is not empty
-09:19:21.771 INFO  base.CustomDriver -Clicked On :: User Account Icon
-09:19:21.774 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
-09:19:32.103 ERROR base.CustomDriver -Element not appeared on the web page
-09:19:32.114 ERROR base.CustomDriver -Cannot click on :: Logout Link
-09:19:32.115 INFO  base.CheckPoint -Clearing Results Hash Map
-09:19:34.311 INFO  base.CustomDriver -Clicked On :: Leave Link
-09:19:35.269 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
-09:19:35.394 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russel Hamilton
-09:19:35.446 INFO  base.CustomDriver -Selected option : FMLA US
-09:19:35.523 INFO  base.CustomDriver -Selected option : 2021-01-01 - 2021-12-31
-09:19:35.599 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 20
-09:19:35.668 INFO  base.CustomDriver -Clicked On :: Save Button
-09:19:35.679 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
-09:19:35.679 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
-09:19:38.759 ERROR base.CustomDriver -Cannot click on :: Popup Confirm Button
-09:19:38.760 INFO  utilities.Util -Current Date and Time :: 06_05_2020 09_19_38
-09:19:39.098 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/_Click ERROR_06_05_2020 09_19_38.png
-09:19:39.098 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
-09:19:39.109 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
-09:19:39.109 INFO  utilities.Util -Size of list :: 1
-09:19:39.109 INFO  utilities.Util -List is not empty
-09:19:39.173 INFO  base.CustomDriver -Clicked On :: User Account Icon
-09:19:39.176 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
-09:19:49.454 ERROR base.CustomDriver -Element not appeared on the web page
-09:19:49.465 ERROR base.CustomDriver -Cannot click on :: Logout Link
-09:19:49.559 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
-09:24:56.344 INFO  utilities.Util -Current Date and Time :: 06_05_2020 09_24_56
-09:24:56.350 INFO  utilities.ExtentManager -*********** Report Path ***********
-09:24:56.350 INFO  utilities.ExtentManager -/Users/anupamadhir/workspace/orangehrm/reports/AutomationReport_06_05_2020 09_24_56.html
-09:24:56.350 INFO  utilities.ExtentManager -*********** Report Path ***********
-09:24:56.598 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
-09:24:56.598 INFO  base.TestListeners -These methods will be executed in this <test> tag
-09:24:56.598 INFO  base.TestListeners -testAddLeave
-09:24:56.598 INFO  base.TestListeners -testLogin
-09:24:56.624 INFO  base.WebDriverFactory -OS Name from system property :: mac
-09:24:56.624 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
-09:25:01.813 INFO  base.CheckPoint -Clearing Results Hash Map
-09:25:01.950 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: Admin
-09:25:02.032 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: admin123
-09:25:08.486 INFO  base.CustomDriver -Clicked On :: Login Button
-09:25:08.509 INFO  utilities.Util -Actual Text From Web Application UI   --> : Leave
-09:25:08.509 INFO  utilities.Util -Expected Text From Web Application UI --> : Leave
-09:25:08.509 INFO  utilities.Util -### Verification Contains !!!
-09:25:08.509 INFO  base.CheckPoint -test-01.header verification :-> PASS
-09:25:08.525 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
-09:25:08.525 INFO  utilities.Util -Size of list :: 1
-09:25:08.525 INFO  utilities.Util -List is not empty
-09:25:08.525 INFO  base.CheckPoint -test-01.login verification :-> PASS
-09:25:08.525 INFO  base.CheckPoint -Test Method Successful
-09:25:08.527 INFO  base.CheckPoint -Test Method Successful
-09:25:08.528 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
-09:25:08.542 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
-09:25:08.543 INFO  utilities.Util -Size of list :: 1
-09:25:08.543 INFO  utilities.Util -List is not empty
-09:25:08.599 INFO  base.CustomDriver -Clicked On :: User Account Icon
-09:25:08.607 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
-09:25:18.928 ERROR base.CustomDriver -Element not appeared on the web page
-09:25:18.941 ERROR base.CustomDriver -Cannot click on :: Logout Link
-09:25:18.943 INFO  base.CheckPoint -Clearing Results Hash Map
-09:25:20.846 INFO  base.CustomDriver -Clicked On :: Leave Link
-09:25:21.796 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
-09:25:22.030 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: 'Russel Hamilton' +  Keys.ARROW_DOWN + Keys.ENTER
-09:25:22.087 INFO  base.CustomDriver -Selected option : FMLA US
-09:25:22.158 INFO  base.CustomDriver -Selected option : 2021-01-01 - 2021-12-31
-09:25:22.233 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 20
-09:25:22.301 INFO  base.CustomDriver -Clicked On :: Save Button
-09:25:22.312 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
-09:25:22.312 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
-09:25:25.339 ERROR base.CustomDriver -Cannot click on :: Popup Confirm Button
-09:25:25.340 INFO  utilities.Util -Current Date and Time :: 06_05_2020 09_25_25
-09:25:25.678 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/_Click ERROR_06_05_2020 09_25_25.png
-09:25:25.678 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
-09:25:25.689 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
-09:25:25.689 INFO  utilities.Util -Size of list :: 1
-09:25:25.689 INFO  utilities.Util -List is not empty
-09:25:25.751 INFO  base.CustomDriver -Clicked On :: User Account Icon
-09:25:25.754 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
-09:25:36.057 ERROR base.CustomDriver -Element not appeared on the web page
-09:25:36.067 ERROR base.CustomDriver -Cannot click on :: Logout Link
-09:25:36.161 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
-09:26:55.708 INFO  utilities.Util -Current Date and Time :: 06_05_2020 09_26_55
-09:26:55.716 INFO  utilities.ExtentManager -*********** Report Path ***********
-09:26:55.716 INFO  utilities.ExtentManager -/Users/anupamadhir/workspace/orangehrm/reports/AutomationReport_06_05_2020 09_26_55.html
-09:26:55.716 INFO  utilities.ExtentManager -*********** Report Path ***********
-09:26:56.018 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
-09:26:56.018 INFO  base.TestListeners -These methods will be executed in this <test> tag
-09:26:56.019 INFO  base.TestListeners -testAddLeave
-09:26:56.019 INFO  base.TestListeners -testLogin
-09:26:56.038 INFO  base.WebDriverFactory -OS Name from system property :: mac
-09:26:56.038 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
-09:27:00.889 INFO  base.CheckPoint -Clearing Results Hash Map
-09:27:01.041 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: Admin
-09:27:01.124 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: admin123
-09:27:06.144 INFO  base.CustomDriver -Clicked On :: Login Button
-09:27:06.168 INFO  utilities.Util -Actual Text From Web Application UI   --> : Leave
-09:27:06.168 INFO  utilities.Util -Expected Text From Web Application UI --> : Leave
-09:27:06.168 INFO  utilities.Util -### Verification Contains !!!
-09:27:06.168 INFO  base.CheckPoint -test-01.header verification :-> PASS
-09:27:06.183 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
-09:27:06.183 INFO  utilities.Util -Size of list :: 1
-09:27:06.183 INFO  utilities.Util -List is not empty
-09:27:06.183 INFO  base.CheckPoint -test-01.login verification :-> PASS
-09:27:06.184 INFO  base.CheckPoint -Test Method Successful
-09:27:06.185 INFO  base.CheckPoint -Test Method Successful
-09:27:06.185 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
-09:27:06.202 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
-09:27:06.202 INFO  utilities.Util -Size of list :: 1
-09:27:06.202 INFO  utilities.Util -List is not empty
-09:27:06.263 INFO  base.CustomDriver -Clicked On :: User Account Icon
-09:27:06.267 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
-09:27:16.587 ERROR base.CustomDriver -Element not appeared on the web page
-09:27:16.599 ERROR base.CustomDriver -Cannot click on :: Logout Link
-09:27:16.600 INFO  base.CheckPoint -Clearing Results Hash Map
-09:27:18.911 INFO  base.CustomDriver -Clicked On :: Leave Link
-09:27:19.868 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
-09:27:20.066 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: 'Russel' +  Keys.ARROW_DOWN + Keys.ENTER
-09:27:20.117 INFO  base.CustomDriver -Selected option : FMLA US
-09:27:20.185 INFO  base.CustomDriver -Selected option : 2021-01-01 - 2021-12-31
-09:27:20.259 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 20
-09:27:20.324 INFO  base.CustomDriver -Clicked On :: Save Button
-09:27:20.335 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
-09:27:20.335 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
-09:27:23.361 ERROR base.CustomDriver -Cannot click on :: Popup Confirm Button
-09:27:23.362 INFO  utilities.Util -Current Date and Time :: 06_05_2020 09_27_23
-09:27:23.704 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/_Click ERROR_06_05_2020 09_27_23.png
-09:27:23.704 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
-09:27:23.715 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
-09:27:23.715 INFO  utilities.Util -Size of list :: 1
-09:27:23.715 INFO  utilities.Util -List is not empty
-09:27:23.776 INFO  base.CustomDriver -Clicked On :: User Account Icon
-09:27:23.779 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
-09:27:34.054 ERROR base.CustomDriver -Element not appeared on the web page
-09:27:34.064 ERROR base.CustomDriver -Cannot click on :: Logout Link
-09:27:34.160 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
-09:33:19.924 INFO  utilities.Util -Current Date and Time :: 06_05_2020 09_33_19
-09:33:19.929 INFO  utilities.ExtentManager -*********** Report Path ***********
-09:33:19.929 INFO  utilities.ExtentManager -/Users/anupamadhir/workspace/orangehrm/reports/AutomationReport_06_05_2020 09_33_19.html
-09:33:19.929 INFO  utilities.ExtentManager -*********** Report Path ***********
-09:33:20.143 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
-09:33:20.143 INFO  base.TestListeners -These methods will be executed in this <test> tag
-09:33:20.145 INFO  base.TestListeners -testAddLeave
-09:33:20.145 INFO  base.TestListeners -testLogin
-09:33:20.170 INFO  base.WebDriverFactory -OS Name from system property :: mac
-09:33:20.171 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
-09:33:25.624 INFO  base.CheckPoint -Clearing Results Hash Map
-09:33:25.749 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: Admin
-09:33:25.840 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: admin123
-09:33:30.767 INFO  base.CustomDriver -Clicked On :: Login Button
-09:33:30.790 INFO  utilities.Util -Actual Text From Web Application UI   --> : Leave
-09:33:30.790 INFO  utilities.Util -Expected Text From Web Application UI --> : Leave
-09:33:30.790 INFO  utilities.Util -### Verification Contains !!!
-09:33:30.790 INFO  base.CheckPoint -test-01.header verification :-> PASS
-09:33:30.805 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
-09:33:30.805 INFO  utilities.Util -Size of list :: 1
-09:33:30.805 INFO  utilities.Util -List is not empty
-09:33:30.805 INFO  base.CheckPoint -test-01.login verification :-> PASS
-09:33:30.805 INFO  base.CheckPoint -Test Method Successful
-09:33:30.807 INFO  base.CheckPoint -Test Method Successful
-09:33:30.807 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
-09:33:30.822 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
-09:33:30.822 INFO  utilities.Util -Size of list :: 1
-09:33:30.822 INFO  utilities.Util -List is not empty
-09:33:30.880 INFO  base.CustomDriver -Clicked On :: User Account Icon
-09:33:30.884 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
-09:33:41.223 ERROR base.CustomDriver -Element not appeared on the web page
-09:33:41.234 ERROR base.CustomDriver -Cannot click on :: Logout Link
-09:33:41.235 INFO  base.CheckPoint -Clearing Results Hash Map
-09:33:43.330 INFO  base.CustomDriver -Clicked On :: Leave Link
-09:33:44.282 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
-09:33:44.384 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russel
-09:33:44.465 INFO  base.CustomDriver -Selected option : FMLA US
-09:33:44.537 INFO  base.CustomDriver -Selected option : 2021-01-01 - 2021-12-31
-09:33:44.612 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 20
-09:33:44.670 INFO  base.CustomDriver -Clicked On :: Save Button
-09:33:44.682 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
-09:33:44.683 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
-09:33:47.716 ERROR base.CustomDriver -Cannot click on :: Popup Confirm Button
-09:33:47.716 INFO  utilities.Util -Current Date and Time :: 06_05_2020 09_33_47
-09:33:48.046 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/_Click ERROR_06_05_2020 09_33_47.png
-09:33:48.046 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
-09:33:48.058 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
-09:33:48.059 INFO  utilities.Util -Size of list :: 1
-09:33:48.059 INFO  utilities.Util -List is not empty
-09:33:48.105 INFO  base.CustomDriver -Clicked On :: User Account Icon
-09:33:48.108 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
-09:33:58.406 ERROR base.CustomDriver -Element not appeared on the web page
-09:33:58.419 ERROR base.CustomDriver -Cannot click on :: Logout Link
-09:33:58.513 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
-09:34:58.905 INFO  utilities.Util -Current Date and Time :: 06_05_2020 09_34_58
-09:34:58.910 INFO  utilities.ExtentManager -*********** Report Path ***********
-09:34:58.910 INFO  utilities.ExtentManager -/Users/anupamadhir/workspace/orangehrm/reports/AutomationReport_06_05_2020 09_34_58.html
-09:34:58.910 INFO  utilities.ExtentManager -*********** Report Path ***********
-09:34:59.133 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
-09:34:59.133 INFO  base.TestListeners -These methods will be executed in this <test> tag
-09:34:59.133 INFO  base.TestListeners -testAddLeave
-09:34:59.133 INFO  base.TestListeners -testLogin
-09:34:59.158 INFO  base.WebDriverFactory -OS Name from system property :: mac
-09:34:59.158 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
-09:35:03.673 INFO  base.CheckPoint -Clearing Results Hash Map
-09:35:03.794 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: Admin
-09:35:03.876 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: admin123
-09:35:08.460 INFO  base.CustomDriver -Clicked On :: Login Button
-09:35:08.485 INFO  utilities.Util -Actual Text From Web Application UI   --> : Leave
-09:35:08.485 INFO  utilities.Util -Expected Text From Web Application UI --> : Leave
-09:35:08.485 INFO  utilities.Util -### Verification Contains !!!
-09:35:08.485 INFO  base.CheckPoint -test-01.header verification :-> PASS
-09:35:08.500 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
-09:35:08.500 INFO  utilities.Util -Size of list :: 1
-09:35:08.500 INFO  utilities.Util -List is not empty
-09:35:08.500 INFO  base.CheckPoint -test-01.login verification :-> PASS
-09:35:08.500 INFO  base.CheckPoint -Test Method Successful
-09:35:08.501 INFO  base.CheckPoint -Test Method Successful
-09:35:08.502 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
-09:35:08.517 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
-09:35:08.517 INFO  utilities.Util -Size of list :: 1
-09:35:08.517 INFO  utilities.Util -List is not empty
-09:35:08.586 INFO  base.CustomDriver -Clicked On :: User Account Icon
-09:35:08.590 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
-09:35:18.913 ERROR base.CustomDriver -Element not appeared on the web page
-09:35:18.925 ERROR base.CustomDriver -Cannot click on :: Logout Link
-09:35:18.926 INFO  base.CheckPoint -Clearing Results Hash Map
-09:35:21.023 INFO  base.CustomDriver -Clicked On :: Leave Link
-09:35:21.976 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
-09:35:22.130 INFO  base.CustomDriver -Selected option : FMLA US
-09:35:22.206 INFO  base.CustomDriver -Selected option : 2021-01-01 - 2021-12-31
-09:35:22.282 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 20
-09:35:22.347 INFO  base.CustomDriver -Clicked On :: Save Button
-09:35:22.357 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
-09:35:22.357 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
-09:35:25.384 ERROR base.CustomDriver -Cannot click on :: Popup Confirm Button
-09:35:25.385 INFO  utilities.Util -Current Date and Time :: 06_05_2020 09_35_25
-09:35:25.718 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/_Click ERROR_06_05_2020 09_35_25.png
-09:35:25.718 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
-09:35:25.730 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
-09:35:25.730 INFO  utilities.Util -Size of list :: 1
-09:35:25.730 INFO  utilities.Util -List is not empty
-09:35:25.783 INFO  base.CustomDriver -Clicked On :: User Account Icon
-09:35:25.786 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
-09:35:36.087 ERROR base.CustomDriver -Element not appeared on the web page
-09:35:36.097 ERROR base.CustomDriver -Cannot click on :: Logout Link
-09:35:36.191 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
-09:36:35.801 INFO  utilities.Util -Current Date and Time :: 06_05_2020 09_36_35
-09:36:35.807 INFO  utilities.ExtentManager -*********** Report Path ***********
-09:36:35.807 INFO  utilities.ExtentManager -/Users/anupamadhir/workspace/orangehrm/reports/AutomationReport_06_05_2020 09_36_35.html
-09:36:35.807 INFO  utilities.ExtentManager -*********** Report Path ***********
-09:36:36.053 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
-09:36:36.055 INFO  base.TestListeners -These methods will be executed in this <test> tag
-09:36:36.056 INFO  base.TestListeners -testAddLeave
-09:36:36.056 INFO  base.TestListeners -testLogin
-09:36:36.080 INFO  base.WebDriverFactory -OS Name from system property :: mac
-09:36:36.081 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
-09:36:40.799 INFO  base.CheckPoint -Clearing Results Hash Map
-09:36:40.922 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: Admin
-09:36:41.004 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: admin123
-09:36:44.786 INFO  base.CustomDriver -Clicked On :: Login Button
-09:36:44.814 INFO  utilities.Util -Actual Text From Web Application UI   --> : Leave
-09:36:44.814 INFO  utilities.Util -Expected Text From Web Application UI --> : Leave
-09:36:44.814 INFO  utilities.Util -### Verification Contains !!!
-09:36:44.814 INFO  base.CheckPoint -test-01.header verification :-> PASS
-09:36:44.830 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
-09:36:44.830 INFO  utilities.Util -Size of list :: 1
-09:36:44.830 INFO  utilities.Util -List is not empty
-09:36:44.830 INFO  base.CheckPoint -test-01.login verification :-> PASS
-09:36:44.830 INFO  base.CheckPoint -Test Method Successful
-09:36:44.832 INFO  base.CheckPoint -Test Method Successful
-09:36:44.832 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
-09:36:44.846 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
-09:36:44.846 INFO  utilities.Util -Size of list :: 1
-09:36:44.846 INFO  utilities.Util -List is not empty
-09:36:46.233 INFO  base.CustomDriver -Clicked On :: User Account Icon
-09:36:46.237 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
-09:36:56.562 ERROR base.CustomDriver -Element not appeared on the web page
-09:36:56.574 ERROR base.CustomDriver -Cannot click on :: Logout Link
-09:36:56.576 INFO  base.CheckPoint -Clearing Results Hash Map
-09:36:58.613 INFO  base.CustomDriver -Clicked On :: Leave Link
-09:36:59.562 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
-09:37:01.729 INFO  base.CustomDriver -Selected option : FMLA US
-09:37:01.797 INFO  base.CustomDriver -Selected option : 2021-01-01 - 2021-12-31
-09:37:01.870 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 20
-09:37:01.940 INFO  base.CustomDriver -Clicked On :: Save Button
-09:37:01.950 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
-09:37:01.951 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
-09:37:04.977 ERROR base.CustomDriver -Cannot click on :: Popup Confirm Button
-09:37:04.977 INFO  utilities.Util -Current Date and Time :: 06_05_2020 09_37_04
-09:37:05.310 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/_Click ERROR_06_05_2020 09_37_04.png
-09:37:05.310 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
-09:37:05.323 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
-09:37:05.323 INFO  utilities.Util -Size of list :: 1
-09:37:05.323 INFO  utilities.Util -List is not empty
-09:37:05.376 INFO  base.CustomDriver -Clicked On :: User Account Icon
-09:37:05.379 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
-09:37:15.665 ERROR base.CustomDriver -Element not appeared on the web page
-09:37:15.676 ERROR base.CustomDriver -Cannot click on :: Logout Link
-09:37:15.770 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
-09:38:45.236 INFO  utilities.Util -Current Date and Time :: 06_05_2020 09_38_45
-09:38:45.240 INFO  utilities.ExtentManager -*********** Report Path ***********
-09:38:45.240 INFO  utilities.ExtentManager -/Users/anupamadhir/workspace/orangehrm/reports/AutomationReport_06_05_2020 09_38_45.html
-09:38:45.240 INFO  utilities.ExtentManager -*********** Report Path ***********
-09:38:45.465 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
-09:38:45.469 INFO  base.TestListeners -These methods will be executed in this <test> tag
-09:38:45.469 INFO  base.TestListeners -testAddLeave
-09:38:45.469 INFO  base.TestListeners -testLogin
-09:38:45.494 INFO  base.WebDriverFactory -OS Name from system property :: mac
-09:38:45.503 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
-09:38:50.441 INFO  base.CheckPoint -Clearing Results Hash Map
-09:38:50.564 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: Admin
-09:38:50.647 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: admin123
-09:38:55.961 INFO  base.CustomDriver -Clicked On :: Login Button
-09:38:56.015 INFO  utilities.Util -Actual Text From Web Application UI   --> : Leave
-09:38:56.015 INFO  utilities.Util -Expected Text From Web Application UI --> : Leave
-09:38:56.015 INFO  utilities.Util -### Verification Contains !!!
-09:38:56.015 INFO  base.CheckPoint -test-01.header verification :-> PASS
-09:38:56.030 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
-09:38:56.030 INFO  utilities.Util -Size of list :: 1
-09:38:56.030 INFO  utilities.Util -List is not empty
-09:38:56.030 INFO  base.CheckPoint -test-01.login verification :-> PASS
-09:38:56.030 INFO  base.CheckPoint -Test Method Successful
-09:38:56.031 INFO  base.CheckPoint -Test Method Successful
-09:38:56.032 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
-09:38:56.046 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
-09:38:56.046 INFO  utilities.Util -Size of list :: 1
-09:38:56.046 INFO  utilities.Util -List is not empty
-09:38:56.099 INFO  base.CustomDriver -Clicked On :: User Account Icon
-09:38:56.102 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
-09:39:06.439 ERROR base.CustomDriver -Element not appeared on the web page
-09:39:06.452 ERROR base.CustomDriver -Cannot click on :: Logout Link
-09:39:06.453 INFO  base.CheckPoint -Clearing Results Hash Map
-09:39:08.660 INFO  base.CustomDriver -Clicked On :: Leave Link
-09:39:09.509 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
-09:39:11.694 INFO  base.CustomDriver -Selected option : FMLA US
-09:39:11.759 INFO  base.CustomDriver -Selected option : 2021-01-01 - 2021-12-31
-09:39:11.833 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 20
-09:39:11.894 INFO  base.CustomDriver -Clicked On :: Save Button
-09:39:11.904 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
-09:39:11.904 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
-09:39:14.928 ERROR base.CustomDriver -Cannot click on :: Popup Confirm Button
-09:39:14.929 INFO  utilities.Util -Current Date and Time :: 06_05_2020 09_39_14
-09:39:15.265 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/_Click ERROR_06_05_2020 09_39_14.png
-09:39:15.265 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
-09:39:15.278 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
-09:39:15.278 INFO  utilities.Util -Size of list :: 1
-09:39:15.278 INFO  utilities.Util -List is not empty
-09:39:15.334 INFO  base.CustomDriver -Clicked On :: User Account Icon
-09:39:15.336 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
-09:39:25.627 ERROR base.CustomDriver -Element not appeared on the web page
-09:39:25.638 ERROR base.CustomDriver -Cannot click on :: Logout Link
-09:39:25.735 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
-09:39:45.235 INFO  utilities.Util -Current Date and Time :: 06_05_2020 09_39_45
-09:39:45.242 INFO  utilities.ExtentManager -*********** Report Path ***********
-09:39:45.242 INFO  utilities.ExtentManager -/Users/anupamadhir/workspace/orangehrm/reports/AutomationReport_06_05_2020 09_39_45.html
-09:39:45.242 INFO  utilities.ExtentManager -*********** Report Path ***********
-09:39:45.451 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
-09:39:45.451 INFO  base.TestListeners -These methods will be executed in this <test> tag
-09:39:45.454 INFO  base.TestListeners -testAddLeave
-09:39:45.454 INFO  base.TestListeners -testLogin
-09:39:45.475 INFO  base.WebDriverFactory -OS Name from system property :: mac
-09:39:45.475 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
-09:39:49.984 INFO  base.CheckPoint -Clearing Results Hash Map
-09:39:50.110 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: Admin
-09:39:50.190 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: admin123
-09:39:53.921 INFO  base.CustomDriver -Clicked On :: Login Button
-09:39:53.946 INFO  utilities.Util -Actual Text From Web Application UI   --> : Leave
-09:39:53.946 INFO  utilities.Util -Expected Text From Web Application UI --> : Leave
-09:39:53.946 INFO  utilities.Util -### Verification Contains !!!
-09:39:53.946 INFO  base.CheckPoint -test-01.header verification :-> PASS
-09:39:53.962 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
-09:39:53.963 INFO  utilities.Util -Size of list :: 1
-09:39:53.963 INFO  utilities.Util -List is not empty
-09:39:53.963 INFO  base.CheckPoint -test-01.login verification :-> PASS
-09:39:53.963 INFO  base.CheckPoint -Test Method Successful
-09:39:53.964 INFO  base.CheckPoint -Test Method Successful
-09:39:53.965 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
-09:39:55.185 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
-09:39:55.185 INFO  utilities.Util -Size of list :: 1
-09:39:55.185 INFO  utilities.Util -List is not empty
-09:39:55.258 INFO  base.CustomDriver -Clicked On :: User Account Icon
-09:39:55.261 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
-09:40:05.592 ERROR base.CustomDriver -Element not appeared on the web page
-09:40:05.603 ERROR base.CustomDriver -Cannot click on :: Logout Link
-09:40:05.605 INFO  base.CheckPoint -Clearing Results Hash Map
-09:40:07.547 INFO  base.CustomDriver -Clicked On :: Leave Link
-09:40:08.492 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
-09:40:08.674 INFO  base.CustomDriver -Selected option : FMLA US
-09:40:08.742 INFO  base.CustomDriver -Selected option : 2021-01-01 - 2021-12-31
-09:40:08.820 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 20
-09:40:08.889 INFO  base.CustomDriver -Clicked On :: Save Button
-09:40:08.900 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
-09:40:08.900 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
-09:40:11.924 ERROR base.CustomDriver -Cannot click on :: Popup Confirm Button
-09:40:11.925 INFO  utilities.Util -Current Date and Time :: 06_05_2020 09_40_11
-09:40:12.259 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/_Click ERROR_06_05_2020 09_40_11.png
-09:40:12.259 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
-09:40:12.271 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
-09:40:12.271 INFO  utilities.Util -Size of list :: 1
-09:40:12.271 INFO  utilities.Util -List is not empty
-09:40:12.325 INFO  base.CustomDriver -Clicked On :: User Account Icon
-09:40:12.328 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
-09:40:22.612 ERROR base.CustomDriver -Element not appeared on the web page
-09:40:22.624 ERROR base.CustomDriver -Cannot click on :: Logout Link
-09:40:22.715 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
-09:41:07.314 INFO  utilities.Util -Current Date and Time :: 06_05_2020 09_41_07
-09:41:07.318 INFO  utilities.ExtentManager -*********** Report Path ***********
-09:41:07.318 INFO  utilities.ExtentManager -/Users/anupamadhir/workspace/orangehrm/reports/AutomationReport_06_05_2020 09_41_07.html
-09:41:07.318 INFO  utilities.ExtentManager -*********** Report Path ***********
-09:41:07.582 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
-09:41:07.582 INFO  base.TestListeners -These methods will be executed in this <test> tag
-09:41:07.582 INFO  base.TestListeners -testAddLeave
-09:41:07.582 INFO  base.TestListeners -testLogin
-09:41:07.607 INFO  base.WebDriverFactory -OS Name from system property :: mac
-09:41:07.607 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
-09:41:12.369 INFO  base.CheckPoint -Clearing Results Hash Map
-09:41:12.494 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: Admin
-09:41:12.577 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: admin123
-09:41:17.718 INFO  base.CustomDriver -Clicked On :: Login Button
-09:41:17.744 INFO  utilities.Util -Actual Text From Web Application UI   --> : Leave
-09:41:17.744 INFO  utilities.Util -Expected Text From Web Application UI --> : Leave
-09:41:17.744 INFO  utilities.Util -### Verification Contains !!!
-09:41:17.744 INFO  base.CheckPoint -test-01.header verification :-> PASS
-09:41:17.758 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
-09:41:17.758 INFO  utilities.Util -Size of list :: 1
-09:41:17.758 INFO  utilities.Util -List is not empty
-09:41:17.758 INFO  base.CheckPoint -test-01.login verification :-> PASS
-09:41:17.759 INFO  base.CheckPoint -Test Method Successful
-09:41:17.760 INFO  base.CheckPoint -Test Method Successful
-09:41:17.761 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
-09:41:17.777 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
-09:41:17.777 INFO  utilities.Util -Size of list :: 1
-09:41:17.777 INFO  utilities.Util -List is not empty
-09:41:17.840 INFO  base.CustomDriver -Clicked On :: User Account Icon
-09:41:17.844 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
-09:41:28.174 ERROR base.CustomDriver -Element not appeared on the web page
-09:41:28.187 ERROR base.CustomDriver -Cannot click on :: Logout Link
-09:41:28.189 INFO  base.CheckPoint -Clearing Results Hash Map
-09:41:30.082 INFO  base.CustomDriver -Clicked On :: Leave Link
-09:41:31.034 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
-09:41:33.223 INFO  base.CustomDriver -Selected option : FMLA US
-09:41:33.286 INFO  base.CustomDriver -Selected option : 2021-01-01 - 2021-12-31
-09:41:33.362 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 20
-09:41:33.432 INFO  base.CustomDriver -Clicked On :: Save Button
-09:41:33.443 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
-09:41:33.443 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
-09:41:35.199 ERROR base.CustomDriver -Cannot click on :: Popup Confirm Button
-09:41:35.199 INFO  utilities.Util -Current Date and Time :: 06_05_2020 09_41_35
-09:41:35.541 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/_Click ERROR_06_05_2020 09_41_35.png
-09:41:35.542 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
-09:41:35.554 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
-09:41:35.554 INFO  utilities.Util -Size of list :: 1
-09:41:35.555 INFO  utilities.Util -List is not empty
-09:41:35.626 INFO  base.CustomDriver -Clicked On :: User Account Icon
-09:41:35.629 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
-09:41:45.905 ERROR base.CustomDriver -Element not appeared on the web page
-09:41:45.916 ERROR base.CustomDriver -Cannot click on :: Logout Link
-09:41:46.012 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
-09:43:52.592 INFO  utilities.Util -Current Date and Time :: 06_05_2020 09_43_52
-09:43:52.596 INFO  utilities.ExtentManager -*********** Report Path ***********
-09:43:52.596 INFO  utilities.ExtentManager -/Users/anupamadhir/workspace/orangehrm/reports/AutomationReport_06_05_2020 09_43_52.html
-09:43:52.596 INFO  utilities.ExtentManager -*********** Report Path ***********
-09:43:52.858 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
-09:43:52.858 INFO  base.TestListeners -These methods will be executed in this <test> tag
-09:43:52.858 INFO  base.TestListeners -testAddLeave
-09:43:52.858 INFO  base.TestListeners -testLogin
-09:43:52.884 INFO  base.WebDriverFactory -OS Name from system property :: mac
-09:43:52.884 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
-09:43:57.956 INFO  base.CheckPoint -Clearing Results Hash Map
-09:43:58.078 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: Admin
-09:43:58.162 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: admin123
-09:44:01.834 INFO  base.CustomDriver -Clicked On :: Login Button
-09:44:01.862 INFO  utilities.Util -Actual Text From Web Application UI   --> : Leave
-09:44:01.862 INFO  utilities.Util -Expected Text From Web Application UI --> : Leave
-09:44:01.862 INFO  utilities.Util -### Verification Contains !!!
-09:44:01.862 INFO  base.CheckPoint -test-01.header verification :-> PASS
-09:44:01.877 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
-09:44:01.877 INFO  utilities.Util -Size of list :: 1
-09:44:01.877 INFO  utilities.Util -List is not empty
-09:44:01.877 INFO  base.CheckPoint -test-01.login verification :-> PASS
-09:44:01.877 INFO  base.CheckPoint -Test Method Successful
-09:44:01.878 INFO  base.CheckPoint -Test Method Successful
-09:44:01.878 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
-09:44:01.894 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
-09:44:01.894 INFO  utilities.Util -Size of list :: 1
-09:44:01.894 INFO  utilities.Util -List is not empty
-09:44:03.179 INFO  base.CustomDriver -Clicked On :: User Account Icon
-09:44:03.183 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
-09:44:13.502 ERROR base.CustomDriver -Element not appeared on the web page
-09:44:13.514 ERROR base.CustomDriver -Cannot click on :: Logout Link
-09:44:13.516 INFO  base.CheckPoint -Clearing Results Hash Map
-09:44:15.565 INFO  base.CustomDriver -Clicked On :: Leave Link
-09:44:16.512 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
-09:44:16.530 INFO  base.CustomDriver -Waiting for max:: 2 seconds for element to be available
-09:44:16.570 INFO  base.CustomDriver -Element appeared on the web page
-09:44:16.740 INFO  base.CustomDriver -Selected option : FMLA US
-09:44:16.809 INFO  base.CustomDriver -Selected option : 2021-01-01 - 2021-12-31
-09:44:16.890 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 20
-09:44:16.947 INFO  base.CustomDriver -Clicked On :: Save Button
-09:44:16.957 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
-09:44:16.957 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
-09:44:19.993 ERROR base.CustomDriver -Cannot click on :: Popup Confirm Button
-09:44:19.993 INFO  utilities.Util -Current Date and Time :: 06_05_2020 09_44_19
-09:44:20.318 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/_Click ERROR_06_05_2020 09_44_19.png
-09:44:20.318 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
-09:44:20.330 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
-09:44:20.330 INFO  utilities.Util -Size of list :: 1
-09:44:20.330 INFO  utilities.Util -List is not empty
-09:44:20.386 INFO  base.CustomDriver -Clicked On :: User Account Icon
-09:44:20.388 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
-09:44:30.689 ERROR base.CustomDriver -Element not appeared on the web page
-09:44:30.699 ERROR base.CustomDriver -Cannot click on :: Logout Link
-09:44:30.794 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
-09:45:59.576 INFO  utilities.Util -Current Date and Time :: 06_05_2020 09_45_59
-09:45:59.582 INFO  utilities.ExtentManager -*********** Report Path ***********
-09:45:59.582 INFO  utilities.ExtentManager -/Users/anupamadhir/workspace/orangehrm/reports/AutomationReport_06_05_2020 09_45_59.html
-09:45:59.582 INFO  utilities.ExtentManager -*********** Report Path ***********
-09:45:59.814 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
-09:45:59.815 INFO  base.TestListeners -These methods will be executed in this <test> tag
-09:45:59.815 INFO  base.TestListeners -testAddLeave
-09:45:59.815 INFO  base.TestListeners -testLogin
-09:45:59.842 INFO  base.WebDriverFactory -OS Name from system property :: mac
-09:45:59.842 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
-09:46:04.524 INFO  base.CheckPoint -Clearing Results Hash Map
-09:46:04.648 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: Admin
-09:46:04.734 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: admin123
-09:46:08.819 INFO  base.CustomDriver -Clicked On :: Login Button
-09:46:10.084 INFO  utilities.Util -Actual Text From Web Application UI   --> : Leave
-09:46:10.084 INFO  utilities.Util -Expected Text From Web Application UI --> : Leave
-09:46:10.084 INFO  utilities.Util -### Verification Contains !!!
-09:46:10.084 INFO  base.CheckPoint -test-01.header verification :-> PASS
-09:46:10.099 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
-09:46:10.099 INFO  utilities.Util -Size of list :: 1
-09:46:10.099 INFO  utilities.Util -List is not empty
-09:46:10.100 INFO  base.CheckPoint -test-01.login verification :-> PASS
-09:46:10.100 INFO  base.CheckPoint -Test Method Successful
-09:46:10.101 INFO  base.CheckPoint -Test Method Successful
-09:46:10.101 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
-09:46:10.116 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
-09:46:10.116 INFO  utilities.Util -Size of list :: 1
-09:46:10.116 INFO  utilities.Util -List is not empty
-09:46:10.181 INFO  base.CustomDriver -Clicked On :: User Account Icon
-09:46:10.185 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
-09:46:20.523 ERROR base.CustomDriver -Element not appeared on the web page
-09:46:20.534 ERROR base.CustomDriver -Cannot click on :: Logout Link
-09:46:20.536 INFO  base.CheckPoint -Clearing Results Hash Map
-09:46:22.649 INFO  base.CustomDriver -Clicked On :: Leave Link
-09:46:23.589 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
-09:46:23.609 INFO  base.CustomDriver -Waiting for max:: 2 seconds for element to be clickable
-09:46:23.654 INFO  base.CustomDriver -Element is clickable on the web page
-09:46:23.814 INFO  base.CustomDriver -Selected option : FMLA US
-09:46:23.881 INFO  base.CustomDriver -Selected option : 2021-01-01 - 2021-12-31
-09:46:23.958 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 20
-09:46:24.019 INFO  base.CustomDriver -Clicked On :: Save Button
-09:46:24.030 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
-09:46:24.030 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
-09:46:27.110 ERROR base.CustomDriver -Cannot click on :: Popup Confirm Button
-09:46:27.110 INFO  utilities.Util -Current Date and Time :: 06_05_2020 09_46_27
-09:46:27.440 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/_Click ERROR_06_05_2020 09_46_27.png
-09:46:27.440 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
-09:46:27.451 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
-09:46:27.452 INFO  utilities.Util -Size of list :: 1
-09:46:27.452 INFO  utilities.Util -List is not empty
-09:46:27.509 INFO  base.CustomDriver -Clicked On :: User Account Icon
-09:46:27.512 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
-09:46:37.803 ERROR base.CustomDriver -Element not appeared on the web page
-09:46:37.813 ERROR base.CustomDriver -Cannot click on :: Logout Link
-09:46:37.910 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
-09:49:31.729 INFO  utilities.Util -Current Date and Time :: 06_05_2020 09_49_31
-09:49:31.736 INFO  utilities.ExtentManager -*********** Report Path ***********
-09:49:31.737 INFO  utilities.ExtentManager -/Users/anupamadhir/workspace/orangehrm/reports/AutomationReport_06_05_2020 09_49_31.html
-09:49:31.737 INFO  utilities.ExtentManager -*********** Report Path ***********
-09:49:31.979 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
-09:49:31.980 INFO  base.TestListeners -These methods will be executed in this <test> tag
-09:49:31.980 INFO  base.TestListeners -testAddLeave
-09:49:31.980 INFO  base.TestListeners -testLogin
-09:49:32.005 INFO  base.WebDriverFactory -OS Name from system property :: mac
-09:49:32.005 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
-09:49:37.212 INFO  base.CheckPoint -Clearing Results Hash Map
-09:49:37.335 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: Admin
-09:49:37.427 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: admin123
-09:49:40.996 INFO  base.CustomDriver -Clicked On :: Login Button
-09:49:42.266 INFO  utilities.Util -Actual Text From Web Application UI   --> : Leave
-09:49:42.266 INFO  utilities.Util -Expected Text From Web Application UI --> : Leave
-09:49:42.266 INFO  utilities.Util -### Verification Contains !!!
-09:49:42.266 INFO  base.CheckPoint -test-01.header verification :-> PASS
-09:49:42.280 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
-09:49:42.280 INFO  utilities.Util -Size of list :: 1
-09:49:42.280 INFO  utilities.Util -List is not empty
-09:49:42.280 INFO  base.CheckPoint -test-01.login verification :-> PASS
-09:49:42.281 INFO  base.CheckPoint -Test Method Successful
-09:49:42.282 INFO  base.CheckPoint -Test Method Successful
-09:49:42.282 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
-09:49:42.297 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
-09:49:42.297 INFO  utilities.Util -Size of list :: 1
-09:49:42.297 INFO  utilities.Util -List is not empty
-09:49:42.358 INFO  base.CustomDriver -Clicked On :: User Account Icon
-09:49:42.362 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
-09:49:52.697 ERROR base.CustomDriver -Element not appeared on the web page
-09:49:52.709 ERROR base.CustomDriver -Cannot click on :: Logout Link
-09:49:52.711 INFO  base.CheckPoint -Clearing Results Hash Map
-09:49:54.821 INFO  base.CustomDriver -Clicked On :: Leave Link
-09:49:55.771 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
-09:49:55.789 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
-09:49:57.972 INFO  base.CustomDriver -Selected option : FMLA US
-09:49:58.034 INFO  base.CustomDriver -Selected option : 2021-01-01 - 2021-12-31
-09:49:58.111 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 20
-09:49:58.172 INFO  base.CustomDriver -Clicked On :: Save Button
-09:49:58.183 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
-09:49:58.184 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
-09:49:58.515 INFO  base.CustomDriver -Clicked On :: Popup Confirm Button
-09:49:58.515 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
-09:49:58.530 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
-09:49:58.530 INFO  utilities.Util -Size of list :: 1
-09:49:58.531 INFO  utilities.Util -List is not empty
-09:49:59.939 ERROR base.CustomDriver -Cannot click on :: User Account Icon
-09:49:59.939 INFO  utilities.Util -Current Date and Time :: 06_05_2020 09_49_59
-09:50:00.285 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/_Click ERROR_06_05_2020 09_49_59.png
-09:50:00.288 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
-09:50:10.570 ERROR base.CustomDriver -Element not appeared on the web page
-09:50:10.582 ERROR base.CustomDriver -Cannot click on :: Logout Link
-09:50:10.697 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
-09:51:19.869 INFO  utilities.Util -Current Date and Time :: 06_05_2020 09_51_19
-09:51:19.874 INFO  utilities.ExtentManager -*********** Report Path ***********
-09:51:19.874 INFO  utilities.ExtentManager -/Users/anupamadhir/workspace/orangehrm/reports/AutomationReport_06_05_2020 09_51_19.html
-09:51:19.875 INFO  utilities.ExtentManager -*********** Report Path ***********
-09:51:20.095 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
-09:51:20.096 INFO  base.TestListeners -These methods will be executed in this <test> tag
-09:51:20.096 INFO  base.TestListeners -testAddLeave
-09:51:20.096 INFO  base.TestListeners -testLogin
-09:51:20.127 INFO  base.WebDriverFactory -OS Name from system property :: mac
-09:51:20.127 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
-09:51:24.686 INFO  base.CheckPoint -Clearing Results Hash Map
-09:51:24.809 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: Admin
-09:51:24.892 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: admin123
-09:51:29.979 INFO  base.CustomDriver -Clicked On :: Login Button
-09:51:30.001 INFO  utilities.Util -Actual Text From Web Application UI   --> : Leave
-09:51:30.001 INFO  utilities.Util -Expected Text From Web Application UI --> : Leave
-09:51:30.001 INFO  utilities.Util -### Verification Contains !!!
-09:51:30.001 INFO  base.CheckPoint -test-01.header verification :-> PASS
-09:51:30.015 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
-09:51:30.015 INFO  utilities.Util -Size of list :: 1
-09:51:30.015 INFO  utilities.Util -List is not empty
-09:51:30.015 INFO  base.CheckPoint -test-01.login verification :-> PASS
-09:51:30.015 INFO  base.CheckPoint -Test Method Successful
-09:51:30.016 INFO  base.CheckPoint -Test Method Successful
-09:51:30.017 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
-09:51:30.031 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
-09:51:30.031 INFO  utilities.Util -Size of list :: 1
-09:51:30.031 INFO  utilities.Util -List is not empty
-09:51:30.099 INFO  base.CustomDriver -Clicked On :: User Account Icon
-09:51:30.103 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
-09:51:40.428 ERROR base.CustomDriver -Element not appeared on the web page
-09:51:40.440 ERROR base.CustomDriver -Cannot click on :: Logout Link
-09:51:40.441 INFO  base.CheckPoint -Clearing Results Hash Map
-09:51:42.747 INFO  base.CustomDriver -Clicked On :: Leave Link
-09:51:43.704 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
-09:51:43.804 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russel
-09:51:43.804 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
-09:51:45.881 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russel
-09:51:45.926 INFO  base.CustomDriver -Selected option : FMLA US
-09:51:45.992 INFO  base.CustomDriver -Selected option : 2021-01-01 - 2021-12-31
-09:51:46.067 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 20
-09:51:46.128 INFO  base.CustomDriver -Clicked On :: Save Button
-09:51:46.138 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
-09:51:46.138 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
-09:51:46.475 INFO  base.CustomDriver -Clicked On :: Popup Confirm Button
-09:51:46.475 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
-09:51:46.488 INFO  base.CustomDriver -Element List found with: xpath=>//a[contains(text(), 'Welcome')]
-09:51:46.488 INFO  utilities.Util -Size of list :: 1
-09:51:46.488 INFO  utilities.Util -List is not empty
-09:51:47.872 ERROR base.CustomDriver -Cannot click on :: User Account Icon
-09:51:47.872 INFO  utilities.Util -Current Date and Time :: 06_05_2020 09_51_47
-09:51:48.202 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/_Click ERROR_06_05_2020 09_51_47.png
-09:51:48.205 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
-09:51:58.503 ERROR base.CustomDriver -Element not appeared on the web page
-09:51:58.514 ERROR base.CustomDriver -Cannot click on :: Logout Link
-09:51:58.608 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+08:09:19.463 INFO  utilities.Util -Current Date and Time :: 06_06_2020 08_09_19
+08:09:19.473 INFO  utilities.ExtentManager -*********** Report Path ***********
+08:09:19.473 INFO  utilities.ExtentManager -/Users/anupamadhir/workspace/orangehrm/reports/AutomationReport_06_06_2020 08_09_19.html
+08:09:19.474 INFO  utilities.ExtentManager -*********** Report Path ***********
+08:09:19.692 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+08:09:19.692 INFO  base.TestListeners -These methods will be executed in this <test> tag
+08:09:19.694 INFO  base.TestListeners -testAddLeave
+08:09:19.694 INFO  base.TestListeners -testLogin
+08:09:19.716 INFO  base.WebDriverFactory -OS Name from system property :: mac
+08:09:19.716 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+08:09:26.210 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: Admin
+08:09:26.303 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: admin123
+08:09:30.008 INFO  base.CustomDriver -Clicked On :: Login Button
+08:09:30.553 INFO  base.CheckPoint -Clearing Results Hash Map
+08:09:31.703 INFO  utilities.Util -Actual Text From Web Application UI   --> : Leave
+08:09:31.704 INFO  utilities.Util -Expected Text From Web Application UI --> : Leave
+08:09:31.704 INFO  utilities.Util -### Verification Contains !!!
+08:09:31.704 INFO  base.CheckPoint -test-01.header verification :-> PASS
+08:09:31.719 INFO  base.CustomDriver -Element List found with: id=>welcome
+08:09:31.719 INFO  utilities.Util -Size of list :: 1
+08:09:31.719 INFO  utilities.Util -List is not empty
+08:09:31.719 INFO  base.CheckPoint -test-01.login verification :-> PASS
+08:09:31.719 INFO  base.CheckPoint -Test Method Successful
+08:09:31.721 INFO  base.CheckPoint -Test Method Successful
+08:09:31.722 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
+08:09:31.743 INFO  base.CheckPoint -Clearing Results Hash Map
+08:09:33.695 INFO  base.CustomDriver -Clicked On :: Leave Link
+08:09:34.648 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+08:09:34.668 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+08:09:36.799 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russell Hamilton
+08:09:36.800 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+08:09:38.890 INFO  base.CustomDriver -Selected option : FMLA US
+08:09:38.933 INFO  base.CustomDriver -Selected option : 2020-01-01 - 2020-12-31
+08:09:39.014 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 20
+08:09:39.087 INFO  base.CustomDriver -Clicked On :: Save Button
+08:09:39.098 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
+08:09:39.099 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
+08:09:39.099 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+08:09:52.854 INFO  base.CustomDriver -Clicked On :: Popup Confirm Button
+08:09:52.854 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+08:09:57.884 ERROR base.CustomDriver -Element not found with: css=>tr[class='total'] td:nth-child(2)
+08:09:57.899 INFO  base.TestListeners -onTestFailure -> Test Method Name: testAddLeave
+08:09:57.900 INFO  base.WebDriverFactory -OS Name from system property :: mac
+08:09:57.900 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+08:09:57.901 INFO  utilities.Util -Current Date and Time :: 06_06_2020 08_09_57
+08:09:57.914 INFO  base.CheckPoint -Clearing Results Hash Map
+08:09:57.919 ERROR base.CustomDriver -Element not found with: id=>menu_leave_viewLeaveModule
+08:09:57.920 ERROR base.CustomDriver -Cannot click on :: Leave Link
+08:09:57.921 INFO  utilities.Util -Current Date and Time :: 06_06_2020 08_09_57
+08:09:57.928 ERROR base.CustomDriver -Element not found with: xpath=>//a[@id='menu_leave_Entitlements']
+08:09:57.930 INFO  base.TestListeners -onTestFailure -> Test Method Name: testAddLeave
+08:09:57.930 INFO  base.WebDriverFactory -OS Name from system property :: mac
+08:09:57.931 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+08:09:57.931 INFO  utilities.Util -Current Date and Time :: 06_06_2020 08_09_57
+08:09:57.941 ERROR base.CustomDriver -Element List not found with: id=>welcome
+08:09:57.942 INFO  utilities.Util -Size of list :: 0
+08:09:57.942 ERROR utilities.Util -List is empty
+08:09:58.035 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+08:13:00.016 INFO  utilities.Util -Current Date and Time :: 06_06_2020 08_13_00
+08:13:00.033 INFO  utilities.ExtentManager -*********** Report Path ***********
+08:13:00.033 INFO  utilities.ExtentManager -/Users/anupamadhir/workspace/orangehrm/reports/AutomationReport_06_06_2020 08_13_00.html
+08:13:00.034 INFO  utilities.ExtentManager -*********** Report Path ***********
+08:13:00.282 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+08:13:00.282 INFO  base.TestListeners -These methods will be executed in this <test> tag
+08:13:00.282 INFO  base.TestListeners -testAddLeave
+08:13:00.283 INFO  base.TestListeners -testLogin
+08:13:00.306 INFO  base.WebDriverFactory -OS Name from system property :: mac
+08:13:00.306 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+08:13:05.600 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: Admin
+08:13:05.688 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: admin123
+08:13:10.509 INFO  base.CustomDriver -Clicked On :: Login Button
+08:13:10.894 INFO  base.CheckPoint -Clearing Results Hash Map
+08:13:10.921 INFO  utilities.Util -Actual Text From Web Application UI   --> : Leave
+08:13:10.921 INFO  utilities.Util -Expected Text From Web Application UI --> : Leave
+08:13:10.921 INFO  utilities.Util -### Verification Contains !!!
+08:13:10.921 INFO  base.CheckPoint -test-01.header verification :-> PASS
+08:13:10.934 INFO  base.CustomDriver -Element List found with: id=>welcome
+08:13:10.935 INFO  utilities.Util -Size of list :: 1
+08:13:10.935 INFO  utilities.Util -List is not empty
+08:13:10.935 INFO  base.CheckPoint -test-01.login verification :-> PASS
+08:13:10.935 INFO  base.CheckPoint -Test Method Successful
+08:13:10.936 INFO  base.CheckPoint -Test Method Successful
+08:13:10.937 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
+08:13:10.960 INFO  base.CheckPoint -Clearing Results Hash Map
+08:13:12.939 INFO  base.CustomDriver -Clicked On :: Leave Link
+08:13:13.890 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+08:13:13.906 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+08:13:16.020 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russell
+08:13:16.020 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+08:13:18.109 INFO  base.CustomDriver -Selected option : FMLA US
+08:13:18.152 INFO  base.CustomDriver -Selected option : 2020-01-01 - 2020-12-31
+08:13:18.230 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 20
+08:13:18.302 INFO  base.CustomDriver -Clicked On :: Save Button
+08:13:18.313 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
+08:13:18.313 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
+08:13:18.314 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+08:13:33.366 ERROR base.CustomDriver -Element not found with: id=>dialogUpdateEntitlementConfirmBtn
+08:13:33.369 ERROR base.CustomDriver -Cannot click on :: Popup Confirm Button
+08:13:33.369 INFO  utilities.Util -Current Date and Time :: 06_06_2020 08_13_33
+08:13:33.744 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/_Click ERROR_06_06_2020 08_13_33.png
+08:13:33.744 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+08:13:38.796 INFO  base.CustomDriver -Element :: Total displayed is displayed
+08:13:38.800 INFO  base.CustomDriver -Current URL is :: https://opensource-demo.orangehrmlive.com/index.php/leave/viewLeaveEntitlements/savedsearch/1
+08:13:38.800 INFO  base.CheckPoint -test-add-entitlement.Add Leave Entitlement Verification :-> PASS
+08:13:38.800 INFO  base.CheckPoint -Test Method Successful
+08:13:38.800 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
+08:13:38.801 INFO  base.CheckPoint -Clearing Results Hash Map
+08:13:39.954 INFO  base.CustomDriver -Clicked On :: Leave Link
+08:13:40.571 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+08:13:40.586 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+08:13:42.681 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russell
+08:13:42.681 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+08:13:44.760 INFO  base.CustomDriver -Selected option : FMLA US
+08:13:44.803 INFO  base.CustomDriver -Selected option : 2020-01-01 - 2020-12-31
+08:13:44.879 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 30
+08:13:44.945 INFO  base.CustomDriver -Clicked On :: Save Button
+08:13:44.956 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
+08:13:44.956 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
+08:13:44.956 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+08:13:49.964 ERROR base.CustomDriver -Element not found with: id=>dialogUpdateEntitlementConfirmBtn
+08:13:49.966 ERROR base.CustomDriver -Cannot click on :: Popup Confirm Button
+08:13:49.966 INFO  utilities.Util -Current Date and Time :: 06_06_2020 08_13_49
+08:13:49.973 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+08:13:54.983 ERROR base.CustomDriver -Element not found with: css=>tr[class='total'] td:nth-child(2)
+08:13:54.996 INFO  base.TestListeners -onTestFailure -> Test Method Name: testAddLeave
+08:13:54.997 INFO  base.WebDriverFactory -OS Name from system property :: mac
+08:13:54.997 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+08:13:54.997 INFO  utilities.Util -Current Date and Time :: 06_06_2020 08_13_54
+08:13:55.022 ERROR base.CustomDriver -Element List not found with: id=>welcome
+08:13:55.023 INFO  utilities.Util -Size of list :: 0
+08:13:55.023 ERROR utilities.Util -List is empty
+08:13:55.121 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+08:51:16.454 INFO  utilities.Util -Current Date and Time :: 06_06_2020 08_51_16
+08:51:16.462 INFO  utilities.ExtentManager -*********** Report Path ***********
+08:51:16.462 INFO  utilities.ExtentManager -/Users/anupamadhir/workspace/orangehrm/reports/AutomationReport_06_06_2020 08_51_16.html
+08:51:16.462 INFO  utilities.ExtentManager -*********** Report Path ***********
+08:51:16.712 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+08:51:16.712 INFO  base.TestListeners -These methods will be executed in this <test> tag
+08:51:16.712 INFO  base.TestListeners -testAddLeave
+08:51:16.713 INFO  base.TestListeners -testLogin
+08:51:16.732 INFO  base.WebDriverFactory -OS Name from system property :: mac
+08:51:16.732 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+08:51:22.802 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: Admin
+08:51:22.889 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: admin123
+08:51:27.399 INFO  base.CustomDriver -Clicked On :: Login Button
+08:51:27.894 INFO  base.CheckPoint -Clearing Results Hash Map
+08:51:27.922 INFO  utilities.Util -Actual Text From Web Application UI   --> : Leave
+08:51:27.922 INFO  utilities.Util -Expected Text From Web Application UI --> : Leave
+08:51:27.922 INFO  utilities.Util -### Verification Contains !!!
+08:51:27.922 INFO  base.CheckPoint -test-01.header verification :-> PASS
+08:51:27.941 INFO  base.CustomDriver -Element List found with: id=>welcome
+08:51:27.944 INFO  utilities.Util -Size of list :: 1
+08:51:27.944 INFO  utilities.Util -List is not empty
+08:51:27.944 INFO  base.CheckPoint -test-01.login verification :-> PASS
+08:51:27.944 INFO  base.CheckPoint -Test Method Successful
+08:51:27.947 INFO  base.CheckPoint -Test Method Successful
+08:51:27.947 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
+08:51:27.972 INFO  base.CheckPoint -Clearing Results Hash Map
+08:51:30.032 INFO  base.CustomDriver -Clicked On :: Leave Link
+08:51:30.983 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+08:51:30.999 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+08:51:33.100 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russell
+08:51:43.124 INFO  utilities.Util -Waiting 3.0 seconds :: Sleep for 3 seconds
+08:51:46.127 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+08:51:48.222 INFO  base.CustomDriver -Selected option : FMLA US
+08:51:48.264 INFO  base.CustomDriver -Selected option : 2020-01-01 - 2020-12-31
+08:51:48.342 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 20
+08:51:48.413 INFO  base.CustomDriver -Clicked On :: Save Button
+08:51:48.424 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
+08:51:48.424 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
+08:51:48.424 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+08:51:53.462 ERROR base.CustomDriver -Element not found with: id=>dialogUpdateEntitlementConfirmBtn
+08:51:53.464 ERROR base.CustomDriver -Cannot click on :: Popup Confirm Button
+08:51:53.465 INFO  utilities.Util -Current Date and Time :: 06_06_2020 08_51_53
+08:51:53.472 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+08:51:58.489 ERROR base.CustomDriver -Element not found with: css=>tr[class='total'] td:nth-child(2)
+08:51:58.504 INFO  base.TestListeners -onTestFailure -> Test Method Name: testAddLeave
+08:51:58.505 INFO  base.WebDriverFactory -OS Name from system property :: mac
+08:51:58.505 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+08:51:58.505 INFO  utilities.Util -Current Date and Time :: 06_06_2020 08_51_58
+08:51:58.516 INFO  base.CheckPoint -Clearing Results Hash Map
+08:51:58.524 ERROR base.CustomDriver -Element not found with: id=>menu_leave_viewLeaveModule
+08:51:58.525 ERROR base.CustomDriver -Cannot click on :: Leave Link
+08:51:58.526 INFO  utilities.Util -Current Date and Time :: 06_06_2020 08_51_58
+08:51:58.539 ERROR base.CustomDriver -Element not found with: xpath=>//a[@id='menu_leave_Entitlements']
+08:51:58.541 INFO  base.TestListeners -onTestFailure -> Test Method Name: testAddLeave
+08:51:58.541 INFO  base.WebDriverFactory -OS Name from system property :: mac
+08:51:58.541 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+08:51:58.541 INFO  utilities.Util -Current Date and Time :: 06_06_2020 08_51_58
+08:51:58.558 ERROR base.CustomDriver -Element List not found with: id=>welcome
+08:51:58.559 INFO  utilities.Util -Size of list :: 0
+08:51:58.559 ERROR utilities.Util -List is empty
+08:51:58.659 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+08:52:54.875 INFO  utilities.Util -Current Date and Time :: 06_06_2020 08_52_54
+08:52:54.882 INFO  utilities.ExtentManager -*********** Report Path ***********
+08:52:54.882 INFO  utilities.ExtentManager -/Users/anupamadhir/workspace/orangehrm/reports/AutomationReport_06_06_2020 08_52_54.html
+08:52:54.882 INFO  utilities.ExtentManager -*********** Report Path ***********
+08:52:55.123 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+08:52:55.123 INFO  base.TestListeners -These methods will be executed in this <test> tag
+08:52:55.123 INFO  base.TestListeners -testAddLeave
+08:52:55.123 INFO  base.TestListeners -testLogin
+08:52:55.170 INFO  base.WebDriverFactory -OS Name from system property :: mac
+08:52:55.170 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+08:53:00.272 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: Admin
+08:53:00.360 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: admin123
+08:53:04.026 INFO  base.CustomDriver -Clicked On :: Login Button
+08:53:04.417 INFO  base.CheckPoint -Clearing Results Hash Map
+08:53:05.314 INFO  utilities.Util -Actual Text From Web Application UI   --> : Leave
+08:53:05.314 INFO  utilities.Util -Expected Text From Web Application UI --> : Leave
+08:53:05.314 INFO  utilities.Util -### Verification Contains !!!
+08:53:05.314 INFO  base.CheckPoint -test-01.header verification :-> PASS
+08:53:05.329 INFO  base.CustomDriver -Element List found with: id=>welcome
+08:53:05.330 INFO  utilities.Util -Size of list :: 1
+08:53:05.330 INFO  utilities.Util -List is not empty
+08:53:05.330 INFO  base.CheckPoint -test-01.login verification :-> PASS
+08:53:05.330 INFO  base.CheckPoint -Test Method Successful
+08:53:05.331 INFO  base.CheckPoint -Test Method Successful
+08:53:05.332 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
+08:53:05.357 INFO  base.CheckPoint -Clearing Results Hash Map
+08:53:07.416 INFO  base.CustomDriver -Clicked On :: Leave Link
+08:53:08.370 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+08:53:08.388 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+08:53:10.510 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russell Hamilton
+08:53:20.538 ERROR base.CustomDriver -Element not found with: class=>ac_results
+08:53:20.545 INFO  base.TestListeners -onTestFailure -> Test Method Name: testAddLeave
+08:53:20.545 INFO  base.WebDriverFactory -OS Name from system property :: mac
+08:53:20.546 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+08:53:20.546 INFO  utilities.Util -Current Date and Time :: 06_06_2020 08_53_20
+08:53:20.910 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/chrome_testAddLeave_06_06_2020 08_53_20.png
+08:53:20.912 INFO  base.CheckPoint -Clearing Results Hash Map
+08:53:22.139 INFO  base.CustomDriver -Clicked On :: Leave Link
+08:53:22.765 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+08:53:22.778 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+08:53:24.898 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russell Hamilton
+08:53:34.950 ERROR base.CustomDriver -Element not found with: class=>ac_results
+08:53:34.953 INFO  base.TestListeners -onTestFailure -> Test Method Name: testAddLeave
+08:53:34.954 INFO  base.WebDriverFactory -OS Name from system property :: mac
+08:53:34.954 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+08:53:34.954 INFO  utilities.Util -Current Date and Time :: 06_06_2020 08_53_34
+08:53:35.280 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/chrome_testAddLeave_06_06_2020 08_53_34.png
+08:53:35.290 INFO  base.CustomDriver -Element List found with: id=>welcome
+08:53:35.291 INFO  utilities.Util -Size of list :: 1
+08:53:35.291 INFO  utilities.Util -List is not empty
+08:53:35.367 INFO  base.CustomDriver -Clicked On :: User Account Icon
+08:53:35.371 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
+08:53:35.979 INFO  base.CustomDriver -Element appeared on the web page
+08:53:37.050 INFO  base.CustomDriver -Clicked on :: Logout Link
+08:53:37.151 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+08:57:29.539 INFO  utilities.Util -Current Date and Time :: 06_06_2020 08_57_29
+08:57:29.560 INFO  utilities.ExtentManager -*********** Report Path ***********
+08:57:29.560 INFO  utilities.ExtentManager -/Users/anupamadhir/workspace/orangehrm/reports/AutomationReport_06_06_2020 08_57_29.html
+08:57:29.560 INFO  utilities.ExtentManager -*********** Report Path ***********
+08:57:29.816 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+08:57:29.816 INFO  base.TestListeners -These methods will be executed in this <test> tag
+08:57:29.816 INFO  base.TestListeners -testAddLeave
+08:57:29.816 INFO  base.TestListeners -testLogin
+08:57:29.837 INFO  base.WebDriverFactory -OS Name from system property :: mac
+08:57:29.837 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+08:57:35.023 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: Admin
+08:57:35.107 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: admin123
+08:57:40.145 INFO  base.CustomDriver -Clicked On :: Login Button
+08:57:40.528 INFO  base.CheckPoint -Clearing Results Hash Map
+08:57:40.555 INFO  utilities.Util -Actual Text From Web Application UI   --> : Leave
+08:57:40.555 INFO  utilities.Util -Expected Text From Web Application UI --> : Leave
+08:57:40.555 INFO  utilities.Util -### Verification Contains !!!
+08:57:40.555 INFO  base.CheckPoint -test-01.header verification :-> PASS
+08:57:40.569 INFO  base.CustomDriver -Element List found with: id=>welcome
+08:57:40.569 INFO  utilities.Util -Size of list :: 1
+08:57:40.569 INFO  utilities.Util -List is not empty
+08:57:40.569 INFO  base.CheckPoint -test-01.login verification :-> PASS
+08:57:40.569 INFO  base.CheckPoint -Test Method Successful
+08:57:40.571 INFO  base.CheckPoint -Test Method Successful
+08:57:40.571 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
+08:57:40.592 INFO  base.CheckPoint -Clearing Results Hash Map
+08:57:42.469 INFO  base.CustomDriver -Clicked On :: Leave Link
+08:57:43.424 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+08:57:43.445 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+08:57:55.593 ERROR base.CustomDriver -Element not found with: class=>ac_results
+08:57:55.598 INFO  base.TestListeners -onTestFailure -> Test Method Name: testAddLeave
+08:57:55.598 INFO  base.WebDriverFactory -OS Name from system property :: mac
+08:57:55.599 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+08:57:55.599 INFO  utilities.Util -Current Date and Time :: 06_06_2020 08_57_55
+08:57:55.963 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/chrome_testAddLeave_06_06_2020 08_57_55.png
+08:57:55.966 INFO  base.CheckPoint -Clearing Results Hash Map
+08:57:57.297 INFO  base.CustomDriver -Clicked On :: Leave Link
+08:57:57.971 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+08:57:57.980 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+08:58:10.142 ERROR base.CustomDriver -Element not found with: class=>ac_results
+08:58:10.146 INFO  base.TestListeners -onTestFailure -> Test Method Name: testAddLeave
+08:58:10.146 INFO  base.WebDriverFactory -OS Name from system property :: mac
+08:58:10.146 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+08:58:10.147 INFO  utilities.Util -Current Date and Time :: 06_06_2020 08_58_10
+08:58:10.488 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/chrome_testAddLeave_06_06_2020 08_58_10.png
+08:58:10.503 INFO  base.CustomDriver -Element List found with: id=>welcome
+08:58:10.503 INFO  utilities.Util -Size of list :: 1
+08:58:10.503 INFO  utilities.Util -List is not empty
+08:58:10.571 INFO  base.CustomDriver -Clicked On :: User Account Icon
+08:58:10.575 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
+08:58:11.169 INFO  base.CustomDriver -Element appeared on the web page
+08:58:12.099 INFO  base.CustomDriver -Clicked on :: Logout Link
+08:58:12.208 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+09:02:55.308 INFO  utilities.Util -Current Date and Time :: 06_06_2020 09_02_55
+09:02:55.317 INFO  utilities.ExtentManager -*********** Report Path ***********
+09:02:55.317 INFO  utilities.ExtentManager -/Users/anupamadhir/workspace/orangehrm/reports/AutomationReport_06_06_2020 09_02_55.html
+09:02:55.317 INFO  utilities.ExtentManager -*********** Report Path ***********
+09:02:55.565 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+09:02:55.565 INFO  base.TestListeners -These methods will be executed in this <test> tag
+09:02:55.565 INFO  base.TestListeners -testAddLeave
+09:02:55.565 INFO  base.TestListeners -testLogin
+09:02:55.588 INFO  base.WebDriverFactory -OS Name from system property :: mac
+09:02:55.589 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+09:03:00.969 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: Admin
+09:03:01.057 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: admin123
+09:03:05.031 INFO  base.CustomDriver -Clicked On :: Login Button
+09:03:05.406 INFO  base.CheckPoint -Clearing Results Hash Map
+09:03:06.375 INFO  utilities.Util -Actual Text From Web Application UI   --> : Leave
+09:03:06.375 INFO  utilities.Util -Expected Text From Web Application UI --> : Leave
+09:03:06.375 INFO  utilities.Util -### Verification Contains !!!
+09:03:06.375 INFO  base.CheckPoint -test-01.header verification :-> PASS
+09:03:06.389 INFO  base.CustomDriver -Element List found with: id=>welcome
+09:03:06.389 INFO  utilities.Util -Size of list :: 1
+09:03:06.389 INFO  utilities.Util -List is not empty
+09:03:06.389 INFO  base.CheckPoint -test-01.login verification :-> PASS
+09:03:06.389 INFO  base.CheckPoint -Test Method Successful
+09:03:06.391 INFO  base.CheckPoint -Test Method Successful
+09:03:06.391 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
+09:03:06.416 INFO  base.CheckPoint -Clearing Results Hash Map
+09:03:08.413 INFO  base.CustomDriver -Clicked On :: Leave Link
+09:03:09.371 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+09:03:09.373 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+09:03:11.539 INFO  utilities.Util -Waiting 3.0 seconds :: Sleep for 3 seconds
+09:03:14.618 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+09:03:16.668 INFO  base.CustomDriver -Selected option : FMLA US
+09:03:16.713 INFO  base.CustomDriver -Selected option : 2020-01-01 - 2020-12-31
+09:03:16.786 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 20
+09:03:16.853 INFO  base.CustomDriver -Clicked On :: Save Button
+09:03:16.864 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
+09:03:16.864 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
+09:03:16.864 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+09:03:31.907 ERROR base.CustomDriver -Element not found with: id=>dialogUpdateEntitlementConfirmBtn
+09:03:31.909 ERROR base.CustomDriver -Cannot click on :: Popup Confirm Button
+09:03:31.909 INFO  utilities.Util -Current Date and Time :: 06_06_2020 09_03_31
+09:03:32.265 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/_Click ERROR_06_06_2020 09_03_31.png
+09:03:32.265 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+09:03:37.318 INFO  base.CustomDriver -Element :: Total displayed is displayed
+09:03:37.322 INFO  base.CustomDriver -Current URL is :: https://opensource-demo.orangehrmlive.com/index.php/leave/viewLeaveEntitlements/savedsearch/1
+09:03:37.322 INFO  base.CheckPoint -test-add-entitlement.Add Leave Entitlement Verification :-> PASS
+09:03:37.322 INFO  base.CheckPoint -Test Method Successful
+09:03:37.322 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
+09:03:37.323 INFO  base.CheckPoint -Clearing Results Hash Map
+09:03:38.295 INFO  base.CustomDriver -Clicked On :: Leave Link
+09:03:38.982 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+09:03:38.982 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+09:03:41.135 INFO  utilities.Util -Waiting 3.0 seconds :: Sleep for 3 seconds
+09:03:44.229 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+09:03:46.273 INFO  base.CustomDriver -Selected option : FMLA US
+09:03:46.312 INFO  base.CustomDriver -Selected option : 2020-01-01 - 2020-12-31
+09:03:46.388 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 30
+09:03:46.462 INFO  base.CustomDriver -Clicked On :: Save Button
+09:03:46.473 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
+09:03:46.473 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
+09:03:46.473 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+09:03:51.549 INFO  base.CustomDriver -Clicked On :: Popup Confirm Button
+09:03:51.550 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+09:03:56.587 INFO  base.CustomDriver -Element :: Total displayed is displayed
+09:03:56.591 INFO  base.CustomDriver -Current URL is :: https://opensource-demo.orangehrmlive.com/index.php/leave/viewLeaveEntitlements/savedsearch/1
+09:03:56.591 INFO  base.CheckPoint -test-add-entitlement.Add Leave Entitlement Verification :-> PASS
+09:03:56.591 INFO  base.CheckPoint -Test Method Successful
+09:03:56.591 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
+09:03:56.603 INFO  base.CustomDriver -Element List found with: id=>welcome
+09:03:56.603 INFO  utilities.Util -Size of list :: 1
+09:03:56.603 INFO  utilities.Util -List is not empty
+09:03:56.654 INFO  base.CustomDriver -Clicked On :: User Account Icon
+09:03:56.657 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
+09:03:57.225 INFO  base.CustomDriver -Element appeared on the web page
+09:03:58.137 INFO  base.CustomDriver -Clicked on :: Logout Link
+09:03:58.750 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+09:08:46.128 INFO  utilities.Util -Current Date and Time :: 06_06_2020 09_08_46
+09:08:46.133 INFO  utilities.ExtentManager -*********** Report Path ***********
+09:08:46.133 INFO  utilities.ExtentManager -/Users/anupamadhir/workspace/orangehrm/reports/AutomationReport_06_06_2020 09_08_46.html
+09:08:46.133 INFO  utilities.ExtentManager -*********** Report Path ***********
+09:08:46.398 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+09:08:46.399 INFO  base.TestListeners -These methods will be executed in this <test> tag
+09:08:46.399 INFO  base.TestListeners -testAddLeave
+09:08:46.399 INFO  base.TestListeners -testLogin
+09:08:46.431 INFO  base.WebDriverFactory -OS Name from system property :: mac
+09:08:46.432 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+09:08:51.596 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: Admin
+09:08:51.681 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: admin123
+09:08:57.024 INFO  base.CustomDriver -Clicked On :: Login Button
+09:08:57.396 INFO  base.CheckPoint -Clearing Results Hash Map
+09:08:57.421 INFO  utilities.Util -Actual Text From Web Application UI   --> : Leave
+09:08:57.421 INFO  utilities.Util -Expected Text From Web Application UI --> : Leave
+09:08:57.421 INFO  utilities.Util -### Verification Contains !!!
+09:08:57.421 INFO  base.CheckPoint -test-01.header verification :-> PASS
+09:08:57.435 INFO  base.CustomDriver -Element List found with: id=>welcome
+09:08:57.435 INFO  utilities.Util -Size of list :: 1
+09:08:57.435 INFO  utilities.Util -List is not empty
+09:08:57.435 INFO  base.CheckPoint -test-01.login verification :-> PASS
+09:08:57.435 INFO  base.CheckPoint -Test Method Successful
+09:08:57.437 INFO  base.CheckPoint -Test Method Successful
+09:08:57.437 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
+09:08:57.458 INFO  base.CheckPoint -Clearing Results Hash Map
+09:08:59.526 INFO  base.CustomDriver -Clicked On :: Leave Link
+09:09:00.413 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+09:09:00.415 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+09:09:02.513 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Ru
+09:09:02.595 INFO  utilities.Util -Waiting 3.0 seconds :: Sleep for 3 seconds
+09:09:05.671 INFO  base.CustomDriver -Clicked On :: Element Selected
+09:09:05.671 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+09:09:07.722 INFO  base.CustomDriver -Selected option : FMLA US
+09:09:07.764 INFO  base.CustomDriver -Selected option : 2020-01-01 - 2020-12-31
+09:09:07.841 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 20
+09:09:07.904 INFO  base.CustomDriver -Clicked On :: Save Button
+09:09:07.915 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
+09:09:07.915 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
+09:09:07.915 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+09:09:12.980 INFO  base.CustomDriver -Clicked On :: Popup Confirm Button
+09:09:12.980 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+09:09:18.021 INFO  base.CustomDriver -Element :: Total displayed is displayed
+09:09:18.025 INFO  base.CustomDriver -Current URL is :: https://opensource-demo.orangehrmlive.com/index.php/leave/viewLeaveEntitlements/savedsearch/1
+09:09:18.025 INFO  base.CheckPoint -test-add-entitlement.Add Leave Entitlement Verification :-> PASS
+09:09:18.025 INFO  base.CheckPoint -Test Method Successful
+09:09:18.025 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
+09:09:18.026 INFO  base.CheckPoint -Clearing Results Hash Map
+09:09:18.856 INFO  base.CustomDriver -Clicked On :: Leave Link
+09:09:19.525 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+09:09:19.525 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+09:09:21.622 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Ru
+09:09:21.700 INFO  utilities.Util -Waiting 3.0 seconds :: Sleep for 3 seconds
+09:09:24.762 INFO  base.CustomDriver -Clicked On :: Element Selected
+09:09:24.762 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+09:09:26.806 INFO  base.CustomDriver -Selected option : FMLA US
+09:09:26.843 INFO  base.CustomDriver -Selected option : 2020-01-01 - 2020-12-31
+09:09:26.918 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 30
+09:09:26.983 INFO  base.CustomDriver -Clicked On :: Save Button
+09:09:26.992 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
+09:09:26.992 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
+09:09:26.992 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+09:09:32.072 INFO  base.CustomDriver -Clicked On :: Popup Confirm Button
+09:09:32.072 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+09:09:37.116 INFO  base.CustomDriver -Element :: Total displayed is displayed
+09:09:37.120 INFO  base.CustomDriver -Current URL is :: https://opensource-demo.orangehrmlive.com/index.php/leave/viewLeaveEntitlements/savedsearch/1
+09:09:37.120 INFO  base.CheckPoint -test-add-entitlement.Add Leave Entitlement Verification :-> PASS
+09:09:37.120 INFO  base.CheckPoint -Test Method Successful
+09:09:37.120 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
+09:09:37.131 INFO  base.CustomDriver -Element List found with: id=>welcome
+09:09:37.131 INFO  utilities.Util -Size of list :: 1
+09:09:37.131 INFO  utilities.Util -List is not empty
+09:09:37.194 INFO  base.CustomDriver -Clicked On :: User Account Icon
+09:09:37.197 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
+09:09:37.769 INFO  base.CustomDriver -Element appeared on the web page
+09:09:38.808 INFO  base.CustomDriver -Clicked on :: Logout Link
+09:09:38.917 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+09:13:02.747 INFO  utilities.Util -Current Date and Time :: 06_06_2020 09_13_02
+09:13:02.756 INFO  utilities.ExtentManager -*********** Report Path ***********
+09:13:02.756 INFO  utilities.ExtentManager -/Users/anupamadhir/workspace/orangehrm/reports/AutomationReport_06_06_2020 09_13_02.html
+09:13:02.756 INFO  utilities.ExtentManager -*********** Report Path ***********
+09:13:03.010 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+09:13:03.010 INFO  base.TestListeners -These methods will be executed in this <test> tag
+09:13:03.010 INFO  base.TestListeners -testAddLeave
+09:13:03.011 INFO  base.TestListeners -testLogin
+09:13:03.034 INFO  base.WebDriverFactory -OS Name from system property :: mac
+09:13:03.034 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+09:13:08.214 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: Admin
+09:13:08.300 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: admin123
+09:13:13.508 INFO  base.CustomDriver -Clicked On :: Login Button
+09:13:13.900 INFO  base.CheckPoint -Clearing Results Hash Map
+09:13:13.927 INFO  utilities.Util -Actual Text From Web Application UI   --> : Leave
+09:13:13.927 INFO  utilities.Util -Expected Text From Web Application UI --> : Leave
+09:13:13.927 INFO  utilities.Util -### Verification Contains !!!
+09:13:13.927 INFO  base.CheckPoint -test-01.header verification :-> PASS
+09:13:13.940 INFO  base.CustomDriver -Element List found with: id=>welcome
+09:13:13.940 INFO  utilities.Util -Size of list :: 1
+09:13:13.941 INFO  utilities.Util -List is not empty
+09:13:13.941 INFO  base.CheckPoint -test-01.login verification :-> PASS
+09:13:13.941 INFO  base.CheckPoint -Test Method Successful
+09:13:13.942 INFO  base.CheckPoint -Test Method Successful
+09:13:13.942 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
+09:13:13.961 INFO  base.CheckPoint -Clearing Results Hash Map
+09:13:15.764 INFO  base.CustomDriver -Clicked On :: Leave Link
+09:13:16.719 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+09:13:16.720 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+09:13:18.838 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russell
+09:13:28.882 ERROR base.CustomDriver -Element not found with: xpath=>//div[@class='ac_results']
+09:13:28.889 INFO  base.TestListeners -onTestFailure -> Test Method Name: testAddLeave
+09:13:28.889 INFO  base.WebDriverFactory -OS Name from system property :: mac
+09:13:28.890 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+09:13:28.890 INFO  utilities.Util -Current Date and Time :: 06_06_2020 09_13_28
+09:13:29.253 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/chrome_testAddLeave_06_06_2020 09_13_28.png
+09:13:29.256 INFO  base.CheckPoint -Clearing Results Hash Map
+09:13:30.181 INFO  base.CustomDriver -Clicked On :: Leave Link
+09:13:30.855 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+09:13:30.855 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+09:13:32.871 ERROR base.CustomDriver -Element not found with: css=>#entitlements_employee_empName
+09:13:32.881 ERROR base.CustomDriver -Element not found with: css=>#entitlements_employee_empName
+09:13:32.883 ERROR base.CustomDriver -Cannot send keys on element :: Employee Field with data :: Russell
+09:13:32.891 ERROR base.CustomDriver -Element not found with: xpath=>//div[@class='ac_results']
+09:13:32.892 INFO  base.TestListeners -onTestFailure -> Test Method Name: testAddLeave
+09:13:32.893 INFO  base.WebDriverFactory -OS Name from system property :: mac
+09:13:32.893 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+09:13:32.893 INFO  utilities.Util -Current Date and Time :: 06_06_2020 09_13_32
+09:13:32.910 ERROR base.CustomDriver -Element List not found with: id=>welcome
+09:13:32.911 INFO  utilities.Util -Size of list :: 0
+09:13:32.911 ERROR utilities.Util -List is empty
+09:13:33.004 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+09:13:58.331 INFO  utilities.Util -Current Date and Time :: 06_06_2020 09_13_58
+09:13:58.337 INFO  utilities.ExtentManager -*********** Report Path ***********
+09:13:58.337 INFO  utilities.ExtentManager -/Users/anupamadhir/workspace/orangehrm/reports/AutomationReport_06_06_2020 09_13_58.html
+09:13:58.337 INFO  utilities.ExtentManager -*********** Report Path ***********
+09:13:58.571 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+09:13:58.571 INFO  base.TestListeners -These methods will be executed in this <test> tag
+09:13:58.571 INFO  base.TestListeners -testAddLeave
+09:13:58.571 INFO  base.TestListeners -testLogin
+09:13:58.593 INFO  base.WebDriverFactory -OS Name from system property :: mac
+09:13:58.593 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+09:14:03.930 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: Admin
+09:14:04.018 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: admin123
+09:14:07.777 INFO  base.CustomDriver -Clicked On :: Login Button
+09:14:08.164 INFO  base.CheckPoint -Clearing Results Hash Map
+09:14:09.110 INFO  utilities.Util -Actual Text From Web Application UI   --> : Leave
+09:14:09.110 INFO  utilities.Util -Expected Text From Web Application UI --> : Leave
+09:14:09.110 INFO  utilities.Util -### Verification Contains !!!
+09:14:09.110 INFO  base.CheckPoint -test-01.header verification :-> PASS
+09:14:09.124 INFO  base.CustomDriver -Element List found with: id=>welcome
+09:14:09.124 INFO  utilities.Util -Size of list :: 1
+09:14:09.124 INFO  utilities.Util -List is not empty
+09:14:09.124 INFO  base.CheckPoint -test-01.login verification :-> PASS
+09:14:09.124 INFO  base.CheckPoint -Test Method Successful
+09:14:09.126 INFO  base.CheckPoint -Test Method Successful
+09:14:09.126 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
+09:14:09.151 INFO  base.CheckPoint -Clearing Results Hash Map
+09:14:10.755 INFO  base.CustomDriver -Clicked On :: Leave Link
+09:14:11.707 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+09:14:11.709 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+09:14:13.820 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Ru
+09:14:13.916 INFO  base.CustomDriver -Clicked On :: Element Selected
+09:14:13.917 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+09:14:15.971 INFO  base.CustomDriver -Selected option : FMLA US
+09:14:16.013 INFO  base.CustomDriver -Selected option : 2020-01-01 - 2020-12-31
+09:14:16.087 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 20
+09:14:16.158 INFO  base.CustomDriver -Clicked On :: Save Button
+09:14:16.169 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
+09:14:16.169 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
+09:14:16.169 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+09:14:21.245 INFO  base.CustomDriver -Clicked On :: Popup Confirm Button
+09:14:21.245 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+09:14:26.282 INFO  base.CustomDriver -Element :: Total displayed is displayed
+09:14:26.286 INFO  base.CustomDriver -Current URL is :: https://opensource-demo.orangehrmlive.com/index.php/leave/viewLeaveEntitlements/savedsearch/1
+09:14:26.286 INFO  base.CheckPoint -test-add-entitlement.Add Leave Entitlement Verification :-> PASS
+09:14:26.287 INFO  base.CheckPoint -Test Method Successful
+09:14:26.287 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
+09:14:26.287 INFO  base.CheckPoint -Clearing Results Hash Map
+09:14:27.202 INFO  base.CustomDriver -Clicked On :: Leave Link
+09:14:27.856 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+09:14:27.856 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+09:14:29.945 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Ru
+09:14:30.093 INFO  base.CustomDriver -Clicked On :: Element Selected
+09:14:30.093 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+09:14:32.137 INFO  base.CustomDriver -Selected option : FMLA US
+09:14:32.174 INFO  base.CustomDriver -Selected option : 2020-01-01 - 2020-12-31
+09:14:32.248 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 30
+09:14:32.317 INFO  base.CustomDriver -Clicked On :: Save Button
+09:14:32.325 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
+09:14:32.325 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
+09:14:32.325 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+09:14:37.405 INFO  base.CustomDriver -Clicked On :: Popup Confirm Button
+09:14:37.406 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+09:14:42.449 INFO  base.CustomDriver -Element :: Total displayed is displayed
+09:14:42.453 INFO  base.CustomDriver -Current URL is :: https://opensource-demo.orangehrmlive.com/index.php/leave/viewLeaveEntitlements/savedsearch/1
+09:14:42.453 INFO  base.CheckPoint -test-add-entitlement.Add Leave Entitlement Verification :-> PASS
+09:14:42.453 INFO  base.CheckPoint -Test Method Successful
+09:14:42.453 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
+09:14:42.464 INFO  base.CustomDriver -Element List found with: id=>welcome
+09:14:42.464 INFO  utilities.Util -Size of list :: 1
+09:14:42.464 INFO  utilities.Util -List is not empty
+09:14:42.531 INFO  base.CustomDriver -Clicked On :: User Account Icon
+09:14:42.535 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
+09:14:43.102 INFO  base.CustomDriver -Element appeared on the web page
+09:14:44.071 INFO  base.CustomDriver -Clicked on :: Logout Link
+09:14:44.186 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+09:17:52.392 INFO  utilities.Util -Current Date and Time :: 06_06_2020 09_17_52
+09:17:52.398 INFO  utilities.ExtentManager -*********** Report Path ***********
+09:17:52.398 INFO  utilities.ExtentManager -/Users/anupamadhir/workspace/orangehrm/reports/AutomationReport_06_06_2020 09_17_52.html
+09:17:52.398 INFO  utilities.ExtentManager -*********** Report Path ***********
+09:17:52.655 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+09:17:52.655 INFO  base.TestListeners -These methods will be executed in this <test> tag
+09:17:52.655 INFO  base.TestListeners -testAddLeave
+09:17:52.656 INFO  base.TestListeners -testLogin
+09:17:52.688 INFO  base.WebDriverFactory -OS Name from system property :: mac
+09:17:52.688 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+09:17:57.445 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: Admin
+09:17:57.526 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: admin123
+09:18:02.835 INFO  base.CustomDriver -Clicked On :: Login Button
+09:18:03.206 INFO  base.CheckPoint -Clearing Results Hash Map
+09:18:03.233 INFO  utilities.Util -Actual Text From Web Application UI   --> : Leave
+09:18:03.233 INFO  utilities.Util -Expected Text From Web Application UI --> : Leave
+09:18:03.233 INFO  utilities.Util -### Verification Contains !!!
+09:18:03.233 INFO  base.CheckPoint -test-01.header verification :-> PASS
+09:18:03.247 INFO  base.CustomDriver -Element List found with: id=>welcome
+09:18:03.247 INFO  utilities.Util -Size of list :: 1
+09:18:03.247 INFO  utilities.Util -List is not empty
+09:18:03.247 INFO  base.CheckPoint -test-01.login verification :-> PASS
+09:18:03.247 INFO  base.CheckPoint -Test Method Successful
+09:18:03.248 INFO  base.CheckPoint -Test Method Successful
+09:18:03.249 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
+09:18:03.270 INFO  base.CheckPoint -Clearing Results Hash Map
+09:18:05.351 INFO  base.CustomDriver -Clicked On :: Leave Link
+09:18:06.307 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+09:18:06.308 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+09:18:08.417 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Ru
+09:18:08.454 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+09:18:10.506 INFO  base.CustomDriver -Selected option : FMLA US
+09:18:10.550 INFO  base.CustomDriver -Selected option : 2020-01-01 - 2020-12-31
+09:18:10.628 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 20
+09:18:10.704 INFO  base.CustomDriver -Clicked On :: Save Button
+09:18:10.715 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
+09:18:10.715 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
+09:18:10.715 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+09:18:15.745 ERROR base.CustomDriver -Element not found with: id=>dialogUpdateEntitlementConfirmBtn
+09:18:15.747 ERROR base.CustomDriver -Cannot click on :: Popup Confirm Button
+09:18:15.747 INFO  utilities.Util -Current Date and Time :: 06_06_2020 09_18_15
+09:18:15.754 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+09:18:20.767 ERROR base.CustomDriver -Element not found with: css=>tr[class='total'] td:nth-child(2)
+09:18:20.780 INFO  base.TestListeners -onTestFailure -> Test Method Name: testAddLeave
+09:18:20.780 INFO  base.WebDriverFactory -OS Name from system property :: mac
+09:18:20.781 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+09:18:20.781 INFO  utilities.Util -Current Date and Time :: 06_06_2020 09_18_20
+09:18:20.792 INFO  base.CheckPoint -Clearing Results Hash Map
+09:18:20.800 ERROR base.CustomDriver -Element not found with: id=>menu_leave_viewLeaveModule
+09:18:20.801 ERROR base.CustomDriver -Cannot click on :: Leave Link
+09:18:20.801 INFO  utilities.Util -Current Date and Time :: 06_06_2020 09_18_20
+09:18:20.814 ERROR base.CustomDriver -Element not found with: xpath=>//a[@id='menu_leave_Entitlements']
+09:18:20.816 INFO  base.TestListeners -onTestFailure -> Test Method Name: testAddLeave
+09:18:20.817 INFO  base.WebDriverFactory -OS Name from system property :: mac
+09:18:20.817 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+09:18:20.818 INFO  utilities.Util -Current Date and Time :: 06_06_2020 09_18_20
+09:18:20.834 ERROR base.CustomDriver -Element List not found with: id=>welcome
+09:18:20.835 INFO  utilities.Util -Size of list :: 0
+09:18:20.835 ERROR utilities.Util -List is empty
+09:18:20.932 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+09:19:56.916 INFO  utilities.Util -Current Date and Time :: 06_06_2020 09_19_56
+09:19:56.921 INFO  utilities.ExtentManager -*********** Report Path ***********
+09:19:56.922 INFO  utilities.ExtentManager -/Users/anupamadhir/workspace/orangehrm/reports/AutomationReport_06_06_2020 09_19_56.html
+09:19:56.922 INFO  utilities.ExtentManager -*********** Report Path ***********
+09:19:57.174 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+09:19:57.174 INFO  base.TestListeners -These methods will be executed in this <test> tag
+09:19:57.174 INFO  base.TestListeners -testAddLeave
+09:19:57.174 INFO  base.TestListeners -testLogin
+09:19:57.201 INFO  base.WebDriverFactory -OS Name from system property :: mac
+09:19:57.202 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+09:20:02.948 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: Admin
+09:20:03.035 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: admin123
+09:20:08.030 INFO  base.CustomDriver -Clicked On :: Login Button
+09:20:08.405 INFO  base.CheckPoint -Clearing Results Hash Map
+09:20:08.435 INFO  utilities.Util -Actual Text From Web Application UI   --> : Leave
+09:20:08.435 INFO  utilities.Util -Expected Text From Web Application UI --> : Leave
+09:20:08.435 INFO  utilities.Util -### Verification Contains !!!
+09:20:08.435 INFO  base.CheckPoint -test-01.header verification :-> PASS
+09:20:08.449 INFO  base.CustomDriver -Element List found with: id=>welcome
+09:20:08.449 INFO  utilities.Util -Size of list :: 1
+09:20:08.449 INFO  utilities.Util -List is not empty
+09:20:08.449 INFO  base.CheckPoint -test-01.login verification :-> PASS
+09:20:08.449 INFO  base.CheckPoint -Test Method Successful
+09:20:08.450 INFO  base.CheckPoint -Test Method Successful
+09:20:08.451 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
+09:20:08.469 INFO  base.CheckPoint -Clearing Results Hash Map
+09:20:10.489 INFO  base.CustomDriver -Clicked On :: Leave Link
+09:20:11.337 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+09:20:11.338 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+09:20:13.440 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Ru
+09:20:13.591 INFO  base.CustomDriver -Clicked On :: Element Selected
+09:20:13.591 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+09:20:15.642 INFO  base.CustomDriver -Selected option : FMLA US
+09:20:15.683 INFO  base.CustomDriver -Selected option : 2020-01-01 - 2020-12-31
+09:20:15.759 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 20
+09:20:15.826 INFO  base.CustomDriver -Clicked On :: Save Button
+09:20:15.837 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
+09:20:15.838 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
+09:20:15.838 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+09:20:20.915 INFO  base.CustomDriver -Clicked On :: Popup Confirm Button
+09:20:20.915 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+09:20:25.956 INFO  base.CustomDriver -Element :: Total displayed is displayed
+09:20:25.960 INFO  base.CustomDriver -Current URL is :: https://opensource-demo.orangehrmlive.com/index.php/leave/viewLeaveEntitlements/savedsearch/1
+09:20:25.960 INFO  base.CheckPoint -test-add-entitlement.Add Leave Entitlement Verification :-> PASS
+09:20:25.960 INFO  base.CheckPoint -Test Method Successful
+09:20:25.960 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
+09:20:25.961 INFO  base.CheckPoint -Clearing Results Hash Map
+09:20:26.800 INFO  base.CustomDriver -Clicked On :: Leave Link
+09:20:27.468 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+09:20:27.468 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+09:20:29.563 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Ru
+09:20:29.709 INFO  base.CustomDriver -Clicked On :: Element Selected
+09:20:29.709 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+09:20:31.752 INFO  base.CustomDriver -Selected option : FMLA US
+09:20:31.788 INFO  base.CustomDriver -Selected option : 2020-01-01 - 2020-12-31
+09:20:31.862 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 30
+09:20:31.934 INFO  base.CustomDriver -Clicked On :: Save Button
+09:20:31.943 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
+09:20:31.943 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
+09:20:31.943 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+09:20:37.023 INFO  base.CustomDriver -Clicked On :: Popup Confirm Button
+09:20:37.023 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+09:20:42.066 INFO  base.CustomDriver -Element :: Total displayed is displayed
+09:20:42.069 INFO  base.CustomDriver -Current URL is :: https://opensource-demo.orangehrmlive.com/index.php/leave/viewLeaveEntitlements/savedsearch/1
+09:20:42.070 INFO  base.CheckPoint -test-add-entitlement.Add Leave Entitlement Verification :-> PASS
+09:20:42.070 INFO  base.CheckPoint -Test Method Successful
+09:20:42.070 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
+09:20:42.080 INFO  base.CustomDriver -Element List found with: id=>welcome
+09:20:42.080 INFO  utilities.Util -Size of list :: 1
+09:20:42.081 INFO  utilities.Util -List is not empty
+09:20:42.150 INFO  base.CustomDriver -Clicked On :: User Account Icon
+09:20:42.153 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
+09:20:42.717 INFO  base.CustomDriver -Element appeared on the web page
+09:20:43.709 INFO  base.CustomDriver -Clicked on :: Logout Link
+09:20:43.829 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+09:21:03.810 INFO  utilities.Util -Current Date and Time :: 06_06_2020 09_21_03
+09:21:03.816 INFO  utilities.ExtentManager -*********** Report Path ***********
+09:21:03.816 INFO  utilities.ExtentManager -/Users/anupamadhir/workspace/orangehrm/reports/AutomationReport_06_06_2020 09_21_03.html
+09:21:03.816 INFO  utilities.ExtentManager -*********** Report Path ***********
+09:21:04.056 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+09:21:04.066 INFO  base.TestListeners -These methods will be executed in this <test> tag
+09:21:04.066 INFO  base.TestListeners -testAddLeave
+09:21:04.066 INFO  base.TestListeners -testLogin
+09:21:04.104 INFO  base.WebDriverFactory -OS Name from system property :: mac
+09:21:04.104 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+09:21:09.093 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: Admin
+09:21:09.182 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: admin123
+09:21:14.121 INFO  base.CustomDriver -Clicked On :: Login Button
+09:21:14.501 INFO  base.CheckPoint -Clearing Results Hash Map
+09:21:14.527 INFO  utilities.Util -Actual Text From Web Application UI   --> : Leave
+09:21:14.527 INFO  utilities.Util -Expected Text From Web Application UI --> : Leave
+09:21:14.527 INFO  utilities.Util -### Verification Contains !!!
+09:21:14.527 INFO  base.CheckPoint -test-01.header verification :-> PASS
+09:21:14.540 INFO  base.CustomDriver -Element List found with: id=>welcome
+09:21:14.540 INFO  utilities.Util -Size of list :: 1
+09:21:14.540 INFO  utilities.Util -List is not empty
+09:21:14.540 INFO  base.CheckPoint -test-01.login verification :-> PASS
+09:21:14.540 INFO  base.CheckPoint -Test Method Successful
+09:21:14.541 INFO  base.CheckPoint -Test Method Successful
+09:21:14.542 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
+09:21:14.566 INFO  base.CheckPoint -Clearing Results Hash Map
+09:21:16.338 INFO  base.CustomDriver -Clicked On :: Leave Link
+09:21:17.290 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+09:21:17.291 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+09:21:19.408 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russel
+09:21:19.566 INFO  base.CustomDriver -Clicked On :: Element Selected
+09:21:19.566 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+09:21:21.618 INFO  base.CustomDriver -Selected option : FMLA US
+09:21:21.660 INFO  base.CustomDriver -Selected option : 2020-01-01 - 2020-12-31
+09:21:21.734 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 20
+09:21:21.800 INFO  base.CustomDriver -Clicked On :: Save Button
+09:21:21.810 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
+09:21:21.810 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
+09:21:21.810 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+09:21:26.889 INFO  base.CustomDriver -Clicked On :: Popup Confirm Button
+09:21:26.889 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+09:21:31.929 INFO  base.CustomDriver -Element :: Total displayed is displayed
+09:21:31.934 INFO  base.CustomDriver -Current URL is :: https://opensource-demo.orangehrmlive.com/index.php/leave/viewLeaveEntitlements/savedsearch/1
+09:21:31.934 INFO  base.CheckPoint -test-add-entitlement.Add Leave Entitlement Verification :-> PASS
+09:21:31.934 INFO  base.CheckPoint -Test Method Successful
+09:21:31.935 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
+09:21:31.935 INFO  base.CheckPoint -Clearing Results Hash Map
+09:21:33.003 INFO  base.CustomDriver -Clicked On :: Leave Link
+09:21:33.665 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+09:21:33.665 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+09:21:35.767 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russel
+09:21:35.897 INFO  base.CustomDriver -Clicked On :: Element Selected
+09:21:35.897 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+09:21:37.943 INFO  base.CustomDriver -Selected option : FMLA US
+09:21:37.980 INFO  base.CustomDriver -Selected option : 2020-01-01 - 2020-12-31
+09:21:38.052 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 30
+09:21:38.128 INFO  base.CustomDriver -Clicked On :: Save Button
+09:21:38.136 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
+09:21:38.136 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
+09:21:38.137 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+09:21:43.219 INFO  base.CustomDriver -Clicked On :: Popup Confirm Button
+09:21:43.219 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+09:21:48.261 INFO  base.CustomDriver -Element :: Total displayed is displayed
+09:21:48.265 INFO  base.CustomDriver -Current URL is :: https://opensource-demo.orangehrmlive.com/index.php/leave/viewLeaveEntitlements/savedsearch/1
+09:21:48.265 INFO  base.CheckPoint -test-add-entitlement.Add Leave Entitlement Verification :-> PASS
+09:21:48.265 INFO  base.CheckPoint -Test Method Successful
+09:21:48.265 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
+09:21:48.276 INFO  base.CustomDriver -Element List found with: id=>welcome
+09:21:48.277 INFO  utilities.Util -Size of list :: 1
+09:21:48.277 INFO  utilities.Util -List is not empty
+09:21:48.341 INFO  base.CustomDriver -Clicked On :: User Account Icon
+09:21:48.344 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
+09:21:48.909 INFO  base.CustomDriver -Element appeared on the web page
+09:21:49.961 INFO  base.CustomDriver -Clicked on :: Logout Link
+09:21:50.064 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+09:23:18.582 INFO  utilities.Util -Current Date and Time :: 06_06_2020 09_23_18
+09:23:18.588 INFO  utilities.ExtentManager -*********** Report Path ***********
+09:23:18.588 INFO  utilities.ExtentManager -/Users/anupamadhir/workspace/orangehrm/reports/AutomationReport_06_06_2020 09_23_18.html
+09:23:18.589 INFO  utilities.ExtentManager -*********** Report Path ***********
+09:23:18.822 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+09:23:18.822 INFO  base.TestListeners -These methods will be executed in this <test> tag
+09:23:18.822 INFO  base.TestListeners -testAddLeave
+09:23:18.822 INFO  base.TestListeners -testLogin
+09:23:18.852 INFO  base.WebDriverFactory -OS Name from system property :: mac
+09:23:18.852 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+09:23:24.264 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: Admin
+09:23:24.352 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: admin123
+09:23:31.546 INFO  base.CustomDriver -Clicked On :: Login Button
+09:23:31.918 INFO  base.CheckPoint -Clearing Results Hash Map
+09:23:31.945 INFO  utilities.Util -Actual Text From Web Application UI   --> : Leave
+09:23:31.945 INFO  utilities.Util -Expected Text From Web Application UI --> : Leave
+09:23:31.945 INFO  utilities.Util -### Verification Contains !!!
+09:23:31.945 INFO  base.CheckPoint -test-01.header verification :-> PASS
+09:23:31.958 INFO  base.CustomDriver -Element List found with: id=>welcome
+09:23:31.958 INFO  utilities.Util -Size of list :: 1
+09:23:31.959 INFO  utilities.Util -List is not empty
+09:23:31.959 INFO  base.CheckPoint -test-01.login verification :-> PASS
+09:23:31.959 INFO  base.CheckPoint -Test Method Successful
+09:23:31.960 INFO  base.CheckPoint -Test Method Successful
+09:23:31.960 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
+09:23:31.981 INFO  base.CheckPoint -Clearing Results Hash Map
+09:23:33.831 INFO  base.CustomDriver -Clicked On :: Leave Link
+09:23:34.817 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+09:23:34.818 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+09:23:36.961 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russel Hamilton
+09:23:37.057 INFO  base.CustomDriver -Clicked On :: Element Selected
+09:23:37.057 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+09:23:39.108 INFO  base.CustomDriver -Selected option : FMLA US
+09:23:39.150 INFO  base.CustomDriver -Selected option : 2020-01-01 - 2020-12-31
+09:23:39.224 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 20
+09:23:39.295 INFO  base.CustomDriver -Clicked On :: Save Button
+09:23:39.306 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
+09:23:39.306 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
+09:23:39.306 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+09:23:44.384 INFO  base.CustomDriver -Clicked On :: Popup Confirm Button
+09:23:44.386 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+09:23:49.427 INFO  base.CustomDriver -Element :: Total displayed is displayed
+09:23:49.431 INFO  base.CustomDriver -Current URL is :: https://opensource-demo.orangehrmlive.com/index.php/leave/viewLeaveEntitlements/savedsearch/1
+09:23:49.431 INFO  base.CheckPoint -test-add-entitlement.Add Leave Entitlement Verification :-> PASS
+09:23:49.431 INFO  base.CheckPoint -Test Method Successful
+09:23:49.431 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
+09:23:49.432 INFO  base.CheckPoint -Clearing Results Hash Map
+09:23:50.326 INFO  base.CustomDriver -Clicked On :: Leave Link
+09:23:50.940 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+09:23:50.940 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+09:23:53.076 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russel Hamilton
+09:23:53.225 INFO  base.CustomDriver -Clicked On :: Element Selected
+09:23:53.225 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+09:23:55.271 INFO  base.CustomDriver -Selected option : FMLA US
+09:23:55.313 INFO  base.CustomDriver -Selected option : 2020-01-01 - 2020-12-31
+09:23:55.388 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 30
+09:23:55.466 INFO  base.CustomDriver -Clicked On :: Save Button
+09:23:55.477 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
+09:23:55.477 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
+09:23:55.477 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+09:24:00.558 INFO  base.CustomDriver -Clicked On :: Popup Confirm Button
+09:24:00.560 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+09:24:05.611 INFO  base.CustomDriver -Element :: Total displayed is displayed
+09:24:05.614 INFO  base.CustomDriver -Current URL is :: https://opensource-demo.orangehrmlive.com/index.php/leave/viewLeaveEntitlements/savedsearch/1
+09:24:05.615 INFO  base.CheckPoint -test-add-entitlement.Add Leave Entitlement Verification :-> PASS
+09:24:05.615 INFO  base.CheckPoint -Test Method Successful
+09:24:05.615 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
+09:24:05.626 INFO  base.CustomDriver -Element List found with: id=>welcome
+09:24:05.626 INFO  utilities.Util -Size of list :: 1
+09:24:05.626 INFO  utilities.Util -List is not empty
+09:24:05.693 INFO  base.CustomDriver -Clicked On :: User Account Icon
+09:24:05.697 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
+09:24:06.264 INFO  base.CustomDriver -Element appeared on the web page
+09:24:07.284 INFO  base.CustomDriver -Clicked on :: Logout Link
+09:24:07.391 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test

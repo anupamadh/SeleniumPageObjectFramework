@@ -19,8 +19,8 @@ public class NavigationPage extends BasePage {
     public WebDriver driver;
     private JavascriptExecutor js;
     private final String URL = "https://opensource-demo.orangehrmlive.com/index.php/dashboard";
-    private String WELCOME_ICON = "xpath=>//a[contains(text(), 'Welcome')]";
-    private String LOGOUT_LINK = "xpath=>//a[@href='/logout']";
+    private String WELCOME_ICON = "id=>welcome";
+    private String LOGOUT_LINK = "xpath=>//a[contains(@href,'logout')]";
     private String LEAVE_LINK = "id=>menu_leave_viewLeaveModule";
     private String ENTITLEMENTS_LINK = "xpath=>//a[@id='menu_leave_Entitlements']";
     private String ADD_ENITLEMENTS_LINK = "xpath=>//a[contains(text(),'Add Entitlements')]";
