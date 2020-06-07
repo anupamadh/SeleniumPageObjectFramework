@@ -1,0 +1,1246 @@
+10:29:04.524 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
+10:29:05.079 INFO  base.CustomDriver -Element appeared on the web page
+10:29:05.934 INFO  base.CustomDriver -Clicked on :: Logout Link
+10:29:06.042 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+10:33:48.206 INFO  utilities.Util -Current Date and Time :: 06_07_2020 10_33_48
+10:33:48.211 INFO  utilities.ExtentManager -*********** Report Path ***********
+10:33:48.211 INFO  utilities.ExtentManager -/Users/anupamadhir/workspace/orangehrm/reports/AutomationReport_06_07_2020 10_33_48.html
+10:33:48.211 INFO  utilities.ExtentManager -*********** Report Path ***********
+10:33:48.447 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+10:33:48.462 INFO  base.TestListeners -These methods will be executed in this <test> tag
+10:33:48.462 INFO  base.TestListeners -testAddLeave
+10:33:48.462 INFO  base.TestListeners -testAssignLeave
+10:33:48.462 INFO  base.TestListeners -testLogin
+10:33:48.496 INFO  base.WebDriverFactory -OS Name from system property :: mac
+10:33:48.496 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+10:33:53.438 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: Admin
+10:33:53.522 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: admin123
+10:33:58.772 INFO  base.CustomDriver -Clicked On :: Login Button
+10:33:59.164 INFO  base.CheckPoint -Clearing Results Hash Map
+10:33:59.195 INFO  utilities.Util -Actual Text From Web Application UI   --> : Leave
+10:33:59.216 INFO  utilities.Util -Expected Text From Web Application UI --> : Leave
+10:33:59.217 INFO  utilities.Util -### Verification Contains !!!
+10:33:59.217 INFO  base.CheckPoint -test-01.header verification :-> PASS
+10:33:59.233 INFO  base.CustomDriver -Element List found with: id=>welcome
+10:33:59.233 INFO  utilities.Util -Size of list :: 1
+10:33:59.233 INFO  utilities.Util -List is not empty
+10:33:59.233 INFO  base.CheckPoint -test-01.login verification :-> PASS
+10:33:59.233 INFO  base.CheckPoint -Test Method Successful
+10:33:59.235 INFO  base.CheckPoint -Test Method Successful
+10:33:59.235 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
+10:33:59.274 INFO  base.CheckPoint -Clearing Results Hash Map
+10:34:01.301 INFO  base.CustomDriver -Clicked On :: Leave Link
+10:34:02.254 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+10:34:02.255 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+10:34:04.387 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russel Hamilton
+10:34:04.529 INFO  base.CustomDriver -Clicked On :: Element Selected
+10:34:04.529 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+10:34:06.580 INFO  base.CustomDriver -Selected option : FMLA US
+10:34:06.622 INFO  base.CustomDriver -Selected option : 2020-01-01 - 2020-12-31
+10:34:06.695 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 20
+10:34:06.766 INFO  base.CustomDriver -Clicked On :: Save Button
+10:34:06.776 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
+10:34:06.776 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
+10:34:06.776 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+10:34:11.854 INFO  base.CustomDriver -Clicked On :: Popup Confirm Button
+10:34:11.854 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+10:34:16.890 INFO  base.CustomDriver -Element :: Total displayed is displayed
+10:34:16.894 INFO  base.CustomDriver -Current URL is :: https://opensource-demo.orangehrmlive.com/index.php/leave/viewLeaveEntitlements/savedsearch/1
+10:34:16.894 INFO  base.CheckPoint -test-add-entitlement.Add Leave Entitlement Verification :-> PASS
+10:34:16.894 INFO  base.CheckPoint -Test Method Successful
+10:34:16.894 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
+10:34:16.895 INFO  base.CheckPoint -Clearing Results Hash Map
+10:34:18.092 INFO  base.CustomDriver -Clicked On :: Leave Link
+10:34:18.720 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+10:34:18.720 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+10:34:20.841 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russel Hamilton
+10:34:20.982 INFO  base.CustomDriver -Clicked On :: Element Selected
+10:34:20.982 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+10:34:23.029 INFO  base.CustomDriver -Selected option : FMLA US
+10:34:23.067 INFO  base.CustomDriver -Selected option : 2020-01-01 - 2020-12-31
+10:34:23.138 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 30
+10:34:23.207 INFO  base.CustomDriver -Clicked On :: Save Button
+10:34:23.216 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
+10:34:23.216 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
+10:34:23.216 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+10:34:28.297 INFO  base.CustomDriver -Clicked On :: Popup Confirm Button
+10:34:28.297 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+10:34:33.338 INFO  base.CustomDriver -Element :: Total displayed is displayed
+10:34:33.342 INFO  base.CustomDriver -Current URL is :: https://opensource-demo.orangehrmlive.com/index.php/leave/viewLeaveEntitlements/savedsearch/1
+10:34:33.342 INFO  base.CheckPoint -test-add-entitlement.Add Leave Entitlement Verification :-> PASS
+10:34:33.342 INFO  base.CheckPoint -Test Method Successful
+10:34:33.342 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
+10:34:33.345 INFO  base.CheckPoint -Clearing Results Hash Map
+10:34:34.652 INFO  base.CustomDriver -Clicked On :: Leave Link
+10:34:35.442 INFO  base.CustomDriver -Clicked On :: Click on Assign Link
+10:34:35.443 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+10:34:37.597 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russel Hamilton
+10:34:38.775 ERROR base.CustomDriver -Cannot click on :: Element Selected
+10:34:38.775 INFO  utilities.Util -Current Date and Time :: 06_07_2020 10_34_38
+10:34:39.108 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/_Click ERROR_06_07_2020 10_34_38.png
+10:34:39.184 INFO  base.CustomDriver -Selected option : FMLA US
+10:34:39.265 INFO  base.CustomDriver -Clicked On :: Click on From Date Field
+10:34:39.386 INFO  base.CustomDriver -Send Keys on element :: Leave From Date with data :: 2020-06-12
+10:34:39.439 INFO  base.CustomDriver -Clicked On :: Click on From Date Field
+10:34:39.443 INFO  base.CustomDriver -Waiting for max:: 5 seconds for element to be clickable
+10:34:39.491 INFO  base.CustomDriver -Element is clickable on the web page
+10:34:40.570 ERROR base.CustomDriver -Cannot click on :: Click on To Date Field
+10:34:40.570 INFO  utilities.Util -Current Date and Time :: 06_07_2020 10_34_40
+10:34:40.866 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/_Click ERROR_06_07_2020 10_34_40.png
+10:34:40.999 INFO  base.CustomDriver -Send Keys on element :: Leave To Date with data :: 2020-06-19
+10:34:41.039 INFO  base.CustomDriver -Clicked On :: Click on To Field
+10:34:41.043 INFO  base.CustomDriver -Waiting for max:: 5 seconds for element to be clickable
+10:34:41.600 INFO  base.CustomDriver -Element is clickable on the web page
+10:34:42.336 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep 3 seconds
+10:34:47.341 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAssignLeave
+10:34:47.355 INFO  base.CustomDriver -Element List found with: id=>welcome
+10:34:47.356 INFO  utilities.Util -Size of list :: 1
+10:34:47.356 INFO  utilities.Util -List is not empty
+10:34:47.403 INFO  base.CustomDriver -Clicked On :: User Account Icon
+10:34:47.406 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
+10:34:47.956 INFO  base.CustomDriver -Element appeared on the web page
+10:34:48.954 INFO  base.CustomDriver -Clicked on :: Logout Link
+10:34:49.047 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+10:35:46.993 INFO  utilities.Util -Current Date and Time :: 06_07_2020 10_35_46
+10:35:47.001 INFO  utilities.ExtentManager -*********** Report Path ***********
+10:35:47.001 INFO  utilities.ExtentManager -/Users/anupamadhir/workspace/orangehrm/reports/AutomationReport_06_07_2020 10_35_46.html
+10:35:47.001 INFO  utilities.ExtentManager -*********** Report Path ***********
+10:35:47.225 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+10:35:47.226 INFO  base.TestListeners -These methods will be executed in this <test> tag
+10:35:47.226 INFO  base.TestListeners -testAddLeave
+10:35:47.226 INFO  base.TestListeners -testAssignLeave
+10:35:47.226 INFO  base.TestListeners -testLogin
+10:35:47.248 INFO  base.WebDriverFactory -OS Name from system property :: mac
+10:35:47.248 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+10:35:52.323 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: Admin
+10:35:52.409 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: admin123
+10:35:57.763 INFO  base.CustomDriver -Clicked On :: Login Button
+10:35:58.138 INFO  base.CheckPoint -Clearing Results Hash Map
+10:35:58.163 INFO  utilities.Util -Actual Text From Web Application UI   --> : Leave
+10:35:58.163 INFO  utilities.Util -Expected Text From Web Application UI --> : Leave
+10:35:58.163 INFO  utilities.Util -### Verification Contains !!!
+10:35:58.164 INFO  base.CheckPoint -test-01.header verification :-> PASS
+10:35:58.177 INFO  base.CustomDriver -Element List found with: id=>welcome
+10:35:58.177 INFO  utilities.Util -Size of list :: 1
+10:35:58.177 INFO  utilities.Util -List is not empty
+10:35:58.177 INFO  base.CheckPoint -test-01.login verification :-> PASS
+10:35:58.178 INFO  base.CheckPoint -Test Method Successful
+10:35:58.179 INFO  base.CheckPoint -Test Method Successful
+10:35:58.179 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
+10:35:58.210 INFO  base.CheckPoint -Clearing Results Hash Map
+10:36:00.257 INFO  base.CustomDriver -Clicked On :: Leave Link
+10:36:01.243 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+10:36:01.244 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+10:36:03.375 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russel Hamilton
+10:36:03.519 INFO  base.CustomDriver -Clicked On :: Element Selected
+10:36:03.519 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+10:36:05.567 INFO  base.CustomDriver -Selected option : FMLA US
+10:36:05.609 INFO  base.CustomDriver -Selected option : 2020-01-01 - 2020-12-31
+10:36:05.683 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 20
+10:36:05.735 INFO  base.CustomDriver -Clicked On :: Save Button
+10:36:05.747 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
+10:36:05.747 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
+10:36:05.747 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+10:36:10.804 INFO  base.CustomDriver -Clicked On :: Popup Confirm Button
+10:36:10.804 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+10:36:15.845 INFO  base.CustomDriver -Element :: Total displayed is displayed
+10:36:15.848 INFO  base.CustomDriver -Current URL is :: https://opensource-demo.orangehrmlive.com/index.php/leave/viewLeaveEntitlements/savedsearch/1
+10:36:15.848 INFO  base.CheckPoint -test-add-entitlement.Add Leave Entitlement Verification :-> PASS
+10:36:15.848 INFO  base.CheckPoint -Test Method Successful
+10:36:15.849 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
+10:36:15.849 INFO  base.CheckPoint -Clearing Results Hash Map
+10:36:17.160 INFO  base.CustomDriver -Clicked On :: Leave Link
+10:36:17.804 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+10:36:17.804 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+10:36:19.929 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russel Hamilton
+10:36:20.069 INFO  base.CustomDriver -Clicked On :: Element Selected
+10:36:20.069 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+10:36:22.113 INFO  base.CustomDriver -Selected option : FMLA US
+10:36:22.149 INFO  base.CustomDriver -Selected option : 2020-01-01 - 2020-12-31
+10:36:22.217 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 30
+10:36:22.280 INFO  base.CustomDriver -Clicked On :: Save Button
+10:36:22.288 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
+10:36:22.288 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
+10:36:22.288 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+10:36:27.347 INFO  base.CustomDriver -Clicked On :: Popup Confirm Button
+10:36:27.347 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+10:36:32.388 INFO  base.CustomDriver -Element :: Total displayed is displayed
+10:36:32.392 INFO  base.CustomDriver -Current URL is :: https://opensource-demo.orangehrmlive.com/index.php/leave/viewLeaveEntitlements/savedsearch/1
+10:36:32.392 INFO  base.CheckPoint -test-add-entitlement.Add Leave Entitlement Verification :-> PASS
+10:36:32.392 INFO  base.CheckPoint -Test Method Successful
+10:36:32.393 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
+10:36:32.396 INFO  base.CheckPoint -Clearing Results Hash Map
+10:36:33.651 INFO  base.CustomDriver -Clicked On :: Leave Link
+10:36:34.397 INFO  base.CustomDriver -Clicked On :: Click on Assign Link
+10:36:34.397 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+10:36:36.558 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russel Hamilton
+10:36:37.732 ERROR base.CustomDriver -Cannot click on :: Element Selected
+10:36:37.733 INFO  utilities.Util -Current Date and Time :: 06_07_2020 10_36_37
+10:36:38.067 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/_Click ERROR_06_07_2020 10_36_37.png
+10:36:38.136 INFO  base.CustomDriver -Selected option : FMLA US
+10:36:38.215 INFO  base.CustomDriver -Clicked On :: Click on From Date Field
+10:36:38.334 INFO  base.CustomDriver -Send Keys on element :: Leave From Date with data :: 2020-06-12
+10:36:38.378 INFO  base.CustomDriver -Clicked On :: Click on From Date Field
+10:36:38.382 INFO  base.CustomDriver -Waiting for max:: 5 seconds for element to be clickable
+10:36:38.427 INFO  base.CustomDriver -Element is clickable on the web page
+10:36:39.508 ERROR base.CustomDriver -Cannot click on :: Click on To Date Field
+10:36:39.509 INFO  utilities.Util -Current Date and Time :: 06_07_2020 10_36_39
+10:36:39.803 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/_Click ERROR_06_07_2020 10_36_39.png
+10:36:39.938 INFO  base.CustomDriver -Send Keys on element :: Leave To Date with data :: 2020-06-19
+10:36:39.975 INFO  base.CustomDriver -Clicked On :: Click on To Field
+10:36:39.979 INFO  base.CustomDriver -Waiting for max:: 5 seconds for element to be clickable
+10:36:40.531 INFO  base.CustomDriver -Element is clickable on the web page
+10:36:40.561 INFO  base.TestListeners -onTestFailure -> Test Method Name: testAssignLeave
+10:36:40.561 INFO  base.WebDriverFactory -OS Name from system property :: mac
+10:36:40.561 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+10:36:40.562 INFO  utilities.Util -Current Date and Time :: 06_07_2020 10_36_40
+10:36:40.873 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/chrome_testAssignLeave_06_07_2020 10_36_40.png
+10:36:40.888 INFO  base.CustomDriver -Element List found with: id=>welcome
+10:36:40.888 INFO  utilities.Util -Size of list :: 1
+10:36:40.888 INFO  utilities.Util -List is not empty
+10:36:40.951 INFO  base.CustomDriver -Clicked On :: User Account Icon
+10:36:40.955 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
+10:36:41.504 INFO  base.CustomDriver -Element appeared on the web page
+10:36:42.516 INFO  base.CustomDriver -Clicked on :: Logout Link
+10:36:42.610 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+10:37:03.676 INFO  utilities.Util -Current Date and Time :: 06_07_2020 10_37_03
+10:37:03.680 INFO  utilities.ExtentManager -*********** Report Path ***********
+10:37:03.680 INFO  utilities.ExtentManager -/Users/anupamadhir/workspace/orangehrm/reports/AutomationReport_06_07_2020 10_37_03.html
+10:37:03.680 INFO  utilities.ExtentManager -*********** Report Path ***********
+10:37:03.906 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+10:37:03.906 INFO  base.TestListeners -These methods will be executed in this <test> tag
+10:37:03.906 INFO  base.TestListeners -testAddLeave
+10:37:03.906 INFO  base.TestListeners -testAssignLeave
+10:37:03.906 INFO  base.TestListeners -testLogin
+10:37:03.925 INFO  base.WebDriverFactory -OS Name from system property :: mac
+10:37:03.925 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+10:37:09.020 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: Admin
+10:37:09.105 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: admin123
+10:37:14.200 INFO  base.CustomDriver -Clicked On :: Login Button
+10:37:14.554 INFO  base.CheckPoint -Clearing Results Hash Map
+10:37:14.581 INFO  utilities.Util -Actual Text From Web Application UI   --> : Leave
+10:37:14.581 INFO  utilities.Util -Expected Text From Web Application UI --> : Leave
+10:37:14.581 INFO  utilities.Util -### Verification Contains !!!
+10:37:14.581 INFO  base.CheckPoint -test-01.header verification :-> PASS
+10:37:14.593 INFO  base.CustomDriver -Element List found with: id=>welcome
+10:37:14.593 INFO  utilities.Util -Size of list :: 1
+10:37:14.593 INFO  utilities.Util -List is not empty
+10:37:14.594 INFO  base.CheckPoint -test-01.login verification :-> PASS
+10:37:14.594 INFO  base.CheckPoint -Test Method Successful
+10:37:14.595 INFO  base.CheckPoint -Test Method Successful
+10:37:14.595 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
+10:37:14.624 INFO  base.CheckPoint -Clearing Results Hash Map
+10:37:16.685 INFO  base.CustomDriver -Clicked On :: Leave Link
+10:37:17.638 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+10:37:17.639 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+10:37:19.768 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russel Hamilton
+10:37:19.909 INFO  base.CustomDriver -Clicked On :: Element Selected
+10:37:19.910 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+10:37:21.960 INFO  base.CustomDriver -Selected option : FMLA US
+10:37:22.001 INFO  base.CustomDriver -Selected option : 2020-01-01 - 2020-12-31
+10:37:22.074 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 20
+10:37:22.148 INFO  base.CustomDriver -Clicked On :: Save Button
+10:37:22.160 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
+10:37:22.160 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
+10:37:22.160 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+10:37:27.236 INFO  base.CustomDriver -Clicked On :: Popup Confirm Button
+10:37:27.236 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+10:37:32.272 INFO  base.CustomDriver -Element :: Total displayed is displayed
+10:37:32.276 INFO  base.CustomDriver -Current URL is :: https://opensource-demo.orangehrmlive.com/index.php/leave/viewLeaveEntitlements/savedsearch/1
+10:37:32.276 INFO  base.CheckPoint -test-add-entitlement.Add Leave Entitlement Verification :-> PASS
+10:37:32.276 INFO  base.CheckPoint -Test Method Successful
+10:37:32.276 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
+10:37:32.277 INFO  base.CheckPoint -Clearing Results Hash Map
+10:37:33.556 INFO  base.CustomDriver -Clicked On :: Leave Link
+10:37:34.175 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+10:37:34.175 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+10:37:36.301 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russel Hamilton
+10:37:36.449 INFO  base.CustomDriver -Clicked On :: Element Selected
+10:37:36.449 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+10:37:38.493 INFO  base.CustomDriver -Selected option : FMLA US
+10:37:38.528 INFO  base.CustomDriver -Selected option : 2020-01-01 - 2020-12-31
+10:37:38.598 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 30
+10:37:38.673 INFO  base.CustomDriver -Clicked On :: Save Button
+10:37:38.681 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
+10:37:38.681 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
+10:37:38.681 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+10:37:43.763 INFO  base.CustomDriver -Clicked On :: Popup Confirm Button
+10:37:43.763 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+10:37:48.805 INFO  base.CustomDriver -Element :: Total displayed is displayed
+10:37:48.808 INFO  base.CustomDriver -Current URL is :: https://opensource-demo.orangehrmlive.com/index.php/leave/viewLeaveEntitlements/savedsearch/1
+10:37:48.809 INFO  base.CheckPoint -test-add-entitlement.Add Leave Entitlement Verification :-> PASS
+10:37:48.809 INFO  base.CheckPoint -Test Method Successful
+10:37:48.809 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
+10:37:48.812 INFO  base.CheckPoint -Clearing Results Hash Map
+10:37:49.995 INFO  base.CustomDriver -Clicked On :: Leave Link
+10:37:50.928 INFO  base.CustomDriver -Clicked On :: Click on Assign Link
+10:37:50.929 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+10:37:53.096 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russel Hamilton
+10:37:54.219 ERROR base.CustomDriver -Cannot click on :: Element Selected
+10:37:54.219 INFO  utilities.Util -Current Date and Time :: 06_07_2020 10_37_54
+10:37:54.545 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/_Click ERROR_06_07_2020 10_37_54.png
+10:37:54.612 INFO  base.CustomDriver -Selected option : FMLA US
+10:37:54.698 INFO  base.CustomDriver -Clicked On :: Click on From Date Field
+10:37:54.820 INFO  base.CustomDriver -Send Keys on element :: Leave From Date with data :: 2020-06-12
+10:37:54.874 INFO  base.CustomDriver -Clicked On :: Click on From Date Field
+10:37:54.882 INFO  base.CustomDriver -Waiting for max:: 5 seconds for element to be clickable
+10:37:54.922 INFO  base.CustomDriver -Element is clickable on the web page
+10:37:56.007 ERROR base.CustomDriver -Cannot click on :: Click on To Date Field
+10:37:56.008 INFO  utilities.Util -Current Date and Time :: 06_07_2020 10_37_56
+10:37:56.315 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/_Click ERROR_06_07_2020 10_37_56.png
+10:37:56.450 INFO  base.CustomDriver -Send Keys on element :: Leave To Date with data :: 2020-06-19
+10:37:56.488 INFO  base.CustomDriver -Clicked On :: Click on To Field
+10:37:56.491 INFO  base.CustomDriver -Waiting for max:: 5 seconds for element to be clickable
+10:37:57.047 INFO  base.CustomDriver -Element is clickable on the web page
+10:37:57.724 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep 3 seconds
+10:38:02.729 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAssignLeave
+10:38:02.743 INFO  base.CustomDriver -Element List found with: id=>welcome
+10:38:02.743 INFO  utilities.Util -Size of list :: 1
+10:38:02.743 INFO  utilities.Util -List is not empty
+10:38:02.802 INFO  base.CustomDriver -Clicked On :: User Account Icon
+10:38:02.804 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
+10:38:03.356 INFO  base.CustomDriver -Element appeared on the web page
+10:38:04.337 INFO  base.CustomDriver -Clicked on :: Logout Link
+10:38:04.428 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+10:39:17.412 INFO  utilities.Util -Current Date and Time :: 06_07_2020 10_39_17
+10:39:17.416 INFO  utilities.ExtentManager -*********** Report Path ***********
+10:39:17.416 INFO  utilities.ExtentManager -/Users/anupamadhir/workspace/orangehrm/reports/AutomationReport_06_07_2020 10_39_17.html
+10:39:17.416 INFO  utilities.ExtentManager -*********** Report Path ***********
+10:39:17.658 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+10:39:17.658 INFO  base.TestListeners -These methods will be executed in this <test> tag
+10:39:17.658 INFO  base.TestListeners -testAddLeave
+10:39:17.658 INFO  base.TestListeners -testAssignLeave
+10:39:17.658 INFO  base.TestListeners -testLogin
+10:39:17.683 INFO  base.WebDriverFactory -OS Name from system property :: mac
+10:39:17.683 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+10:39:22.557 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: Admin
+10:39:22.640 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: admin123
+10:39:27.248 INFO  base.CustomDriver -Clicked On :: Login Button
+10:39:27.596 INFO  base.CheckPoint -Clearing Results Hash Map
+10:39:28.812 INFO  utilities.Util -Actual Text From Web Application UI   --> : Leave
+10:39:28.812 INFO  utilities.Util -Expected Text From Web Application UI --> : Leave
+10:39:28.812 INFO  utilities.Util -### Verification Contains !!!
+10:39:28.812 INFO  base.CheckPoint -test-01.header verification :-> PASS
+10:39:28.825 INFO  base.CustomDriver -Element List found with: id=>welcome
+10:39:28.825 INFO  utilities.Util -Size of list :: 1
+10:39:28.825 INFO  utilities.Util -List is not empty
+10:39:28.825 INFO  base.CheckPoint -test-01.login verification :-> PASS
+10:39:28.825 INFO  base.CheckPoint -Test Method Successful
+10:39:28.827 INFO  base.CheckPoint -Test Method Successful
+10:39:28.827 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
+10:39:28.858 INFO  base.CheckPoint -Clearing Results Hash Map
+10:39:31.039 INFO  base.CustomDriver -Clicked On :: Leave Link
+10:39:32.090 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+10:39:32.091 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+10:39:34.222 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russel Hamilton
+10:39:34.368 INFO  base.CustomDriver -Clicked On :: Element Selected
+10:39:34.368 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+10:39:36.416 INFO  base.CustomDriver -Selected option : FMLA US
+10:39:36.458 INFO  base.CustomDriver -Selected option : 2020-01-01 - 2020-12-31
+10:39:36.531 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 20
+10:39:36.604 INFO  base.CustomDriver -Clicked On :: Save Button
+10:39:36.614 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
+10:39:36.614 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
+10:39:36.615 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+10:39:41.689 INFO  base.CustomDriver -Clicked On :: Popup Confirm Button
+10:39:41.689 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+10:39:46.726 INFO  base.CustomDriver -Element :: Total displayed is displayed
+10:39:46.730 INFO  base.CustomDriver -Current URL is :: https://opensource-demo.orangehrmlive.com/index.php/leave/viewLeaveEntitlements/savedsearch/1
+10:39:46.730 INFO  base.CheckPoint -test-add-entitlement.Add Leave Entitlement Verification :-> PASS
+10:39:46.730 INFO  base.CheckPoint -Test Method Successful
+10:39:46.730 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
+10:39:46.731 INFO  base.CheckPoint -Clearing Results Hash Map
+10:39:48.024 INFO  base.CustomDriver -Clicked On :: Leave Link
+10:39:48.626 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+10:39:48.626 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+10:39:50.760 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russel Hamilton
+10:39:50.904 INFO  base.CustomDriver -Clicked On :: Element Selected
+10:39:50.904 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+10:39:52.950 INFO  base.CustomDriver -Selected option : FMLA US
+10:39:52.992 INFO  base.CustomDriver -Selected option : 2020-01-01 - 2020-12-31
+10:39:53.068 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 30
+10:39:53.146 INFO  base.CustomDriver -Clicked On :: Save Button
+10:39:53.158 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
+10:39:53.158 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
+10:39:53.158 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+10:39:58.232 INFO  base.CustomDriver -Clicked On :: Popup Confirm Button
+10:39:58.232 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+10:40:03.273 INFO  base.CustomDriver -Element :: Total displayed is displayed
+10:40:03.277 INFO  base.CustomDriver -Current URL is :: https://opensource-demo.orangehrmlive.com/index.php/leave/viewLeaveEntitlements/savedsearch/1
+10:40:03.277 INFO  base.CheckPoint -test-add-entitlement.Add Leave Entitlement Verification :-> PASS
+10:40:03.277 INFO  base.CheckPoint -Test Method Successful
+10:40:03.277 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
+10:40:03.281 INFO  base.CheckPoint -Clearing Results Hash Map
+10:40:04.601 INFO  base.CustomDriver -Clicked On :: Leave Link
+10:40:05.778 INFO  base.CustomDriver -Clicked On :: Click on Assign Link
+10:40:05.779 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+10:40:07.947 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russel Hamilton
+10:40:09.067 ERROR base.CustomDriver -Cannot click on :: Element Selected
+10:40:09.067 INFO  utilities.Util -Current Date and Time :: 06_07_2020 10_40_09
+10:40:09.403 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/_Click ERROR_06_07_2020 10_40_09.png
+10:40:09.474 INFO  base.CustomDriver -Selected option : FMLA US
+10:40:09.549 INFO  base.CustomDriver -Clicked On :: Click on From Date Field
+10:40:09.669 INFO  base.CustomDriver -Send Keys on element :: Leave From Date with data :: 2020-06-12
+10:40:09.710 INFO  base.CustomDriver -Clicked On :: Click on From Date Field
+10:40:09.713 INFO  base.CustomDriver -Waiting for max:: 5 seconds for element to be clickable
+10:40:09.756 INFO  base.CustomDriver -Element is clickable on the web page
+10:40:10.840 ERROR base.CustomDriver -Cannot click on :: Click on To Date Field
+10:40:10.841 INFO  utilities.Util -Current Date and Time :: 06_07_2020 10_40_10
+10:40:11.136 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/_Click ERROR_06_07_2020 10_40_10.png
+10:40:11.278 INFO  base.CustomDriver -Send Keys on element :: Leave To Date with data :: 2020-06-19
+10:40:11.328 INFO  base.CustomDriver -Clicked On :: Click on To Field
+10:40:11.331 INFO  base.CustomDriver -Waiting for max:: 5 seconds for element to be clickable
+10:40:11.887 INFO  base.CustomDriver -Element is clickable on the web page
+10:40:12.473 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep 3 seconds
+10:40:17.481 INFO  base.CustomDriver -Waiting for max:: 5 seconds for element to be present
+10:40:32.876 ERROR base.CustomDriver -Element not present on the web page
+10:40:32.883 INFO  base.CustomDriver -Current URL is :: https://opensource-demo.orangehrmlive.com/index.php/leave/assignLeave
+10:40:32.883 INFO  base.CheckPoint -testassignleave.Assign Leave Verification :-> FAIL
+10:40:32.883 INFO  base.CheckPoint -Test Method Failed
+10:40:32.888 INFO  base.TestListeners -onTestFailure -> Test Method Name: testAssignLeave
+10:40:32.888 INFO  base.WebDriverFactory -OS Name from system property :: mac
+10:40:32.889 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+10:40:32.889 INFO  utilities.Util -Current Date and Time :: 06_07_2020 10_40_32
+10:40:33.180 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/chrome_testAssignLeave_06_07_2020 10_40_32.png
+10:40:33.192 INFO  base.CustomDriver -Element List found with: id=>welcome
+10:40:33.192 INFO  utilities.Util -Size of list :: 1
+10:40:33.192 INFO  utilities.Util -List is not empty
+10:40:33.259 INFO  base.CustomDriver -Clicked On :: User Account Icon
+10:40:33.261 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
+10:40:33.825 INFO  base.CustomDriver -Element appeared on the web page
+10:40:35.045 INFO  base.CustomDriver -Clicked on :: Logout Link
+10:40:35.152 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+10:54:52.262 INFO  utilities.Util -Current Date and Time :: 06_07_2020 10_54_52
+10:54:52.267 INFO  utilities.ExtentManager -*********** Report Path ***********
+10:54:52.267 INFO  utilities.ExtentManager -/Users/anupamadhir/workspace/orangehrm/reports/AutomationReport_06_07_2020 10_54_52.html
+10:54:52.267 INFO  utilities.ExtentManager -*********** Report Path ***********
+10:54:52.525 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+10:54:52.525 INFO  base.TestListeners -These methods will be executed in this <test> tag
+10:54:52.526 INFO  base.TestListeners -testAddLeave
+10:54:52.526 INFO  base.TestListeners -testAssignLeave
+10:54:52.526 INFO  base.TestListeners -testLogin
+10:54:52.551 INFO  base.WebDriverFactory -OS Name from system property :: mac
+10:54:52.551 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+10:54:57.180 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: Admin
+10:54:57.260 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: admin123
+10:55:02.616 INFO  base.CustomDriver -Clicked On :: Login Button
+10:55:02.976 INFO  base.CheckPoint -Clearing Results Hash Map
+10:55:03.002 INFO  utilities.Util -Actual Text From Web Application UI   --> : Leave
+10:55:03.002 INFO  utilities.Util -Expected Text From Web Application UI --> : Leave
+10:55:03.002 INFO  utilities.Util -### Verification Contains !!!
+10:55:03.002 INFO  base.CheckPoint -test-01.header verification :-> PASS
+10:55:03.016 INFO  base.CustomDriver -Element List found with: id=>welcome
+10:55:03.016 INFO  utilities.Util -Size of list :: 1
+10:55:03.016 INFO  utilities.Util -List is not empty
+10:55:03.016 INFO  base.CheckPoint -test-01.login verification :-> PASS
+10:55:03.016 INFO  base.CheckPoint -Test Method Successful
+10:55:03.017 INFO  base.CheckPoint -Test Method Successful
+10:55:03.018 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
+10:55:03.047 INFO  base.CheckPoint -Clearing Results Hash Map
+10:55:04.947 INFO  base.CustomDriver -Clicked On :: Leave Link
+10:55:05.902 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+10:55:05.902 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+10:55:08.027 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russel Hamilton
+10:55:08.161 INFO  base.CustomDriver -Clicked On :: Element Selected
+10:55:08.162 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+10:55:10.213 INFO  base.CustomDriver -Selected option : FMLA US
+10:55:10.253 INFO  base.CustomDriver -Selected option : 2020-01-01 - 2020-12-31
+10:55:10.327 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 20
+10:55:10.379 INFO  base.CustomDriver -Clicked On :: Save Button
+10:55:10.389 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
+10:55:10.389 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
+10:55:10.389 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+10:55:15.453 INFO  base.CustomDriver -Clicked On :: Popup Confirm Button
+10:55:15.453 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+10:55:20.489 INFO  base.CustomDriver -Element :: Total displayed is displayed
+10:55:20.493 INFO  base.CustomDriver -Current URL is :: https://opensource-demo.orangehrmlive.com/index.php/leave/viewLeaveEntitlements/savedsearch/1
+10:55:20.493 INFO  base.CheckPoint -test-add-entitlement.Add Leave Entitlement Verification :-> PASS
+10:55:20.493 INFO  base.CheckPoint -Test Method Successful
+10:55:20.493 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
+10:55:20.494 INFO  base.CheckPoint -Clearing Results Hash Map
+10:55:21.710 INFO  base.CustomDriver -Clicked On :: Leave Link
+10:55:22.358 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+10:55:22.358 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+10:55:24.478 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russel Hamilton
+10:55:24.619 INFO  base.CustomDriver -Clicked On :: Element Selected
+10:55:24.619 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+10:55:26.661 INFO  base.CustomDriver -Selected option : FMLA US
+10:55:26.699 INFO  base.CustomDriver -Selected option : 2020-01-01 - 2020-12-31
+10:55:26.768 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 30
+10:55:26.823 INFO  base.CustomDriver -Clicked On :: Save Button
+10:55:26.831 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
+10:55:26.831 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
+10:55:26.831 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+10:55:31.912 INFO  base.CustomDriver -Clicked On :: Popup Confirm Button
+10:55:31.912 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+10:55:36.957 INFO  base.CustomDriver -Element :: Total displayed is displayed
+10:55:36.960 INFO  base.CustomDriver -Current URL is :: https://opensource-demo.orangehrmlive.com/index.php/leave/viewLeaveEntitlements/savedsearch/1
+10:55:36.961 INFO  base.CheckPoint -test-add-entitlement.Add Leave Entitlement Verification :-> PASS
+10:55:36.961 INFO  base.CheckPoint -Test Method Successful
+10:55:36.961 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
+10:55:36.964 INFO  base.CheckPoint -Clearing Results Hash Map
+10:55:38.203 INFO  base.CustomDriver -Clicked On :: Leave Link
+10:55:38.988 INFO  base.CustomDriver -Clicked On :: Click on Assign Link
+10:55:38.990 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+10:55:41.155 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russel Hamilton
+10:55:42.275 ERROR base.CustomDriver -Cannot click on :: Element Selected
+10:55:42.275 INFO  utilities.Util -Current Date and Time :: 06_07_2020 10_55_42
+10:55:42.636 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/_Click ERROR_06_07_2020 10_55_42.png
+10:55:42.705 INFO  base.CustomDriver -Selected option : FMLA US
+10:55:42.782 INFO  base.CustomDriver -Clicked On :: Click on From Date Field
+10:55:42.911 INFO  base.CustomDriver -Send Keys on element :: Leave From Date with data :: 2020-06-12
+10:55:42.956 INFO  base.CustomDriver -Clicked On :: Click on From Date Field
+10:55:42.959 INFO  base.CustomDriver -Waiting for max:: 5 seconds for element to be clickable
+10:55:43.007 INFO  base.CustomDriver -Element is clickable on the web page
+10:55:44.087 ERROR base.CustomDriver -Cannot click on :: Click on To Date Field
+10:55:44.087 INFO  utilities.Util -Current Date and Time :: 06_07_2020 10_55_44
+10:55:44.399 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/_Click ERROR_06_07_2020 10_55_44.png
+10:55:44.541 INFO  base.CustomDriver -Send Keys on element :: Leave To Date with data :: 2020-06-19
+10:55:44.594 INFO  base.CustomDriver -Clicked On :: Click on To Field
+10:55:44.598 INFO  base.CustomDriver -Waiting for max:: 5 seconds for element to be clickable
+10:55:45.160 INFO  base.CustomDriver -Element is clickable on the web page
+10:55:45.879 INFO  base.CustomDriver -Clicked on :: Click on Assign Button
+10:55:45.880 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep 3 seconds
+10:55:50.883 INFO  base.CustomDriver -Waiting for max:: 5 seconds for element to be available
+10:55:56.025 ERROR base.CustomDriver -Element not appeared on the web page
+10:55:59.035 INFO  base.CustomDriver -Element List not found with: class=>message success fadable
+10:55:59.035 INFO  base.CustomDriver -Element Leave Added Message Not Present with locator class=>message success fadable
+10:55:59.040 INFO  base.CustomDriver -Current URL is :: https://opensource-demo.orangehrmlive.com/index.php/leave/assignLeave
+10:55:59.040 INFO  base.CheckPoint -testassignleave.Assign Leave Verification :-> FAIL
+10:55:59.040 INFO  base.CheckPoint -Test Method Failed
+10:55:59.045 INFO  base.TestListeners -onTestFailure -> Test Method Name: testAssignLeave
+10:55:59.045 INFO  base.WebDriverFactory -OS Name from system property :: mac
+10:55:59.045 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+10:55:59.046 INFO  utilities.Util -Current Date and Time :: 06_07_2020 10_55_59
+10:55:59.364 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/chrome_testAssignLeave_06_07_2020 10_55_59.png
+10:55:59.379 INFO  base.CustomDriver -Element List found with: id=>welcome
+10:55:59.379 INFO  utilities.Util -Size of list :: 1
+10:55:59.379 INFO  utilities.Util -List is not empty
+10:55:59.446 INFO  base.CustomDriver -Clicked On :: User Account Icon
+10:55:59.448 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
+10:56:00.003 INFO  base.CustomDriver -Element appeared on the web page
+10:56:00.938 INFO  base.CustomDriver -Clicked on :: Logout Link
+10:56:01.060 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+10:59:37.476 INFO  utilities.Util -Current Date and Time :: 06_07_2020 10_59_37
+10:59:37.483 INFO  utilities.ExtentManager -*********** Report Path ***********
+10:59:37.483 INFO  utilities.ExtentManager -/Users/anupamadhir/workspace/orangehrm/reports/AutomationReport_06_07_2020 10_59_37.html
+10:59:37.484 INFO  utilities.ExtentManager -*********** Report Path ***********
+10:59:37.721 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+10:59:37.722 INFO  base.TestListeners -These methods will be executed in this <test> tag
+10:59:37.722 INFO  base.TestListeners -testAddLeave
+10:59:37.722 INFO  base.TestListeners -testAssignLeave
+10:59:37.722 INFO  base.TestListeners -testLogin
+10:59:37.756 INFO  base.WebDriverFactory -OS Name from system property :: mac
+10:59:37.756 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+10:59:43.294 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: Admin
+10:59:43.379 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: admin123
+10:59:48.526 INFO  base.CustomDriver -Clicked On :: Login Button
+10:59:48.896 INFO  base.CheckPoint -Clearing Results Hash Map
+10:59:48.921 INFO  utilities.Util -Actual Text From Web Application UI   --> : Leave
+10:59:48.922 INFO  utilities.Util -Expected Text From Web Application UI --> : Leave
+10:59:48.922 INFO  utilities.Util -### Verification Contains !!!
+10:59:48.922 INFO  base.CheckPoint -test-01.header verification :-> PASS
+10:59:48.935 INFO  base.CustomDriver -Element List found with: id=>welcome
+10:59:48.935 INFO  utilities.Util -Size of list :: 1
+10:59:48.935 INFO  utilities.Util -List is not empty
+10:59:48.935 INFO  base.CheckPoint -test-01.login verification :-> PASS
+10:59:48.936 INFO  base.CheckPoint -Test Method Successful
+10:59:48.937 INFO  base.CheckPoint -Test Method Successful
+10:59:48.937 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
+10:59:48.969 INFO  base.CheckPoint -Clearing Results Hash Map
+10:59:51.062 INFO  base.CustomDriver -Clicked On :: Leave Link
+10:59:52.010 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+10:59:52.011 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+10:59:54.147 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russel Hamilton
+10:59:54.292 INFO  base.CustomDriver -Clicked On :: Element Selected
+10:59:54.292 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+10:59:56.340 INFO  base.CustomDriver -Selected option : FMLA US
+10:59:56.381 INFO  base.CustomDriver -Selected option : 2020-01-01 - 2020-12-31
+10:59:56.454 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 20
+10:59:56.526 INFO  base.CustomDriver -Clicked On :: Save Button
+10:59:56.536 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
+10:59:56.536 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
+10:59:56.536 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+11:00:11.610 ERROR base.CustomDriver -Element not found with: id=>dialogUpdateEntitlementConfirmBtn
+11:00:11.612 ERROR base.CustomDriver -Cannot click on :: Popup Confirm Button
+11:00:11.613 INFO  utilities.Util -Current Date and Time :: 06_07_2020 11_00_11
+11:00:11.955 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/_Click ERROR_06_07_2020 11_00_11.png
+11:00:11.955 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+11:00:17.004 INFO  base.CustomDriver -Element :: Total displayed is displayed
+11:00:17.008 INFO  base.CustomDriver -Current URL is :: https://opensource-demo.orangehrmlive.com/index.php/leave/viewLeaveEntitlements/savedsearch/1
+11:00:17.008 INFO  base.CheckPoint -test-add-entitlement.Add Leave Entitlement Verification :-> PASS
+11:00:17.008 INFO  base.CheckPoint -Test Method Successful
+11:00:17.008 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
+11:00:17.009 INFO  base.CheckPoint -Clearing Results Hash Map
+11:00:18.269 INFO  base.CustomDriver -Clicked On :: Leave Link
+11:00:18.885 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+11:00:18.885 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+11:00:21.012 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russel Hamilton
+11:00:21.160 INFO  base.CustomDriver -Clicked On :: Element Selected
+11:00:21.160 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+11:00:23.206 INFO  base.CustomDriver -Selected option : FMLA US
+11:00:23.247 INFO  base.CustomDriver -Selected option : 2020-01-01 - 2020-12-31
+11:00:23.319 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 30
+11:00:23.382 INFO  base.CustomDriver -Clicked On :: Save Button
+11:00:23.393 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
+11:00:23.393 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
+11:00:23.393 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+11:00:38.425 ERROR base.CustomDriver -Element not found with: id=>dialogUpdateEntitlementConfirmBtn
+11:00:38.427 ERROR base.CustomDriver -Cannot click on :: Popup Confirm Button
+11:00:38.427 INFO  utilities.Util -Current Date and Time :: 06_07_2020 11_00_38
+11:00:38.736 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/_Click ERROR_06_07_2020 11_00_38.png
+11:00:38.736 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+11:00:43.768 INFO  base.CustomDriver -Element :: Total displayed is displayed
+11:00:43.772 INFO  base.CustomDriver -Current URL is :: https://opensource-demo.orangehrmlive.com/index.php/leave/viewLeaveEntitlements/savedsearch/1
+11:00:43.772 INFO  base.CheckPoint -test-add-entitlement.Add Leave Entitlement Verification :-> PASS
+11:00:43.772 INFO  base.CheckPoint -Test Method Successful
+11:00:43.772 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
+11:00:43.775 INFO  base.CheckPoint -Clearing Results Hash Map
+11:00:44.892 INFO  base.CustomDriver -Clicked On :: Leave Link
+11:00:45.685 INFO  base.CustomDriver -Clicked On :: Click on Assign Link
+11:00:45.686 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+11:00:47.850 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russel Hamilton
+11:00:48.963 ERROR base.CustomDriver -Cannot click on :: Element Selected
+11:00:48.963 INFO  utilities.Util -Current Date and Time :: 06_07_2020 11_00_48
+11:00:49.265 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/_Click ERROR_06_07_2020 11_00_48.png
+11:00:49.335 INFO  base.CustomDriver -Selected option : FMLA US
+11:00:49.410 INFO  base.CustomDriver -Clicked On :: Click on From Date Field
+11:00:49.528 INFO  base.CustomDriver -Send Keys on element :: Leave From Date with data :: 2020-06-12
+11:00:49.575 INFO  base.CustomDriver -Clicked On :: Click on From Date Field
+11:00:49.578 INFO  base.CustomDriver -Waiting for max:: 5 seconds for element to be clickable
+11:00:49.619 INFO  base.CustomDriver -Element is clickable on the web page
+11:00:50.708 ERROR base.CustomDriver -Cannot click on :: Click on To Date Field
+11:00:50.708 INFO  utilities.Util -Current Date and Time :: 06_07_2020 11_00_50
+11:00:50.996 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/_Click ERROR_06_07_2020 11_00_50.png
+11:00:51.127 INFO  base.CustomDriver -Send Keys on element :: Leave To Date with data :: 2020-06-19
+11:00:51.177 INFO  base.CustomDriver -Clicked On :: Click on To Field
+11:00:51.181 INFO  base.CustomDriver -Waiting for max:: 5 seconds for element to be clickable
+11:00:51.739 INFO  base.CustomDriver -Element is clickable on the web page
+11:00:52.380 INFO  base.CustomDriver -Clicked on :: Click on Assign Button
+11:00:52.383 INFO  base.CustomDriver -Waiting for max:: 5 seconds for element to be available
+11:00:57.535 ERROR base.CustomDriver -Element not appeared on the web page
+11:01:00.563 INFO  base.CustomDriver -Element List not found with: class=>message success fadable
+11:01:00.564 INFO  base.CustomDriver -Element Leave Added Message Not Present with locator class=>message success fadable
+11:01:00.568 INFO  base.CustomDriver -Current URL is :: https://opensource-demo.orangehrmlive.com/index.php/leave/assignLeave
+11:01:00.568 INFO  base.CheckPoint -testassignleave.Assign Leave Verification :-> FAIL
+11:01:00.568 INFO  base.CheckPoint -Test Method Failed
+11:01:00.573 INFO  base.TestListeners -onTestFailure -> Test Method Name: testAssignLeave
+11:01:00.573 INFO  base.WebDriverFactory -OS Name from system property :: mac
+11:01:00.573 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+11:01:00.573 INFO  utilities.Util -Current Date and Time :: 06_07_2020 11_01_00
+11:01:00.877 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/chrome_testAssignLeave_06_07_2020 11_01_00.png
+11:01:00.890 INFO  base.CustomDriver -Element List found with: id=>welcome
+11:01:00.890 INFO  utilities.Util -Size of list :: 1
+11:01:00.890 INFO  utilities.Util -List is not empty
+11:01:00.942 INFO  base.CustomDriver -Clicked On :: User Account Icon
+11:01:00.945 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
+11:01:01.499 INFO  base.CustomDriver -Element appeared on the web page
+11:01:02.474 INFO  base.CustomDriver -Clicked on :: Logout Link
+11:01:02.584 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+11:03:11.157 INFO  utilities.Util -Current Date and Time :: 06_07_2020 11_03_11
+11:03:11.163 INFO  utilities.ExtentManager -*********** Report Path ***********
+11:03:11.163 INFO  utilities.ExtentManager -/Users/anupamadhir/workspace/orangehrm/reports/AutomationReport_06_07_2020 11_03_11.html
+11:03:11.163 INFO  utilities.ExtentManager -*********** Report Path ***********
+11:03:11.396 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+11:03:11.396 INFO  base.TestListeners -These methods will be executed in this <test> tag
+11:03:11.398 INFO  base.TestListeners -testAddLeave
+11:03:11.398 INFO  base.TestListeners -testAssignLeave
+11:03:11.398 INFO  base.TestListeners -testLogin
+11:03:11.431 INFO  base.WebDriverFactory -OS Name from system property :: mac
+11:03:11.432 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+11:03:16.400 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: Admin
+11:03:16.481 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: admin123
+11:03:22.043 INFO  base.CustomDriver -Clicked On :: Login Button
+11:03:22.406 INFO  base.CheckPoint -Clearing Results Hash Map
+11:03:22.432 INFO  utilities.Util -Actual Text From Web Application UI   --> : Leave
+11:03:22.432 INFO  utilities.Util -Expected Text From Web Application UI --> : Leave
+11:03:22.432 INFO  utilities.Util -### Verification Contains !!!
+11:03:22.432 INFO  base.CheckPoint -test-01.header verification :-> PASS
+11:03:22.446 INFO  base.CustomDriver -Element List found with: id=>welcome
+11:03:22.446 INFO  utilities.Util -Size of list :: 1
+11:03:22.446 INFO  utilities.Util -List is not empty
+11:03:22.446 INFO  base.CheckPoint -test-01.login verification :-> PASS
+11:03:22.447 INFO  base.CheckPoint -Test Method Successful
+11:03:22.448 INFO  base.CheckPoint -Test Method Successful
+11:03:22.448 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
+11:03:22.479 INFO  base.CheckPoint -Clearing Results Hash Map
+11:03:24.262 INFO  base.CustomDriver -Clicked On :: Leave Link
+11:03:25.103 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+11:03:25.103 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+11:03:27.233 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russel Hamilton
+11:03:27.388 INFO  base.CustomDriver -Clicked On :: Element Selected
+11:03:27.388 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+11:03:29.437 INFO  base.CustomDriver -Selected option : FMLA US
+11:03:29.475 INFO  base.CustomDriver -Selected option : 2020-01-01 - 2020-12-31
+11:03:29.546 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 20
+11:03:29.607 INFO  base.CustomDriver -Clicked On :: Save Button
+11:03:29.617 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
+11:03:29.617 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
+11:03:29.617 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+11:03:34.693 INFO  base.CustomDriver -Clicked On :: Popup Confirm Button
+11:03:34.694 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+11:03:39.729 INFO  base.CustomDriver -Element :: Total displayed is displayed
+11:03:39.733 INFO  base.CustomDriver -Current URL is :: https://opensource-demo.orangehrmlive.com/index.php/leave/viewLeaveEntitlements/savedsearch/1
+11:03:39.733 INFO  base.CheckPoint -test-add-entitlement.Add Leave Entitlement Verification :-> PASS
+11:03:39.733 INFO  base.CheckPoint -Test Method Successful
+11:03:39.733 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
+11:03:39.734 INFO  base.CheckPoint -Clearing Results Hash Map
+11:03:40.557 INFO  base.CustomDriver -Clicked On :: Leave Link
+11:03:41.162 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+11:03:41.162 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+11:03:43.285 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russel Hamilton
+11:03:43.421 INFO  base.CustomDriver -Clicked On :: Element Selected
+11:03:43.421 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+11:03:45.464 INFO  base.CustomDriver -Selected option : FMLA US
+11:03:45.501 INFO  base.CustomDriver -Selected option : 2020-01-01 - 2020-12-31
+11:03:45.572 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 30
+11:03:45.630 INFO  base.CustomDriver -Clicked On :: Save Button
+11:03:45.637 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
+11:03:45.637 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
+11:03:45.637 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+11:03:50.721 INFO  base.CustomDriver -Clicked On :: Popup Confirm Button
+11:03:50.721 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+11:03:55.764 INFO  base.CustomDriver -Element :: Total displayed is displayed
+11:03:55.768 INFO  base.CustomDriver -Current URL is :: https://opensource-demo.orangehrmlive.com/index.php/leave/viewLeaveEntitlements/savedsearch/1
+11:03:55.768 INFO  base.CheckPoint -test-add-entitlement.Add Leave Entitlement Verification :-> PASS
+11:03:55.768 INFO  base.CheckPoint -Test Method Successful
+11:03:55.768 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
+11:03:55.772 INFO  base.CheckPoint -Clearing Results Hash Map
+11:03:56.643 INFO  base.CustomDriver -Clicked On :: Leave Link
+11:03:57.387 INFO  base.CustomDriver -Clicked On :: Click on Assign Link
+11:03:57.388 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+11:03:59.547 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russel Hamilton
+11:04:00.664 ERROR base.CustomDriver -Cannot click on :: Element Selected
+11:04:00.665 INFO  utilities.Util -Current Date and Time :: 06_07_2020 11_04_00
+11:04:01.001 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/_Click ERROR_06_07_2020 11_04_00.png
+11:04:01.067 INFO  base.CustomDriver -Selected option : FMLA US
+11:04:01.155 INFO  base.CustomDriver -Clicked On :: Click on From Date Field
+11:04:01.279 INFO  base.CustomDriver -Send Keys on element :: Leave From Date with data :: 2020-06-12
+11:04:01.331 INFO  base.CustomDriver -Clicked On :: Click on From Date Field
+11:04:01.334 INFO  base.CustomDriver -Waiting for max:: 5 seconds for element to be clickable
+11:04:01.380 INFO  base.CustomDriver -Element is clickable on the web page
+11:04:02.460 ERROR base.CustomDriver -Cannot click on :: Click on To Date Field
+11:04:02.461 INFO  utilities.Util -Current Date and Time :: 06_07_2020 11_04_02
+11:04:02.756 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/_Click ERROR_06_07_2020 11_04_02.png
+11:04:02.890 INFO  base.CustomDriver -Send Keys on element :: Leave To Date with data :: 2020-06-19
+11:04:02.928 INFO  base.CustomDriver -Clicked On :: Click on To Field
+11:04:02.932 INFO  base.CustomDriver -Waiting for max:: 5 seconds for element to be clickable
+11:04:03.487 INFO  base.CustomDriver -Element is clickable on the web page
+11:04:04.160 INFO  base.CustomDriver -Clicked on :: Click on Assign Button
+11:04:04.163 INFO  base.CustomDriver -Waiting for max:: 5 seconds for element to be available
+11:04:09.320 ERROR base.CustomDriver -Element not appeared on the web page
+11:04:12.350 ERROR base.CustomDriver -Element not found with: class=>message success fadable
+11:04:12.356 INFO  base.CustomDriver -Current URL is :: https://opensource-demo.orangehrmlive.com/index.php/leave/assignLeave
+11:04:12.356 INFO  base.CheckPoint -testassignleave.Assign Leave Verification :-> FAIL
+11:04:12.356 INFO  base.CheckPoint -Test Method Failed
+11:04:12.360 INFO  base.TestListeners -onTestFailure -> Test Method Name: testAssignLeave
+11:04:12.361 INFO  base.WebDriverFactory -OS Name from system property :: mac
+11:04:12.361 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+11:04:12.361 INFO  utilities.Util -Current Date and Time :: 06_07_2020 11_04_12
+11:04:12.657 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/chrome_testAssignLeave_06_07_2020 11_04_12.png
+11:04:12.671 INFO  base.CustomDriver -Element List found with: id=>welcome
+11:04:12.671 INFO  utilities.Util -Size of list :: 1
+11:04:12.671 INFO  utilities.Util -List is not empty
+11:04:12.734 INFO  base.CustomDriver -Clicked On :: User Account Icon
+11:04:12.737 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
+11:04:13.284 INFO  base.CustomDriver -Element appeared on the web page
+11:04:14.264 INFO  base.CustomDriver -Clicked on :: Logout Link
+11:04:14.365 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+11:25:33.577 INFO  utilities.Util -Current Date and Time :: 06_07_2020 11_25_33
+11:25:33.581 INFO  utilities.ExtentManager -*********** Report Path ***********
+11:25:33.582 INFO  utilities.ExtentManager -/Users/anupamadhir/workspace/orangehrm/reports/AutomationReport_06_07_2020 11_25_33.html
+11:25:33.582 INFO  utilities.ExtentManager -*********** Report Path ***********
+11:25:33.849 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+11:25:33.849 INFO  base.TestListeners -These methods will be executed in this <test> tag
+11:25:33.849 INFO  base.TestListeners -testAddLeave
+11:25:33.849 INFO  base.TestListeners -testAssignLeave
+11:25:33.849 INFO  base.TestListeners -testLogin
+11:25:33.869 INFO  base.WebDriverFactory -OS Name from system property :: mac
+11:25:33.869 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+11:25:38.587 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: Admin
+11:25:38.671 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: admin123
+11:25:43.917 INFO  base.CustomDriver -Clicked On :: Login Button
+11:25:44.271 INFO  base.CheckPoint -Clearing Results Hash Map
+11:25:44.297 INFO  utilities.Util -Actual Text From Web Application UI   --> : Leave
+11:25:44.302 INFO  utilities.Util -Expected Text From Web Application UI --> : Leave
+11:25:44.302 INFO  utilities.Util -### Verification Contains !!!
+11:25:44.303 INFO  base.CheckPoint -test-01.header verification :-> PASS
+11:25:44.318 INFO  base.CustomDriver -Element List found with: id=>welcome
+11:25:44.318 INFO  utilities.Util -Size of list :: 1
+11:25:44.318 INFO  utilities.Util -List is not empty
+11:25:44.318 INFO  base.CheckPoint -test-01.login verification :-> PASS
+11:25:44.318 INFO  base.CheckPoint -Test Method Successful
+11:25:44.319 INFO  base.CheckPoint -Test Method Successful
+11:25:44.320 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
+11:25:44.350 INFO  base.CheckPoint -Clearing Results Hash Map
+11:25:46.144 INFO  base.CustomDriver -Clicked On :: Leave Link
+11:25:47.094 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+11:25:47.095 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+11:25:49.230 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russel Hamilton
+11:25:49.385 INFO  base.CustomDriver -Clicked On :: Element Selected
+11:25:49.385 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+11:25:51.437 INFO  base.CustomDriver -Selected option : FMLA US
+11:25:51.477 INFO  base.CustomDriver -Selected option : 2020-01-01 - 2020-12-31
+11:25:51.549 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 20
+11:25:51.621 INFO  base.CustomDriver -Clicked On :: Save Button
+11:25:51.631 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
+11:25:51.632 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
+11:25:51.632 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+11:25:56.707 INFO  base.CustomDriver -Clicked On :: Popup Confirm Button
+11:25:56.707 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+11:26:01.743 INFO  base.CustomDriver -Element :: Total displayed is displayed
+11:26:01.747 INFO  base.CustomDriver -Current URL is :: https://opensource-demo.orangehrmlive.com/index.php/leave/viewLeaveEntitlements/savedsearch/1
+11:26:01.747 INFO  base.CheckPoint -test-add-entitlement.Add Leave Entitlement Verification :-> PASS
+11:26:01.747 INFO  base.CheckPoint -Test Method Successful
+11:26:01.747 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
+11:26:01.748 INFO  base.CheckPoint -Clearing Results Hash Map
+11:26:02.553 INFO  base.CustomDriver -Clicked On :: Leave Link
+11:26:03.209 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+11:26:03.209 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+11:26:05.335 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russel Hamilton
+11:26:05.468 INFO  base.CustomDriver -Clicked On :: Element Selected
+11:26:05.468 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+11:26:07.515 INFO  base.CustomDriver -Selected option : FMLA US
+11:26:07.551 INFO  base.CustomDriver -Selected option : 2020-01-01 - 2020-12-31
+11:26:07.620 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 30
+11:26:07.675 INFO  base.CustomDriver -Clicked On :: Save Button
+11:26:07.681 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
+11:26:07.682 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
+11:26:07.682 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+11:26:12.747 INFO  base.CustomDriver -Clicked On :: Popup Confirm Button
+11:26:12.747 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+11:26:17.790 INFO  base.CustomDriver -Element :: Total displayed is displayed
+11:26:17.793 INFO  base.CustomDriver -Current URL is :: https://opensource-demo.orangehrmlive.com/index.php/leave/viewLeaveEntitlements/savedsearch/1
+11:26:17.793 INFO  base.CheckPoint -test-add-entitlement.Add Leave Entitlement Verification :-> PASS
+11:26:17.793 INFO  base.CheckPoint -Test Method Successful
+11:26:17.793 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
+11:26:17.797 INFO  base.CheckPoint -Clearing Results Hash Map
+11:26:18.775 INFO  base.CustomDriver -Clicked On :: Leave Link
+11:26:19.569 INFO  base.CustomDriver -Clicked On :: Click on Assign Link
+11:26:19.569 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+11:26:21.732 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russel Hamilton
+11:26:22.847 ERROR base.CustomDriver -Cannot click on :: Element Selected
+11:26:22.847 INFO  utilities.Util -Current Date and Time :: 06_07_2020 11_26_22
+11:26:23.180 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/_Click ERROR_06_07_2020 11_26_22.png
+11:26:23.249 INFO  base.CustomDriver -Selected option : FMLA US
+11:26:23.336 INFO  base.CustomDriver -Clicked On :: Click on From Date Field
+11:26:23.452 INFO  base.CustomDriver -Send Keys on element :: Leave From Date with data :: 2020-06-12
+11:26:23.490 INFO  base.CustomDriver -Clicked On :: Click on From Date Field
+11:26:23.493 INFO  base.CustomDriver -Waiting for max:: 5 seconds for element to be clickable
+11:26:23.536 INFO  base.CustomDriver -Element is clickable on the web page
+11:26:24.618 ERROR base.CustomDriver -Cannot click on :: Click on To Date Field
+11:26:24.619 INFO  utilities.Util -Current Date and Time :: 06_07_2020 11_26_24
+11:26:24.917 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/_Click ERROR_06_07_2020 11_26_24.png
+11:26:25.055 INFO  base.CustomDriver -Send Keys on element :: Leave To Date with data :: 2020-06-19
+11:26:25.093 INFO  base.CustomDriver -Clicked On :: Click on To Field
+11:26:25.096 INFO  base.CustomDriver -Waiting for max:: 5 seconds for element to be clickable
+11:26:25.652 INFO  base.CustomDriver -Element is clickable on the web page
+11:26:26.350 INFO  base.CustomDriver -Clicked on :: Click on Assign Button
+11:26:26.353 INFO  base.CustomDriver -Waiting for max:: 5 seconds for element to be available
+11:26:31.496 ERROR base.CustomDriver -Element not appeared on the web page
+11:26:31.502 INFO  base.CustomDriver -Current URL is :: https://opensource-demo.orangehrmlive.com/index.php/leave/assignLeave
+11:26:31.502 INFO  base.CheckPoint -testassignleave.Assign Leave Verification :-> FAIL
+11:26:31.502 INFO  base.CheckPoint -Test Method Failed
+11:26:31.506 INFO  base.TestListeners -onTestFailure -> Test Method Name: testAssignLeave
+11:26:31.507 INFO  base.WebDriverFactory -OS Name from system property :: mac
+11:26:31.507 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+11:26:31.507 INFO  utilities.Util -Current Date and Time :: 06_07_2020 11_26_31
+11:26:31.815 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/chrome_testAssignLeave_06_07_2020 11_26_31.png
+11:26:31.827 INFO  base.CustomDriver -Element List found with: id=>welcome
+11:26:31.827 INFO  utilities.Util -Size of list :: 1
+11:26:31.827 INFO  utilities.Util -List is not empty
+11:26:31.874 INFO  base.CustomDriver -Clicked On :: User Account Icon
+11:26:31.877 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
+11:26:32.430 INFO  base.CustomDriver -Element appeared on the web page
+11:26:33.387 INFO  base.CustomDriver -Clicked on :: Logout Link
+11:26:33.490 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+11:35:00.921 INFO  utilities.Util -Current Date and Time :: 06_07_2020 11_35_00
+11:35:00.925 INFO  utilities.ExtentManager -*********** Report Path ***********
+11:35:00.925 INFO  utilities.ExtentManager -/Users/anupamadhir/workspace/orangehrm/reports/AutomationReport_06_07_2020 11_35_00.html
+11:35:00.925 INFO  utilities.ExtentManager -*********** Report Path ***********
+11:35:01.147 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+11:35:01.147 INFO  base.TestListeners -These methods will be executed in this <test> tag
+11:35:01.150 INFO  base.TestListeners -testAddLeave
+11:35:01.150 INFO  base.TestListeners -testAssignLeave
+11:35:01.150 INFO  base.TestListeners -testLogin
+11:35:01.173 INFO  base.WebDriverFactory -OS Name from system property :: mac
+11:35:01.173 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+11:35:07.023 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: Admin
+11:35:07.107 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: admin123
+11:35:12.357 INFO  base.CustomDriver -Clicked On :: Login Button
+11:35:12.726 INFO  base.CheckPoint -Clearing Results Hash Map
+11:35:12.752 INFO  utilities.Util -Actual Text From Web Application UI   --> : Leave
+11:35:12.752 INFO  utilities.Util -Expected Text From Web Application UI --> : Leave
+11:35:12.752 INFO  utilities.Util -### Verification Contains !!!
+11:35:12.752 INFO  base.CheckPoint -test-01.header verification :-> PASS
+11:35:12.765 INFO  base.CustomDriver -Element List found with: id=>welcome
+11:35:12.765 INFO  utilities.Util -Size of list :: 1
+11:35:12.765 INFO  utilities.Util -List is not empty
+11:35:12.765 INFO  base.CheckPoint -test-01.login verification :-> PASS
+11:35:12.766 INFO  base.CheckPoint -Test Method Successful
+11:35:12.767 INFO  base.CheckPoint -Test Method Successful
+11:35:12.767 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
+11:35:12.798 INFO  base.CheckPoint -Clearing Results Hash Map
+11:35:14.885 INFO  base.CustomDriver -Clicked On :: Leave Link
+11:35:15.840 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+11:35:15.841 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+11:35:17.966 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russel Hamilton
+11:35:18.117 INFO  base.CustomDriver -Clicked On :: Element Selected
+11:35:18.118 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+11:35:20.166 INFO  base.CustomDriver -Selected option : FMLA US
+11:35:20.205 INFO  base.CustomDriver -Selected option : 2020-01-01 - 2020-12-31
+11:35:20.279 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 20
+11:35:20.331 INFO  base.CustomDriver -Clicked On :: Save Button
+11:35:20.341 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
+11:35:20.341 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
+11:35:20.341 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+11:35:25.403 INFO  base.CustomDriver -Clicked On :: Popup Confirm Button
+11:35:25.403 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+11:35:30.439 INFO  base.CustomDriver -Element :: Total displayed is displayed
+11:35:30.443 INFO  base.CustomDriver -Current URL is :: https://opensource-demo.orangehrmlive.com/index.php/leave/viewLeaveEntitlements/savedsearch/1
+11:35:30.443 INFO  base.CheckPoint -test-add-entitlement.Add Leave Entitlement Verification :-> PASS
+11:35:30.443 INFO  base.CheckPoint -Test Method Successful
+11:35:30.443 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
+11:35:30.444 INFO  base.CheckPoint -Clearing Results Hash Map
+11:35:31.348 INFO  base.CustomDriver -Clicked On :: Leave Link
+11:35:31.939 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+11:35:31.939 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+11:35:34.067 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russel Hamilton
+11:35:34.201 INFO  base.CustomDriver -Clicked On :: Element Selected
+11:35:34.201 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+11:35:36.245 INFO  base.CustomDriver -Selected option : FMLA US
+11:35:36.283 INFO  base.CustomDriver -Selected option : 2020-01-01 - 2020-12-31
+11:35:36.352 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 30
+11:35:36.410 INFO  base.CustomDriver -Clicked On :: Save Button
+11:35:36.417 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
+11:35:36.417 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
+11:35:36.417 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+11:35:41.481 INFO  base.CustomDriver -Clicked On :: Popup Confirm Button
+11:35:41.481 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+11:35:46.526 INFO  base.CustomDriver -Element :: Total displayed is displayed
+11:35:46.530 INFO  base.CustomDriver -Current URL is :: https://opensource-demo.orangehrmlive.com/index.php/leave/viewLeaveEntitlements/savedsearch/1
+11:35:46.530 INFO  base.CheckPoint -test-add-entitlement.Add Leave Entitlement Verification :-> PASS
+11:35:46.530 INFO  base.CheckPoint -Test Method Successful
+11:35:46.530 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
+11:35:46.533 INFO  base.CheckPoint -Clearing Results Hash Map
+11:35:47.419 INFO  base.CustomDriver -Clicked On :: Leave Link
+11:35:48.211 INFO  base.CustomDriver -Clicked On :: Click on Assign Link
+11:35:48.212 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+11:35:50.376 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russel Hamilton
+11:35:51.501 ERROR base.CustomDriver -Cannot click on :: Element Selected
+11:35:51.501 INFO  utilities.Util -Current Date and Time :: 06_07_2020 11_35_51
+11:35:51.834 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/_Click ERROR_06_07_2020 11_35_51.png
+11:35:51.906 INFO  base.CustomDriver -Selected option : FMLA US
+11:35:51.981 INFO  base.CustomDriver -Clicked On :: Click on From Date Field
+11:35:52.104 INFO  base.CustomDriver -Send Keys on element :: Leave From Date with data :: 2020-06-12
+11:35:52.160 INFO  base.CustomDriver -Clicked On :: Click on From Date Field
+11:35:52.164 INFO  base.CustomDriver -Waiting for max:: 5 seconds for element to be clickable
+11:35:52.209 INFO  base.CustomDriver -Element is clickable on the web page
+11:35:53.290 ERROR base.CustomDriver -Cannot click on :: Click on To Date Field
+11:35:53.292 INFO  utilities.Util -Current Date and Time :: 06_07_2020 11_35_53
+11:35:53.583 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/_Click ERROR_06_07_2020 11_35_53.png
+11:35:53.726 INFO  base.CustomDriver -Send Keys on element :: Leave To Date with data :: 2020-06-19
+11:35:53.778 INFO  base.CustomDriver -Clicked On :: Click on To Field
+11:35:53.782 INFO  base.CustomDriver -Waiting for max:: 5 seconds for element to be clickable
+11:35:54.336 INFO  base.CustomDriver -Element is clickable on the web page
+11:35:54.995 INFO  base.CustomDriver -Clicked on :: Click on Assign Button
+11:35:54.997 INFO  base.CustomDriver -Waiting for max:: 5 seconds for element to be available
+11:36:00.163 ERROR base.CustomDriver -Element not appeared on the web page
+11:36:00.170 INFO  base.TestListeners -onTestFailure -> Test Method Name: testAssignLeave
+11:36:00.170 INFO  base.WebDriverFactory -OS Name from system property :: mac
+11:36:00.171 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+11:36:00.171 INFO  utilities.Util -Current Date and Time :: 06_07_2020 11_36_00
+11:36:00.466 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/chrome_testAssignLeave_06_07_2020 11_36_00.png
+11:36:00.478 INFO  base.CustomDriver -Element List found with: id=>welcome
+11:36:00.478 INFO  utilities.Util -Size of list :: 1
+11:36:00.478 INFO  utilities.Util -List is not empty
+11:36:00.540 INFO  base.CustomDriver -Clicked On :: User Account Icon
+11:36:00.543 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
+11:36:01.103 INFO  base.CustomDriver -Element appeared on the web page
+11:36:02.130 INFO  base.CustomDriver -Clicked on :: Logout Link
+11:36:02.222 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+11:38:21.013 INFO  utilities.Util -Current Date and Time :: 06_07_2020 11_38_21
+11:38:21.019 INFO  utilities.ExtentManager -*********** Report Path ***********
+11:38:21.019 INFO  utilities.ExtentManager -/Users/anupamadhir/workspace/orangehrm/reports/AutomationReport_06_07_2020 11_38_21.html
+11:38:21.019 INFO  utilities.ExtentManager -*********** Report Path ***********
+11:38:21.251 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+11:38:21.251 INFO  base.TestListeners -These methods will be executed in this <test> tag
+11:38:21.251 INFO  base.TestListeners -testAddLeave
+11:38:21.251 INFO  base.TestListeners -testAssignLeave
+11:38:21.267 INFO  base.TestListeners -testLogin
+11:38:21.295 INFO  base.WebDriverFactory -OS Name from system property :: mac
+11:38:21.295 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+11:38:26.300 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: Admin
+11:38:26.383 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: admin123
+11:38:31.943 INFO  base.CustomDriver -Clicked On :: Login Button
+11:38:32.306 INFO  base.CheckPoint -Clearing Results Hash Map
+11:38:32.332 INFO  utilities.Util -Actual Text From Web Application UI   --> : Leave
+11:38:32.332 INFO  utilities.Util -Expected Text From Web Application UI --> : Leave
+11:38:32.332 INFO  utilities.Util -### Verification Contains !!!
+11:38:32.332 INFO  base.CheckPoint -test-01.header verification :-> PASS
+11:38:32.346 INFO  base.CustomDriver -Element List found with: id=>welcome
+11:38:32.346 INFO  utilities.Util -Size of list :: 1
+11:38:32.346 INFO  utilities.Util -List is not empty
+11:38:32.346 INFO  base.CheckPoint -test-01.login verification :-> PASS
+11:38:32.346 INFO  base.CheckPoint -Test Method Successful
+11:38:32.347 INFO  base.CheckPoint -Test Method Successful
+11:38:32.348 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
+11:38:32.376 INFO  base.CheckPoint -Clearing Results Hash Map
+11:38:34.472 INFO  base.CustomDriver -Clicked On :: Leave Link
+11:38:35.425 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+11:38:35.427 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+11:38:37.558 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russel Hamilton
+11:38:37.697 INFO  base.CustomDriver -Clicked On :: Element Selected
+11:38:37.697 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+11:38:39.748 INFO  base.CustomDriver -Selected option : FMLA US
+11:38:39.789 INFO  base.CustomDriver -Selected option : 2020-01-01 - 2020-12-31
+11:38:39.863 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 20
+11:38:39.934 INFO  base.CustomDriver -Clicked On :: Save Button
+11:38:39.945 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
+11:38:39.945 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
+11:38:39.945 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+11:38:55.014 ERROR base.CustomDriver -Element not found with: id=>dialogUpdateEntitlementConfirmBtn
+11:38:55.016 ERROR base.CustomDriver -Cannot click on :: Popup Confirm Button
+11:38:55.016 INFO  utilities.Util -Current Date and Time :: 06_07_2020 11_38_55
+11:38:55.363 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/_Click ERROR_06_07_2020 11_38_55.png
+11:38:55.363 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+11:39:00.413 INFO  base.CustomDriver -Element :: Total displayed is displayed
+11:39:00.418 INFO  base.CustomDriver -Current URL is :: https://opensource-demo.orangehrmlive.com/index.php/leave/viewLeaveEntitlements/savedsearch/1
+11:39:00.418 INFO  base.CheckPoint -test-add-entitlement.Add Leave Entitlement Verification :-> PASS
+11:39:00.418 INFO  base.CheckPoint -Test Method Successful
+11:39:00.418 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
+11:39:00.419 INFO  base.CheckPoint -Clearing Results Hash Map
+11:39:01.579 INFO  base.CustomDriver -Clicked On :: Leave Link
+11:39:02.209 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+11:39:02.210 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+11:39:04.336 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russel Hamilton
+11:39:04.485 INFO  base.CustomDriver -Clicked On :: Element Selected
+11:39:04.486 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+11:39:06.534 INFO  base.CustomDriver -Selected option : FMLA US
+11:39:06.572 INFO  base.CustomDriver -Selected option : 2020-01-01 - 2020-12-31
+11:39:06.651 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 30
+11:39:06.726 INFO  base.CustomDriver -Clicked On :: Save Button
+11:39:06.736 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
+11:39:06.736 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
+11:39:06.737 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+11:39:11.812 INFO  base.CustomDriver -Clicked On :: Popup Confirm Button
+11:39:11.813 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+11:39:16.847 INFO  base.CustomDriver -Element :: Total displayed is displayed
+11:39:16.852 INFO  base.CustomDriver -Current URL is :: https://opensource-demo.orangehrmlive.com/index.php/leave/viewLeaveEntitlements/savedsearch/1
+11:39:16.853 INFO  base.CheckPoint -test-add-entitlement.Add Leave Entitlement Verification :-> PASS
+11:39:16.853 INFO  base.CheckPoint -Test Method Successful
+11:39:16.853 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
+11:39:16.856 INFO  base.CheckPoint -Clearing Results Hash Map
+11:39:18.063 INFO  base.CustomDriver -Clicked On :: Leave Link
+11:39:18.858 INFO  base.CustomDriver -Clicked On :: Click on Assign Link
+11:39:18.859 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+11:39:21.020 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russel Hamilton
+11:39:22.128 ERROR base.CustomDriver -Cannot click on :: Element Selected
+11:39:22.128 INFO  utilities.Util -Current Date and Time :: 06_07_2020 11_39_22
+11:39:22.430 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/_Click ERROR_06_07_2020 11_39_22.png
+11:39:22.502 INFO  base.CustomDriver -Selected option : FMLA US
+11:39:22.582 INFO  base.CustomDriver -Clicked On :: Click on From Date Field
+11:39:22.700 INFO  base.CustomDriver -Send Keys on element :: Leave From Date with data :: 2020-06-12
+11:39:22.740 INFO  base.CustomDriver -Clicked On :: Click on From Date Field
+11:39:22.743 INFO  base.CustomDriver -Waiting for max:: 5 seconds for element to be clickable
+11:39:22.787 INFO  base.CustomDriver -Element is clickable on the web page
+11:39:23.864 ERROR base.CustomDriver -Cannot click on :: Click on To Date Field
+11:39:23.865 INFO  utilities.Util -Current Date and Time :: 06_07_2020 11_39_23
+11:39:24.171 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/_Click ERROR_06_07_2020 11_39_23.png
+11:39:24.321 INFO  base.CustomDriver -Send Keys on element :: Leave To Date with data :: 2020-06-19
+11:39:24.376 INFO  base.CustomDriver -Clicked On :: Click on To Field
+11:39:24.379 INFO  base.CustomDriver -Waiting for max:: 5 seconds for element to be clickable
+11:39:24.937 INFO  base.CustomDriver -Element is clickable on the web page
+11:39:25.513 INFO  base.CustomDriver -Clicked on :: Click on Assign Button
+11:39:25.517 INFO  base.CustomDriver -Waiting for max:: 5 seconds for element to be available
+11:39:30.660 ERROR base.CustomDriver -Element not appeared on the web page
+11:39:30.666 INFO  base.TestListeners -onTestFailure -> Test Method Name: testAssignLeave
+11:39:30.666 INFO  base.WebDriverFactory -OS Name from system property :: mac
+11:39:30.666 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+11:39:30.667 INFO  utilities.Util -Current Date and Time :: 06_07_2020 11_39_30
+11:39:30.961 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/chrome_testAssignLeave_06_07_2020 11_39_30.png
+11:39:30.973 INFO  base.CustomDriver -Element List found with: id=>welcome
+11:39:30.973 INFO  utilities.Util -Size of list :: 1
+11:39:30.974 INFO  utilities.Util -List is not empty
+11:39:31.019 INFO  base.CustomDriver -Clicked On :: User Account Icon
+11:39:31.022 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
+11:39:31.568 INFO  base.CustomDriver -Element appeared on the web page
+11:39:32.571 INFO  base.CustomDriver -Clicked on :: Logout Link
+11:39:32.682 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+11:43:20.628 INFO  utilities.Util -Current Date and Time :: 06_07_2020 11_43_20
+11:43:20.634 INFO  utilities.ExtentManager -*********** Report Path ***********
+11:43:20.634 INFO  utilities.ExtentManager -/Users/anupamadhir/workspace/orangehrm/reports/AutomationReport_06_07_2020 11_43_20.html
+11:43:20.634 INFO  utilities.ExtentManager -*********** Report Path ***********
+11:43:20.894 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+11:43:20.894 INFO  base.TestListeners -These methods will be executed in this <test> tag
+11:43:20.894 INFO  base.TestListeners -testAddLeave
+11:43:20.894 INFO  base.TestListeners -testAssignLeave
+11:43:20.894 INFO  base.TestListeners -testLogin
+11:43:20.912 INFO  base.WebDriverFactory -OS Name from system property :: mac
+11:43:20.912 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+11:43:25.930 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: Admin
+11:43:26.014 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: admin123
+11:43:31.874 INFO  base.CustomDriver -Clicked On :: Login Button
+11:43:32.244 INFO  base.CheckPoint -Clearing Results Hash Map
+11:43:32.270 INFO  utilities.Util -Actual Text From Web Application UI   --> : Leave
+11:43:32.270 INFO  utilities.Util -Expected Text From Web Application UI --> : Leave
+11:43:32.270 INFO  utilities.Util -### Verification Contains !!!
+11:43:32.271 INFO  base.CheckPoint -test-01.header verification :-> PASS
+11:43:32.284 INFO  base.CustomDriver -Element List found with: id=>welcome
+11:43:32.284 INFO  utilities.Util -Size of list :: 1
+11:43:32.284 INFO  utilities.Util -List is not empty
+11:43:32.284 INFO  base.CheckPoint -test-01.login verification :-> PASS
+11:43:32.285 INFO  base.CheckPoint -Test Method Successful
+11:43:32.286 INFO  base.CheckPoint -Test Method Successful
+11:43:32.286 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
+11:43:32.318 INFO  base.CheckPoint -Clearing Results Hash Map
+11:43:34.506 INFO  base.CustomDriver -Clicked On :: Leave Link
+11:43:35.462 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+11:43:35.464 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+11:43:37.599 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russel Hamilton
+11:43:37.734 INFO  base.CustomDriver -Clicked On :: Element Selected
+11:43:37.734 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+11:43:39.787 INFO  base.CustomDriver -Selected option : FMLA US
+11:43:39.827 INFO  base.CustomDriver -Selected option : 2020-01-01 - 2020-12-31
+11:43:39.904 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 20
+11:43:39.974 INFO  base.CustomDriver -Clicked On :: Save Button
+11:43:39.984 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
+11:43:39.984 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
+11:43:39.984 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+11:43:45.040 INFO  base.CustomDriver -Clicked On :: Popup Confirm Button
+11:43:45.040 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+11:43:50.077 INFO  base.CustomDriver -Element :: Total displayed is displayed
+11:43:50.081 INFO  base.CustomDriver -Current URL is :: https://opensource-demo.orangehrmlive.com/index.php/leave/viewLeaveEntitlements/savedsearch/1
+11:43:50.081 INFO  base.CheckPoint -test-add-entitlement.Add Leave Entitlement Verification :-> PASS
+11:43:50.081 INFO  base.CheckPoint -Test Method Successful
+11:43:50.081 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
+11:43:50.082 INFO  base.CheckPoint -Clearing Results Hash Map
+11:43:51.264 INFO  base.CustomDriver -Clicked On :: Leave Link
+11:43:51.964 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+11:43:51.964 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+11:43:54.086 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russel Hamilton
+11:43:54.221 INFO  base.CustomDriver -Clicked On :: Element Selected
+11:43:54.221 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+11:43:56.266 INFO  base.CustomDriver -Selected option : FMLA US
+11:43:56.305 INFO  base.CustomDriver -Selected option : 2020-01-01 - 2020-12-31
+11:43:56.375 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 30
+11:43:56.426 INFO  base.CustomDriver -Clicked On :: Save Button
+11:43:56.434 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
+11:43:56.434 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
+11:43:56.435 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+11:44:01.503 INFO  base.CustomDriver -Clicked On :: Popup Confirm Button
+11:44:01.503 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+11:44:06.545 INFO  base.CustomDriver -Element :: Total displayed is displayed
+11:44:06.549 INFO  base.CustomDriver -Current URL is :: https://opensource-demo.orangehrmlive.com/index.php/leave/viewLeaveEntitlements/savedsearch/1
+11:44:06.549 INFO  base.CheckPoint -test-add-entitlement.Add Leave Entitlement Verification :-> PASS
+11:44:06.549 INFO  base.CheckPoint -Test Method Successful
+11:44:06.549 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
+11:44:06.552 INFO  base.CheckPoint -Clearing Results Hash Map
+11:44:07.752 INFO  base.CustomDriver -Clicked On :: Leave Link
+11:44:08.544 INFO  base.CustomDriver -Clicked On :: Click on Assign Link
+11:44:08.545 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+11:44:10.712 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russel Hamilton
+11:44:11.834 ERROR base.CustomDriver -Cannot click on :: Element Selected
+11:44:11.835 INFO  utilities.Util -Current Date and Time :: 06_07_2020 11_44_11
+11:44:12.168 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/_Click ERROR_06_07_2020 11_44_11.png
+11:44:12.240 INFO  base.CustomDriver -Selected option : FMLA US
+11:44:12.316 INFO  base.CustomDriver -Clicked On :: Click on From Date Field
+11:44:12.432 INFO  base.CustomDriver -Send Keys on element :: Leave From Date with data :: 2020-06-12
+11:44:12.480 INFO  base.CustomDriver -Clicked On :: Click on From Date Field
+11:44:12.483 INFO  base.CustomDriver -Waiting for max:: 5 seconds for element to be clickable
+11:44:12.531 INFO  base.CustomDriver -Element is clickable on the web page
+11:44:13.615 ERROR base.CustomDriver -Cannot click on :: Click on To Date Field
+11:44:13.615 INFO  utilities.Util -Current Date and Time :: 06_07_2020 11_44_13
+11:44:13.921 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/_Click ERROR_06_07_2020 11_44_13.png
+11:44:14.057 INFO  base.CustomDriver -Send Keys on element :: Leave To Date with data :: 2020-06-19
+11:44:14.096 INFO  base.CustomDriver -Clicked On :: Click on To Field
+11:44:14.099 INFO  base.CustomDriver -Waiting for max:: 5 seconds for element to be clickable
+11:44:14.652 INFO  base.CustomDriver -Element is clickable on the web page
+11:44:15.441 INFO  base.CustomDriver -Clicked on :: Click on Assign Button
+11:44:15.444 INFO  base.CustomDriver -Waiting for max:: 5 seconds for element to be available
+11:44:20.589 ERROR base.CustomDriver -Element not appeared on the web page
+11:44:20.596 INFO  base.TestListeners -onTestFailure -> Test Method Name: testAssignLeave
+11:44:20.596 INFO  base.WebDriverFactory -OS Name from system property :: mac
+11:44:20.596 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+11:44:20.596 INFO  utilities.Util -Current Date and Time :: 06_07_2020 11_44_20
+11:44:20.897 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/anupamadhir/workspace/orangehrm/screenshots/chrome_testAssignLeave_06_07_2020 11_44_20.png
+11:44:20.909 INFO  base.CustomDriver -Element List found with: id=>welcome
+11:44:20.910 INFO  utilities.Util -Size of list :: 1
+11:44:20.910 INFO  utilities.Util -List is not empty
+11:44:20.961 INFO  base.CustomDriver -Clicked On :: User Account Icon
+11:44:20.964 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
+11:44:21.515 INFO  base.CustomDriver -Element appeared on the web page
+11:44:22.507 INFO  base.CustomDriver -Clicked on :: Logout Link
+11:44:22.603 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+11:55:20.768 INFO  utilities.Util -Current Date and Time :: 06_07_2020 11_55_20
+11:55:20.773 INFO  utilities.ExtentManager -*********** Report Path ***********
+11:55:20.773 INFO  utilities.ExtentManager -/Users/anupamadhir/workspace/orangehrm/reports/AutomationReport_06_07_2020 11_55_20.html
+11:55:20.773 INFO  utilities.ExtentManager -*********** Report Path ***********
+11:55:21.026 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+11:55:21.026 INFO  base.TestListeners -These methods will be executed in this <test> tag
+11:55:21.027 INFO  base.TestListeners -testAddLeave
+11:55:21.027 INFO  base.TestListeners -testAssignLeave
+11:55:21.027 INFO  base.TestListeners -testLogin
+11:55:21.051 INFO  base.WebDriverFactory -OS Name from system property :: mac
+11:55:21.051 INFO  base.WebDriverFactory -Driver Binary :: /Users/anupamadhir/workspace/orangehrm//drivers//chromedriver
+11:55:26.743 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: Admin
+11:55:26.825 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: admin123
+11:55:32.178 INFO  base.CustomDriver -Clicked On :: Login Button
+11:55:32.545 INFO  base.CheckPoint -Clearing Results Hash Map
+11:55:32.571 INFO  utilities.Util -Actual Text From Web Application UI   --> : Leave
+11:55:32.571 INFO  utilities.Util -Expected Text From Web Application UI --> : Leave
+11:55:32.572 INFO  utilities.Util -### Verification Contains !!!
+11:55:32.572 INFO  base.CheckPoint -test-01.header verification :-> PASS
+11:55:32.585 INFO  base.CustomDriver -Element List found with: id=>welcome
+11:55:32.585 INFO  utilities.Util -Size of list :: 1
+11:55:32.585 INFO  utilities.Util -List is not empty
+11:55:32.585 INFO  base.CheckPoint -test-01.login verification :-> PASS
+11:55:32.585 INFO  base.CheckPoint -Test Method Successful
+11:55:32.586 INFO  base.CheckPoint -Test Method Successful
+11:55:32.587 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
+11:55:32.616 INFO  base.CheckPoint -Clearing Results Hash Map
+11:55:34.457 INFO  base.CustomDriver -Clicked On :: Leave Link
+11:55:35.462 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+11:55:35.462 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+11:55:37.594 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russel Hamilton
+11:55:37.739 INFO  base.CustomDriver -Clicked On :: Element Selected
+11:55:37.739 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+11:55:39.789 INFO  base.CustomDriver -Selected option : FMLA US
+11:55:39.831 INFO  base.CustomDriver -Selected option : 2020-01-01 - 2020-12-31
+11:55:39.904 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 20
+11:55:39.974 INFO  base.CustomDriver -Clicked On :: Save Button
+11:55:39.987 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
+11:55:39.987 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
+11:55:39.987 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+11:55:45.060 INFO  base.CustomDriver -Clicked On :: Popup Confirm Button
+11:55:45.060 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+11:55:50.098 INFO  base.CustomDriver -Element :: Total displayed is displayed
+11:55:50.101 INFO  base.CustomDriver -Current URL is :: https://opensource-demo.orangehrmlive.com/index.php/leave/viewLeaveEntitlements/savedsearch/1
+11:55:50.102 INFO  base.CheckPoint -test-add-entitlement.Add Leave Entitlement Verification :-> PASS
+11:55:50.102 INFO  base.CheckPoint -Test Method Successful
+11:55:50.102 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
+11:55:50.102 INFO  base.CheckPoint -Clearing Results Hash Map
+11:55:51.262 INFO  base.CustomDriver -Clicked On :: Leave Link
+11:55:51.859 INFO  base.CustomDriver -Clicked On :: Add Entitlements Link
+11:55:51.859 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+11:55:53.980 INFO  base.CustomDriver -Send Keys on element :: Employee Field with data :: Russel Hamilton
+11:55:54.122 INFO  base.CustomDriver -Clicked On :: Element Selected
+11:55:54.123 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds
+11:55:56.165 INFO  base.CustomDriver -Selected option : FMLA US
+11:55:56.202 INFO  base.CustomDriver -Selected option : 2020-01-01 - 2020-12-31
+11:55:56.270 INFO  base.CustomDriver -Send Keys on element :: Entitlement Field with data :: 30
+11:55:56.330 INFO  base.CustomDriver -Clicked On :: Save Button
+11:55:56.339 INFO  base.CustomDriver -Element List found with: id=>employeeEntitlement
+11:55:56.339 INFO  base.CustomDriver -Element Add Entitlement Popup Present with locator id=>employeeEntitlement
+11:55:56.339 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+11:56:01.402 INFO  base.CustomDriver -Clicked On :: Popup Confirm Button
+11:56:01.403 INFO  utilities.Util -Waiting 5.0 seconds :: Sleep for 5 seconds
+11:56:06.445 INFO  base.CustomDriver -Element :: Total displayed is displayed
+11:56:06.449 INFO  base.CustomDriver -Current URL is :: https://opensource-demo.orangehrmlive.com/index.php/leave/viewLeaveEntitlements/savedsearch/1
+11:56:06.449 INFO  base.CheckPoint -test-add-entitlement.Add Leave Entitlement Verification :-> PASS
+11:56:06.449 INFO  base.CheckPoint -Test Method Successful
+11:56:06.449 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testAddLeave
+11:56:06.452 INFO  base.CheckPoint -Clearing Results Hash Map
+11:56:07.752 INFO  base.CustomDriver -Clicked On :: Leave Link
+11:56:08.533 INFO  base.CustomDriver -Clicked On :: Click on Assign Link
+11:56:08.534 INFO  utilities.Util -Waiting 2.0 seconds :: Sleep for 2 seconds

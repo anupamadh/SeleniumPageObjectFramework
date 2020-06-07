@@ -9,6 +9,8 @@ import org.openqa.selenium.interactions.Actions;
 
 import java.util.List;
 
+import static com.orangehrm.utilities.Util.sleep;
+
 public class NavigationPage extends BasePage {
     public NavigationPage(WebDriver driver) {
         super(driver);
@@ -20,10 +22,13 @@ public class NavigationPage extends BasePage {
     private JavascriptExecutor js;
     private final String URL = "https://opensource-demo.orangehrmlive.com/index.php/dashboard";
     private String WELCOME_ICON = "id=>welcome";
-    private String LOGOUT_LINK = "xpath=>//a[contains(@href,'logout')]";
+   // private String WELCOME_ICON = "xpath=>a[@class='panelTrigger']";
+    private String WELCOME_MENU = "id=>welcome-menu";
+    private String LOGOUT_LINK = "xpath=>//a[contains(@href,'logout')]";//a[contains(text(),'Logout')]
     private String LEAVE_LINK = "id=>menu_leave_viewLeaveModule";
     private String ENTITLEMENTS_LINK = "xpath=>//a[@id='menu_leave_Entitlements']";
     private String ADD_ENITLEMENTS_LINK = "xpath=>//a[contains(text(),'Add Entitlements')]";
+    private String ASSIGN_LINK = "id=>menu_leave_assignLeave";
 
     public boolean isUserLoggedIn() {
         try {
@@ -35,9 +40,11 @@ public class NavigationPage extends BasePage {
     }
 
     public void logout() {
-        elementClick(WELCOME_ICON, "User Account Icon");
+        waitForElementToBeClickable(WELCOME_ICON, 3);
+        javascriptClick(WELCOME_ICON, "Welcome Admin");
         WebElement logoutLink = waitForElement(LOGOUT_LINK, 10);
         javascriptClick(logoutLink, "Logout Link");
+        sleep(2000, "Sleep for 2 seconds");
     }
 
     public boolean verifyHeader() {
@@ -54,5 +61,11 @@ public class NavigationPage extends BasePage {
         return new AddLeavePage(driver);
     }
 
+    public AssignLeavePage getAssignLeave(){
+        WebElement link = getElement(LEAVE_LINK, "Leave Link");
+        elementClick(link, "Leave Link");
+        elementClick(ASSIGN_LINK, "Click on Assign Link");
+        return new AssignLeavePage(driver);
+    }
 
 }

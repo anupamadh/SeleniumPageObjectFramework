@@ -10,8 +10,14 @@ import org.testng.annotations.*;
 public class LoginTests extends BaseTest {
 
     @DataProvider(name = "addLeaveEntitlementData")
-    public Object[][] getVerifySearchCourseData(){
+    public Object[][] getaddLeaveEntitlementData(){
         Object[][] testData = ExcelUtility.getTestData("add_leave_entitlement");
+        return testData;
+    }
+
+    @DataProvider(name = "assignLeaveData")
+    public Object[][] getassignLeaveData(){
+        Object[][] testData = ExcelUtility.getTestData("assign_leave");
         return testData;
     }
 
@@ -47,6 +53,13 @@ public class LoginTests extends BaseTest {
         CheckPoint.markFinal("test-add-entitlement", entitlementResult, "Add Leave Entitlement Verification");
     }
 
+    @Test(priority = 3, dataProvider = "assignLeaveData")
+    public void testAssignLeave(String employeeName, String employeeLeaveType,String fromDateField, String toDateField){
+        assignLv = nav.getAssignLeave();
+        assignLv.AssignLeave(employeeName, employeeLeaveType, fromDateField, toDateField);
+        boolean assignResult = assignLv.verifyAssignLeave();
+        CheckPoint.markFinal("testAssignLeave", assignResult, "Assign Leave Verification");
+    }
     @Test(enabled = false)
     public void testInvalidLogin() {
         nav = login.signInWith(Constants.DEFAULT_USERNAME, Constants.DEFAULT_PASSWORD);

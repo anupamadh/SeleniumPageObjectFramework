@@ -170,6 +170,22 @@ public class CustomDriver {
         }
     }
 
+    public WebElement isElementPresent(String locator, long timeout) {
+        By byType = getByType(locator);
+        WebElement elementLocated = null;
+        try {
+            driver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
+            log.info("Waiting for max:: " + timeout + " seconds for element to be present");
+            WebDriverWait wait = new WebDriverWait(driver, timeout);
+            elementLocated = wait.until(ExpectedConditions.presenceOfElementLocated(byType));
+            log.info("Element present on the web page");
+            driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+        } catch (Exception e) {
+            log.error("Element not present on the web page");
+            driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+        }
+    return elementLocated;
+    }
     /**
      * Click element with information about element and
      * time to wait in seconds after click
@@ -279,6 +295,9 @@ public class CustomDriver {
             driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
         }
     }
+
+
+
 
     /***
      * Send Keys to element
