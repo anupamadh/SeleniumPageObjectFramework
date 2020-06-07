@@ -34,7 +34,7 @@ public class ExtentManager {
         htmlReporter.config().setReportName(fileName);
 
         extent = new ExtentReports();
-        extent.setSystemInfo("Organization", "Let's Kode It");
+        extent.setSystemInfo("Organization", "Orange CRM");
         extent.setSystemInfo("Automation Framework", "Selenium WebDriver");
         extent.attachReporter(htmlReporter);
 
